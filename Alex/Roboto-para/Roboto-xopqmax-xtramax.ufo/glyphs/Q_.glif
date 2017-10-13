@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Q" format="1">
+  <advance width="1767.5"/>
+  <unicode hex="0051"/>
+  <outline>
+    <contour>
+      <point x="1152.5" y="63" type="line"/>
+      <point x="900.0" y="25" type="line"/>
+      <point x="1395.0" y="-263" type="line"/>
+      <point x="1656.25" y="-228" type="line"/>
+    </contour>
+    <contour>
+      <point x="1673.75" y="837" type="line"/>
+      <point x="1673.75" y="1217"/>
+      <point x="1346.25" y="1476"/>
+      <point x="883.75" y="1476" type="curve" smooth="yes"/>
+      <point x="418.75" y="1476"/>
+      <point x="95.0" y="1217"/>
+      <point x="95.0" y="837" type="curve"/>
+      <point x="95.0" y="619" type="line"/>
+      <point x="95.0" y="239"/>
+      <point x="421.25" y="-20"/>
+      <point x="886.25" y="-20" type="curve" smooth="yes"/>
+      <point x="1348.75" y="-20"/>
+      <point x="1673.75" y="239"/>
+      <point x="1673.75" y="619" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1248.75" y="619" type="line"/>
+      <point x="1248.75" y="276"/>
+      <point x="1118.75" y="34"/>
+      <point x="886.25" y="34" type="curve" smooth="yes"/>
+      <point x="647.5" y="34"/>
+      <point x="520.0" y="276"/>
+      <point x="520.0" y="619" type="curve" smooth="yes"/>
+      <point x="520.0" y="839" type="line" smooth="yes"/>
+      <point x="520.0" y="1180"/>
+      <point x="645.0" y="1422"/>
+      <point x="883.75" y="1422" type="curve" smooth="yes"/>
+      <point x="1116.25" y="1422"/>
+      <point x="1248.75" y="1180"/>
+      <point x="1248.75" y="839" type="curve"/>
+    </contour>
+    <contour>
+      <point x="875.0" y="1600" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="872.5" y="-10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1767.5" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1767.5" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1767.5" y="1600" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>901.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>555.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

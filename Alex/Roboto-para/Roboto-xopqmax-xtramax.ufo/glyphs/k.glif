@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k" format="1">
+  <advance width="1390.0"/>
+  <unicode hex="006B"/>
+  <outline>
+    <contour>
+      <point x="530.0" y="1536" type="line"/>
+      <point x="127.5" y="1536" type="line"/>
+      <point x="127.5" y="0" type="line"/>
+      <point x="530.0" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1390.0" y="1082" type="line"/>
+      <point x="907.5" y="1082" type="line"/>
+      <point x="581.25" y="627" type="line"/>
+      <point x="326.25" y="479" type="line"/>
+      <point x="492.5" y="440" type="line"/>
+      <point x="803.75" y="583" type="line"/>
+    </contour>
+    <contour>
+      <point x="963.75" y="0" type="line"/>
+      <point x="1425.0" y="0" type="line"/>
+      <point x="882.5" y="650" type="line"/>
+      <point x="591.25" y="608" type="line"/>
+    </contour>
+    <contour>
+      <point x="720.0" y="114" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="861.25" y="1612" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="861.25" y="1612" type="move" name="marktop"/>
+    </contour>
+    <contour>
+      <point x="328.75" y="1289" type="move" name="cross"/>
+    </contour>
+    <contour>
+      <point x="1390.0" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1390.0" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1227.5" y="1612" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.798</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
