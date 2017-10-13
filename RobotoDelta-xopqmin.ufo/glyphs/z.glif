@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="z" format="1">
+  <advance width="842"/>
+  <unicode hex="007A"/>
+  <outline>
+    <contour>
+      <point x="68" y="0" type="line"/>
+      <point x="780" y="0" type="line"/>
+      <point x="780" y="152" type="line"/>
+      <point x="163" y="152" type="line"/>
+      <point x="746" y="901" type="line"/>
+      <point x="746" y="1052" type="line"/>
+      <point x="74" y="1052" type="line"/>
+      <point x="74" y="899" type="line"/>
+      <point x="647" y="899" type="line"/>
+      <point x="68" y="156" type="line"/>
+    </contour>
+    <contour>
+      <point x="421" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="432" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="922" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="922" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="922" y="1290" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>glyphtweaker</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <integer>421</integer>
+              <key>y</key>
+              <integer>1290</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <integer>432</integer>
+              <key>y</key>
+              <integer>10</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top_dd</string>
+              <key>x</key>
+              <integer>922</integer>
+              <key>y</key>
+              <integer>1600</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom_dd</string>
+              <key>x</key>
+              <integer>922</integer>
+              <key>y</key>
+              <integer>-407</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top0315</string>
+              <key>x</key>
+              <integer>922</integer>
+              <key>y</key>
+              <integer>1290</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <real>26.0</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <real>816.0</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>z</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>842</integer>
+        </dict>
+        <key>glyphtweaker.backup</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <integer>421</integer>
+              <key>y</key>
+              <integer>1290</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <integer>432</integer>
+              <key>y</key>
+              <integer>10</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top_dd</string>
+              <key>x</key>
+              <integer>922</integer>
+              <key>y</key>
+              <integer>1600</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom_dd</string>
+              <key>x</key>
+              <integer>922</integer>
+              <key>y</key>
+              <integer>-407</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top0315</string>
+              <key>x</key>
+              <integer>922</integer>
+              <key>y</key>
+              <integer>1290</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <integer>-73</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <integer>915</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>z</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>842</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

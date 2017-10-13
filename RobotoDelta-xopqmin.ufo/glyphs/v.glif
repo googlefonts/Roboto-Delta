@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="v" format="1">
+  <advance width="831"/>
+  <unicode hex="0076"/>
+  <outline>
+    <contour>
+      <point x="0" y="1052" type="line"/>
+      <point x="402" y="-10" type="line"/>
+      <point x="437" y="-10" type="line"/>
+      <point x="831" y="1050" type="line"/>
+      <point x="776" y="1051" type="line"/>
+      <point x="522" y="367" type="line" smooth="yes"/>
+      <point x="487" y="272"/>
+      <point x="445" y="161"/>
+      <point x="425" y="75" type="curve"/>
+      <point x="417" y="75" type="line"/>
+      <point x="391" y="162"/>
+      <point x="348" y="279"/>
+      <point x="315" y="367" type="curve" smooth="yes"/>
+      <point x="57" y="1052" type="line"/>
+    </contour>
+    <contour>
+      <point x="453" y="1280" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="452" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="940" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="940" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="940" y="1280" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>901.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>555.0</real>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>glyphtweaker</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <integer>453</integer>
+              <key>y</key>
+              <integer>1280</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <integer>452</integer>
+              <key>y</key>
+              <integer>10</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top_dd</string>
+              <key>x</key>
+              <integer>940</integer>
+              <key>y</key>
+              <integer>1600</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom_dd</string>
+              <key>x</key>
+              <integer>940</integer>
+              <key>y</key>
+              <integer>-407</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top0315</string>
+              <key>x</key>
+              <integer>940</integer>
+              <key>y</key>
+              <integer>1280</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <real>42.0</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <real>796.0</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>v</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>831</integer>
+        </dict>
+        <key>glyphtweaker.backup</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <integer>453</integer>
+              <key>y</key>
+              <integer>1280</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <integer>452</integer>
+              <key>y</key>
+              <integer>10</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top_dd</string>
+              <key>x</key>
+              <integer>940</integer>
+              <key>y</key>
+              <integer>1600</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom_dd</string>
+              <key>x</key>
+              <integer>940</integer>
+              <key>y</key>
+              <integer>-407</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top0315</string>
+              <key>x</key>
+              <integer>940</integer>
+              <key>y</key>
+              <integer>1280</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <integer>-52</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <integer>890</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>v</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>831</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

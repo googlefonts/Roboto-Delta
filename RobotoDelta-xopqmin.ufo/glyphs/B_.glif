@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="B" format="1">
+  <advance width="1003"/>
+  <unicode hex="0042"/>
+  <outline>
+    <contour>
+      <point x="170" y="0" type="line"/>
+      <point x="549" y="0" type="line" smooth="yes"/>
+      <point x="759" y="0"/>
+      <point x="903" y="132"/>
+      <point x="903" y="420" type="curve" smooth="yes"/>
+      <point x="903" y="629"/>
+      <point x="710" y="761"/>
+      <point x="662" y="762" type="curve"/>
+      <point x="662" y="773" type="line"/>
+      <point x="710" y="772"/>
+      <point x="870" y="897"/>
+      <point x="870" y="1068" type="curve" smooth="yes"/>
+      <point x="870" y="1353"/>
+      <point x="737" y="1456"/>
+      <point x="521" y="1456" type="curve" smooth="yes"/>
+      <point x="170" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="225" y="836" type="line"/>
+      <point x="225" y="1298" type="line"/>
+      <point x="521" y="1298" type="line" smooth="yes"/>
+      <point x="721" y="1298"/>
+      <point x="815" y="1215"/>
+      <point x="815" y="1070" type="curve" smooth="yes"/>
+      <point x="815" y="939"/>
+      <point x="705" y="836"/>
+      <point x="526" y="836" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="225" y="157" type="line"/>
+      <point x="225" y="681" type="line"/>
+      <point x="557" y="681" type="line" smooth="yes"/>
+      <point x="763" y="681"/>
+      <point x="849" y="559"/>
+      <point x="849" y="418" type="curve" smooth="yes"/>
+      <point x="849" y="276"/>
+      <point x="743" y="157"/>
+      <point x="549" y="157" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="481" y="1612" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="488" y="10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="1151" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1151" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1151" y="1612" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>glyphtweaker</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <real>481.0</real>
+              <key>y</key>
+              <real>1612.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <real>488.0</real>
+              <key>y</key>
+              <real>10.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top_dd</string>
+              <key>x</key>
+              <real>1151.0</real>
+              <key>y</key>
+              <real>1600.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom_dd</string>
+              <key>x</key>
+              <real>1151.0</real>
+              <key>y</key>
+              <real>-407.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top0315</string>
+              <key>x</key>
+              <real>1151.0</real>
+              <key>y</key>
+              <real>1612.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <real>-29.5</real>
+              <key>y</key>
+              <real>100.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <real>1042.5</real>
+              <key>y</key>
+              <real>100.0</real>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>B</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1003</integer>
+        </dict>
+        <key>glyphtweaker.backup</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <real>481.0</real>
+              <key>y</key>
+              <real>1612.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <real>488.0</real>
+              <key>y</key>
+              <real>10.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top_dd</string>
+              <key>x</key>
+              <real>1151.0</real>
+              <key>y</key>
+              <real>1600.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom_dd</string>
+              <key>x</key>
+              <real>1151.0</real>
+              <key>y</key>
+              <real>-407.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top0315</string>
+              <key>x</key>
+              <real>1151.0</real>
+              <key>y</key>
+              <real>1612.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <real>-124.0</real>
+              <key>y</key>
+              <real>100.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <real>1137.0</real>
+              <key>y</key>
+              <real>100.0</real>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>B</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1003</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

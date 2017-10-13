@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c" format="1">
+  <advance width="753"/>
+  <unicode hex="0063"/>
+  <outline>
+    <contour>
+      <point x="85" y="511" type="line" smooth="yes"/>
+      <point x="85" y="198"/>
+      <point x="197" y="-30"/>
+      <point x="420" y="-30" type="curve" smooth="yes"/>
+      <point x="642" y="-30"/>
+      <point x="717" y="142"/>
+      <point x="717" y="327" type="curve" smooth="yes"/>
+      <point x="717" y="332" type="line"/>
+      <point x="671" y="332" type="line"/>
+      <point x="671" y="327" type="line" smooth="yes"/>
+      <point x="671" y="249"/>
+      <point x="616" y="122"/>
+      <point x="420" y="122" type="curve" smooth="yes"/>
+      <point x="223" y="122"/>
+      <point x="138" y="312"/>
+      <point x="138" y="511" type="curve" smooth="yes"/>
+      <point x="138" y="553" type="line" smooth="yes"/>
+      <point x="138" y="755"/>
+      <point x="228" y="930"/>
+      <point x="420" y="930" type="curve" smooth="yes"/>
+      <point x="614" y="930"/>
+      <point x="671" y="767"/>
+      <point x="671" y="693" type="curve" smooth="yes"/>
+      <point x="671" y="690" type="line"/>
+      <point x="717" y="690" type="line"/>
+      <point x="717" y="693" type="line" smooth="yes"/>
+      <point x="717" y="908"/>
+      <point x="633" y="1082"/>
+      <point x="420" y="1082" type="curve" smooth="yes"/>
+      <point x="213" y="1082"/>
+      <point x="85" y="874"/>
+      <point x="85" y="553" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="388" y="1290" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="388" y="-10" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="388" y="1290" type="move" name="marktop"/>
+    </contour>
+    <contour>
+      <point x="927" y="1600" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="927" y="-407" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="927" y="1290" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>Background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <real>388.0</real>
+              <key>y</key>
+              <real>1290.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <real>388.0</real>
+              <key>y</key>
+              <real>-10.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>marktop</string>
+              <key>x</key>
+              <real>388.0</real>
+              <key>y</key>
+              <real>1290.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top_dd</string>
+              <key>x</key>
+              <real>927.0</real>
+              <key>y</key>
+              <real>1600.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom_dd</string>
+              <key>x</key>
+              <real>927.0</real>
+              <key>y</key>
+              <real>-407.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top0315</string>
+              <key>x</key>
+              <real>927.0</real>
+              <key>y</key>
+              <real>1290.0</real>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>c</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>753</integer>
+        </dict>
+        <key>glyphtweaker</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <real>388.0</real>
+              <key>y</key>
+              <real>1290.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <real>388.0</real>
+              <key>y</key>
+              <real>-10.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>marktop</string>
+              <key>x</key>
+              <real>388.0</real>
+              <key>y</key>
+              <real>1290.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top_dd</string>
+              <key>x</key>
+              <real>927.0</real>
+              <key>y</key>
+              <real>1600.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom_dd</string>
+              <key>x</key>
+              <real>927.0</real>
+              <key>y</key>
+              <real>-407.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top0315</string>
+              <key>x</key>
+              <real>927.0</real>
+              <key>y</key>
+              <real>1290.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <real>-33.5</real>
+              <key>y</key>
+              <real>100.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <real>792.5</real>
+              <key>y</key>
+              <real>100.0</real>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>c</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>753</integer>
+        </dict>
+        <key>glyphtweaker.backup</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>top</string>
+              <key>x</key>
+              <real>388.0</real>
+              <key>y</key>
+              <real>1290.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom</string>
+              <key>x</key>
+              <real>388.0</real>
+              <key>y</key>
+              <real>-10.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>marktop</string>
+              <key>x</key>
+              <real>388.0</real>
+              <key>y</key>
+              <real>1290.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top_dd</string>
+              <key>x</key>
+              <real>927.0</real>
+              <key>y</key>
+              <real>1600.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>bottom_dd</string>
+              <key>x</key>
+              <real>927.0</real>
+              <key>y</key>
+              <real>-407.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>top0315</string>
+              <key>x</key>
+              <real>927.0</real>
+              <key>y</key>
+              <real>1290.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <real>-137.0</real>
+              <key>y</key>
+              <real>100.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <real>896.0</real>
+              <key>y</key>
+              <real>100.0</real>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>c</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>753</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
