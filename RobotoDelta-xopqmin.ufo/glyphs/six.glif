@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="six" format="1">
-  <advance width="1156"/>
+  <advance width="892"/>
   <unicode hex="0036"/>
   <outline>
     <contour>
-      <point x="89" y="627" type="curve" smooth="yes"/>
-      <point x="89" y="656" type="line" smooth="yes"/>
-      <point x="89" y="1166"/>
-      <point x="367" y="1478"/>
-      <point x="860" y="1478" type="curve" smooth="yes" name="hr00"/>
-      <point x="876" y="1478" type="line"/>
-      <point x="876" y="1321" type="line"/>
-      <point x="846" y="1321" type="line" smooth="yes"/>
-      <point x="525" y="1321"/>
-      <point x="276" y="1172"/>
-      <point x="276" y="652" type="curve" smooth="yes"/>
-      <point x="276" y="603" type="line" smooth="yes"/>
-      <point x="276" y="262"/>
-      <point x="406" y="122"/>
-      <point x="601" y="122" type="curve" smooth="yes"/>
-      <point x="791" y="122"/>
-      <point x="897" y="260"/>
-      <point x="897" y="466" type="curve" smooth="yes"/>
-      <point x="897" y="669"/>
-      <point x="785" y="802"/>
-      <point x="605" y="802" type="curve" smooth="yes"/>
-      <point x="432" y="802"/>
-      <point x="298" y="687"/>
-      <point x="271" y="471" type="curve"/>
-      <point x="271" y="705" type="line"/>
-      <point x="305" y="834"/>
-      <point x="438" y="956"/>
-      <point x="635" y="956" type="curve" smooth="yes"/>
-      <point x="926" y="956"/>
-      <point x="1083" y="737"/>
-      <point x="1083" y="475" type="curve" smooth="yes"/>
-      <point x="1083" y="199"/>
-      <point x="896" y="-30"/>
-      <point x="605" y="-30" type="curve"/>
-      <point x="333" y="-30"/>
-      <point x="89" y="131"/>
+      <point x="89" y="627" type="line" smooth="yes"/>
+      <point x="89" y="118"/>
+      <point x="279" y="-30"/>
+      <point x="472" y="-30" type="curve" smooth="yes"/>
+      <point x="670" y="-30"/>
+      <point x="819" y="179"/>
+      <point x="819" y="475" type="curve" smooth="yes"/>
+      <point x="819" y="758"/>
+      <point x="693" y="956"/>
+      <point x="486" y="956" type="curve" smooth="yes"/>
+      <point x="302" y="956"/>
+      <point x="167" y="819"/>
+      <point x="139" y="681" type="curve"/>
+      <point x="139" y="512" type="line"/>
+      <point x="183" y="680"/>
+      <point x="302" y="802"/>
+      <point x="473" y="802" type="curve" smooth="yes"/>
+      <point x="654" y="802"/>
+      <point x="765" y="669"/>
+      <point x="765" y="466" type="curve" smooth="yes"/>
+      <point x="765" y="260"/>
+      <point x="659" y="122"/>
+      <point x="469" y="122" type="curve" smooth="yes"/>
+      <point x="274" y="122"/>
+      <point x="144" y="262"/>
+      <point x="144" y="603" type="curve" smooth="yes"/>
+      <point x="144" y="652" type="line" smooth="yes"/>
+      <point x="144" y="1160"/>
+      <point x="390" y="1321"/>
+      <point x="664" y="1321" type="curve" smooth="yes"/>
+      <point x="690" y="1321" type="line"/>
+      <point x="690" y="1478" type="line"/>
+      <point x="676" y="1478" type="line" smooth="yes" name="hr00"/>
+      <point x="309" y="1478"/>
+      <point x="89" y="1185"/>
+      <point x="89" y="656" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -47,6 +47,85 @@
       <key>com.adobe.type.autohint</key>
       <data>
       </data>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>glyphtweaker</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <real>-25.0</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <real>917.0</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>six</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>892</integer>
+        </dict>
+        <key>glyphtweaker.backup</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <integer>-132</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <integer>1024</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>six</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>892</integer>
+        </dict>
+      </dict>
     </dict>
   </lib>
 </glyph>

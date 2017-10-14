@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one" format="1">
-  <advance width="918"/>
+  <advance width="1021"/>
   <unicode hex="0031"/>
   <outline>
     <contour>
-      <point x="548" y="0" type="line"/>
-      <point x="738" y="0" type="line"/>
-      <point x="738" y="1476" type="line"/>
-      <point x="709" y="1476" type="line"/>
-      <point x="180" y="1276" type="line"/>
-      <point x="180" y="1089" type="line"/>
-      <point x="548" y="1245" type="line"/>
+      <point x="541" y="0" type="line"/>
+      <point x="599" y="0" type="line"/>
+      <point x="599" y="1476" type="line"/>
+      <point x="586" y="1476" type="line"/>
+      <point x="171" y="1284" type="line"/>
+      <point x="171" y="1131" type="line"/>
+      <point x="541" y="1287" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -42,6 +42,85 @@
           <real>555.0</real>
         </dict>
       </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>glyphtweaker</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <real>46.0</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <real>794.0</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>one</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1021</integer>
+        </dict>
+        <key>glyphtweaker.backup</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <integer>-39</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <integer>879</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>one</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1021</integer>
+        </dict>
+      </dict>
     </dict>
   </lib>
 </glyph>
