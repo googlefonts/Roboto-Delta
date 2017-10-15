@@ -1,23 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl" format="1">
-  <advance width="762"/>
+  <advance width="639"/>
   <unicode hex="0022"/>
   <outline>
     <contour>
       <point x="114" y="963" type="line"/>
-      <point x="265" y="963" type="line"/>
-      <point x="281" y="1320" type="line"/>
-      <point x="281" y="1456" type="line"/>
+      <point x="143" y="963" type="line"/>
+      <point x="158" y="1283" type="line"/>
+      <point x="158" y="1456" type="line"/>
       <point x="100" y="1456" type="line"/>
-      <point x="100" y="1311" type="line"/>
+      <point x="100" y="1283" type="line"/>
     </contour>
     <contour>
       <point x="495" y="963" type="line"/>
-      <point x="646" y="963" type="line"/>
-      <point x="662" y="1320" type="line"/>
-      <point x="662" y="1456" type="line"/>
+      <point x="523" y="963" type="line"/>
+      <point x="539" y="1283" type="line"/>
+      <point x="539" y="1456" type="line"/>
       <point x="481" y="1456" type="line"/>
-      <point x="481" y="1318" type="line"/>
+      <point x="481" y="1281" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>glyphtweaker</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <real>3.5</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <real>624.5</real>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>quotedbl</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>639</integer>
+        </dict>
+        <key>glyphtweaker.backup</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>LSB</string>
+              <key>x</key>
+              <integer>-67</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>RSB</string>
+              <key>x</key>
+              <integer>695</integer>
+              <key>y</key>
+              <integer>100</integer>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>quotedbl</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>639</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
