@@ -5,72 +5,34 @@
   <outline>
     <contour>
       <point x="16" y="1456" type="line"/>
-      <point x="519" y="544" type="line"/>
-      <point x="519" y="0" type="line"/>
-      <point x="711" y="0" type="line"/>
-      <point x="711" y="544" type="line"/>
-      <point x="1214" y="1456" type="line"/>
-      <point x="1002" y="1456" type="line"/>
-      <point x="676" y="847" type="line" smooth="yes"/>
-      <point x="652" y="802"/>
-      <point x="630" y="761"/>
-      <point x="621" y="736" type="curve"/>
-      <point x="619" y="736" type="line"/>
-      <point x="610" y="761"/>
-      <point x="580" y="821"/>
-      <point x="566" y="846" type="curve" smooth="yes"/>
       <point x="231" y="1456" type="line"/>
+      <point x="566" y="846" type="line" smooth="yes"/>
+      <point x="576" y="827"/>
+      <point x="612" y="755"/>
+      <point x="619" y="736" type="qcurve"/>
+      <point x="621" y="736" type="line"/>
+      <point x="628" y="755"/>
+      <point x="658" y="813"/>
+      <point x="676" y="847" type="qcurve" smooth="yes"/>
+      <point x="1002" y="1456" type="line"/>
+      <point x="1214" y="1456" type="line"/>
+      <point x="711" y="544" type="line"/>
+      <point x="711" y="0" type="line"/>
+      <point x="519" y="0" type="line"/>
+      <point x="519" y="544" type="line"/>
     </contour>
     <contour>
-      <point x="618" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="615" y="1" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="614" y="593" type="move" name="cross"/>
-    </contour>
-    <contour>
-      <point x="-64" y="1454" type="move" name="tonos"/>
-    </contour>
-    <contour>
-      <point x="1230" y="1600" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1230" y="-407" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1230" y="1600" type="move" name="top0315"/>
+      <point x="615" y="1432" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
+      <key>com.typemytype.robofont.mark</key>
       <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

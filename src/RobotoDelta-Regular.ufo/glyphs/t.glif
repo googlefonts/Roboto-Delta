@@ -5,53 +5,40 @@
   <outline>
     <contour>
       <point x="0" y="910" type="line"/>
-      <point x="602" y="910" type="line"/>
-      <point x="602" y="1052" type="line"/>
       <point x="0" y="1052" type="line"/>
+      <point x="602" y="1052" type="line"/>
+      <point x="602" y="910" type="line"/>
     </contour>
     <contour>
-      <point x="188.0" y="260.0" type="line" smooth="yes"/>
-      <point x="188.0" y="68.0"/>
-      <point x="300.0" y="-29.0"/>
-      <point x="437.0" y="-29.0" type="curve" smooth="yes"/>
-      <point x="503.0" y="-29.0"/>
-      <point x="563.0" y="-15.0"/>
-      <point x="598.0" y="2.0" type="curve"/>
-      <point x="598.0" y="153.0" type="line"/>
-      <point x="562.0" y="138.0"/>
-      <point x="523.0" y="130.0"/>
-      <point x="492.0" y="130.0" type="curve" smooth="yes"/>
-      <point x="430.0" y="130.0"/>
-      <point x="373.0" y="158.0"/>
-      <point x="373.0" y="269.0" type="curve" smooth="yes"/>
-      <point x="373.0" y="1315.0" type="line"/>
-      <point x="188.0" y="1315.0" type="line"/>
-      <point x="188.0" y="1000.0" type="line"/>
-      <point x="188.0" y="967.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="434.0" y="0.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="520.0" y="1656.0" type="move" name="caron"/>
-    </contour>
-    <contour>
-      <point x="284.0" y="675.0" type="move" name="cross"/>
-    </contour>
-    <contour>
-      <point x="293.0" y="1481.0" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="550.0" y="1358.0" type="move" name="marktop"/>
-    </contour>
-    <contour>
-      <point x="651.0" y="1600.0" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="651.0" y="-407.0" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="651.0" y="1481.0" type="move" name="top0315"/>
+      <point x="188" y="260" type="qcurve" smooth="yes"/>
+      <point x="188" y="967" type="line"/>
+      <point x="188" y="1000" type="line"/>
+      <point x="188" y="1315" type="line"/>
+      <point x="373" y="1315" type="line"/>
+      <point x="373" y="269" type="line" smooth="yes"/>
+      <point x="373" y="186"/>
+      <point x="446" y="130"/>
+      <point x="492" y="130" type="qcurve" smooth="yes"/>
+      <point x="515" y="130"/>
+      <point x="571" y="142"/>
+      <point x="598" y="153" type="qcurve"/>
+      <point x="598" y="2" type="line"/>
+      <point x="572" y="-11"/>
+      <point x="486" y="-29"/>
+      <point x="437" y="-29" type="qcurve" smooth="yes"/>
+      <point x="335" y="-29"/>
+      <point x="188" y="117"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -4,16 +4,25 @@
   <unicode hex="0060"/>
   <outline>
     <contour>
-      <point x="501" y="1536" type="line"/>
-      <point x="237" y="1536" type="line"/>
-      <point x="529" y="1195" type="line"/>
-      <point x="728" y="1195" type="line"/>
+      <point x="491" y="1457" type="line"/>
+      <point x="704" y="1164" type="line"/>
+      <point x="704" y="1153" type="line"/>
+      <point x="535" y="1153" type="line"/>
+      <point x="267" y="1457" type="line"/>
     </contour>
     <contour>
-      <point x="369" y="1290" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="369" y="1641" type="move" name="mkmktop_acc"/>
+      <point x="585" y="1052" type="move" name="_top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
