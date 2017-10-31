@@ -4,48 +4,28 @@
   <unicode hex="002E"/>
   <outline>
     <contour>
-      <point x="161" y="101" type="curve" smooth="yes"/>
-      <point x="161" y="32"/>
-      <point x="206" y="-22"/>
-      <point x="290" y="-22" type="curve" smooth="yes"/>
-      <point x="374" y="-22"/>
-      <point x="419" y="32"/>
-      <point x="419" y="101" type="curve" smooth="yes"/>
-      <point x="419" y="171"/>
-      <point x="374" y="225"/>
-      <point x="290" y="225" type="curve" smooth="yes"/>
-      <point x="206" y="225"/>
-      <point x="161" y="171"/>
+      <point x="161" y="101" type="qcurve" smooth="yes"/>
+      <point x="161" y="153"/>
+      <point x="227" y="225"/>
+      <point x="290" y="225" type="qcurve" smooth="yes"/>
+      <point x="353" y="225"/>
+      <point x="419" y="153"/>
+      <point x="419" y="101" type="qcurve" smooth="yes"/>
+      <point x="419" y="50"/>
+      <point x="353" y="-22"/>
+      <point x="290" y="-22" type="qcurve" smooth="yes"/>
+      <point x="227" y="-22"/>
+      <point x="161" y="50"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
+      <key>com.typemytype.robofont.mark</key>
       <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>901.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>555.0</real>
-        </dict>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>
