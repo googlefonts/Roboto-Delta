@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="U" format="1">
+  <advance width="1318"/>
+  <unicode hex="0055"/>
+  <outline>
+    <contour>
+      <point x="132" y="471" type="qcurve" smooth="yes"/>
+      <point x="132" y="1456" type="line"/>
+      <point x="324" y="1456" type="line"/>
+      <point x="324" y="471" type="line" smooth="yes"/>
+      <point x="324" y="301"/>
+      <point x="509" y="137"/>
+      <point x="658" y="137" type="qcurve" smooth="yes"/>
+      <point x="809" y="137"/>
+      <point x="994" y="301"/>
+      <point x="994" y="471" type="qcurve" smooth="yes"/>
+      <point x="994" y="1456" type="line"/>
+      <point x="1186" y="1456" type="line"/>
+      <point x="1186" y="471" type="line" smooth="yes"/>
+      <point x="1186" y="226"/>
+      <point x="868" y="-30"/>
+      <point x="658" y="-30" type="qcurve" smooth="yes"/>
+      <point x="436" y="-30"/>
+      <point x="132" y="226"/>
+    </contour>
+    <contour>
+      <point x="659" y="1432" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
