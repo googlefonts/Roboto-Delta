@@ -4,8 +4,6 @@
   <unicode hex="0075"/>
   <outline>
     <contour>
-      <point x="138" y="384" type="qcurve" smooth="yes"/>
-      <point x="138" y="1052" type="line"/>
       <point x="323" y="1052" type="line"/>
       <point x="323" y="343" type="line" smooth="yes"/>
       <point x="323" y="184"/>
@@ -24,9 +22,22 @@
       <point x="493" y="-24" type="qcurve" smooth="yes"/>
       <point x="335" y="-24"/>
       <point x="138" y="169"/>
+      <point x="138" y="384" type="qcurve" smooth="yes"/>
+      <point x="138" y="1052" type="line"/>
     </contour>
     <contour>
-      <point x="564" y="1052" type="move" name="top"/>
+      <point x="564.0" y="1052.0" type="move" name="top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
