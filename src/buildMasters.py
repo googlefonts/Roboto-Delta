@@ -67,8 +67,8 @@ composites = {
 	"ydieresis": "y+dieresis@top",
 }
 
-src_dir = "src/1-drawings"
-target_dir = "src/master_ufo"
+src_dir = "1-drawings"
+target_dir = "master_ufo"
 
 masters = [directory for directory in os.listdir(src_dir) if directory.endswith(".ufo")]
 
