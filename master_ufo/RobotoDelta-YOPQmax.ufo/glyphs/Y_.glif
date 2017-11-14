@@ -6,17 +6,17 @@
     <contour>
       <point x="16" y="1456" type="line"/>
       <point x="231" y="1456" type="line"/>
-      <point x="566" y="846" type="line" smooth="yes"/>
-      <point x="576" y="827"/>
-      <point x="612" y="755"/>
-      <point x="619" y="736" type="qcurve"/>
-      <point x="621" y="736" type="line"/>
-      <point x="628" y="755"/>
-      <point x="658" y="813"/>
-      <point x="676" y="847" type="qcurve" smooth="yes"/>
-      <point x="1002" y="1456" type="line"/>
-      <point x="1214" y="1456" type="line"/>
-      <point x="711" y="544" type="line"/>
+      <point x="550" y="875" type="line" smooth="yes"/>
+      <point x="560" y="856"/>
+      <point x="584" y="813"/>
+      <point x="591" y="794" type="qcurve"/>
+      <point x="593" y="794" type="line"/>
+      <point x="600" y="813"/>
+      <point x="611" y="833"/>
+      <point x="628" y="867" type="qcurve" smooth="yes"/>
+      <point x="932" y="1456" type="line"/>
+      <point x="1234" y="1456" type="line"/>
+      <point x="711" y="501" type="line"/>
       <point x="711" y="0" type="line"/>
       <point x="519" y="0" type="line"/>
       <point x="519" y="544" type="line"/>
@@ -25,4 +25,15 @@
       <point x="615" y="1432" type="move" name="top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

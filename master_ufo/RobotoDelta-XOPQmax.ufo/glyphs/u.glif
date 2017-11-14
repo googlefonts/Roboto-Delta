@@ -6,27 +6,27 @@
     <contour>
       <point x="138" y="384" type="qcurve" smooth="yes"/>
       <point x="138" y="1052" type="line"/>
-      <point x="480" y="1052" type="line"/>
-      <point x="480" y="382" type="line" smooth="yes"/>
-      <point x="480" y="250"/>
-      <point x="583" y="133"/>
-      <point x="670" y="133" type="qcurve" smooth="yes"/>
-      <point x="756" y="133"/>
-      <point x="921" y="204"/>
-      <point x="962" y="274" type="qcurve"/>
-      <point x="962" y="1052" type="line"/>
-      <point x="1305" y="1052" type="line"/>
-      <point x="1305" y="0" type="line"/>
-      <point x="986" y="0" type="line"/>
-      <point x="984" y="28" type="line"/>
-      <point x="1022" y="72"/>
-      <point x="810" y="-24"/>
-      <point x="634" y="-24" type="qcurve" smooth="yes"/>
-      <point x="398" y="-24"/>
+      <point x="482" y="1052" type="line"/>
+      <point x="482" y="382" type="line" smooth="yes"/>
+      <point x="482" y="266"/>
+      <point x="576" y="133"/>
+      <point x="681" y="133" type="qcurve" smooth="yes"/>
+      <point x="780" y="133"/>
+      <point x="922" y="208"/>
+      <point x="963" y="294" type="qcurve"/>
+      <point x="963" y="1052" type="line"/>
+      <point x="1307" y="1052" type="line"/>
+      <point x="1307" y="0" type="line"/>
+      <point x="988" y="0" type="line"/>
+      <point x="978" y="135" type="line"/>
+      <point x="931" y="70"/>
+      <point x="773" y="-24"/>
+      <point x="636" y="-24" type="qcurve" smooth="yes"/>
+      <point x="400" y="-24"/>
       <point x="138" y="182"/>
     </contour>
     <contour>
-      <point x="723" y="1052" type="move" name="top"/>
+      <point x="725" y="1052" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -255,9 +255,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
         <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
       </array>
     </dict>
