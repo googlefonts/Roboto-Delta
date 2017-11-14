@@ -1,8 +1,16 @@
+"""
+This script builds the 'master_ufo' fonts from the '1-drawings' fonts. 
+It fills the glyph set based on the default master and creates all the composite accents.
+"""
+
+# TODO use fontParts instead of defcon
 from defcon import Font
 import os
 
+# define the default master
 default = "RobotoDelta-Regular.ufo"
 
+# dictionary of glyph constructions used to build the composite accents
 composites = {
 	"Agrave": "A+grave@top",
 	"Aacute": "A+acute@top",
@@ -64,11 +72,14 @@ target_dir = "src/master_ufo"
 
 masters = [directory for directory in os.listdir(src_dir) if directory.endswith(".ufo")]
 
+# take the default out of the master list
 if default in masters: masters.remove(default)
 
+# load the default font
 default_path = os.path.join(src_dir, default)
 dflt = Font(default_path)
 
+# load the font objects
 fonts = []
 for master in masters:
 	path = os.path.join(src_dir, master)
@@ -77,7 +88,7 @@ for master in masters:
 
 for font in fonts:
 	
-	# fill glyphSet with missing glyphs
+	# fill the glyph set with missing glyphs
 	for glyph in dflt:
 		
 		glyphName = glyph.name
@@ -86,7 +97,7 @@ for font in fonts:
 			font.insertGlyph(glyph)
 			font[glyphName].lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.25] # dark grey
 	
-	# build composites
+	# build the composites
 	for glyphName in composites.keys():
 		
 		glyph = dflt[glyphName]
@@ -124,13 +135,13 @@ for font in fonts:
 				composite.appendComponent(component)
 			composite.lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.5] # grey
 	
-	# set glyphOrder
+	# set the glyph order
 	font.glyphOrder = dflt.glyphOrder
 	
-	# save as
+	# save in master_ufo directory
 	path = os.path.join(target_dir, os.path.basename(font.path))
 	font.save(path)
 
-# save default as
+# save default in master_ufo directory
 path = os.path.join(target_dir, os.path.basename(dflt.path))
 dflt.save(path)
