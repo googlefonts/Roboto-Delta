@@ -38,7 +38,18 @@
       <point x="115" y="346"/>
     </contour>
     <contour>
-      <point x="718.0" y="0.0" type="move" name="bottom"/>
+      <point x="718" y="0" type="move" name="bottom"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

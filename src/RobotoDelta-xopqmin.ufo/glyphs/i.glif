@@ -6,22 +6,22 @@
     <contour>
       <point x="154" y="0" type="line"/>
       <point x="154" y="1052" type="line"/>
-      <point x="207" y="1052" type="line"/>
-      <point x="207" y="0" type="line"/>
+      <point x="208" y="1052" type="line"/>
+      <point x="208" y="0" type="line"/>
     </contour>
     <contour>
       <point x="140" y="1369" type="qcurve" smooth="yes"/>
-      <point x="140" y="1433"/>
-      <point x="171" y="1476"/>
+      <point x="140.0" y="1421.0"/>
+      <point x="161.0" y="1476.0"/>
       <point x="180" y="1476" type="qcurve" smooth="yes"/>
-      <point x="189" y="1476"/>
-      <point x="221" y="1432"/>
+      <point x="200.0" y="1476.0"/>
+      <point x="221.0" y="1421.0"/>
       <point x="221" y="1369" type="qcurve" smooth="yes"/>
-      <point x="221" y="1308"/>
-      <point x="189" y="1265"/>
+      <point x="221.0" y="1319.0"/>
+      <point x="200.0" y="1265.0"/>
       <point x="180" y="1265" type="qcurve" smooth="yes"/>
-      <point x="171" y="1265"/>
-      <point x="140" y="1307"/>
+      <point x="161.0" y="1265.0"/>
+      <point x="140.0" y="1319.0"/>
     </contour>
   </outline>
   <lib>
@@ -207,9 +207,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
         <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
       </array>
     </dict>
