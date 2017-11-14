@@ -10,23 +10,23 @@
       <point x="858" y="910" type="line"/>
     </contour>
     <contour>
-      <point x="233" y="260" type="qcurve" smooth="yes"/>
+      <point x="233" y="306" type="qcurve" smooth="yes"/>
       <point x="233" y="967" type="line"/>
       <point x="233" y="1000" type="line"/>
       <point x="233" y="1315" type="line"/>
       <point x="575" y="1315" type="line"/>
       <point x="575" y="269" type="line" smooth="yes"/>
-      <point x="575" y="175"/>
-      <point x="648" y="130"/>
-      <point x="666" y="130" type="qcurve" smooth="yes"/>
-      <point x="658" y="130"/>
-      <point x="726" y="142"/>
-      <point x="853" y="184" type="qcurve"/>
-      <point x="853" y="10" type="line"/>
-      <point x="803" y="-11"/>
-      <point x="695" y="-29"/>
-      <point x="598" y="-29" type="qcurve" smooth="yes"/>
-      <point x="431" y="-29"/>
+      <point x="575" y="185"/>
+      <point x="623" y="120"/>
+      <point x="666" y="120" type="qcurve" smooth="yes"/>
+      <point x="711" y="120"/>
+      <point x="801" y="129"/>
+      <point x="853" y="146" type="qcurve"/>
+      <point x="853" y="0" type="line"/>
+      <point x="803" y="-21"/>
+      <point x="695" y="-39"/>
+      <point x="598" y="-39" type="qcurve" smooth="yes"/>
+      <point x="431" y="-39"/>
       <point x="233" y="130"/>
     </contour>
   </outline>
@@ -273,9 +273,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
         <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
       </array>
     </dict>
