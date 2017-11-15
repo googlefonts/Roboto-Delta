@@ -1,7 +1,7 @@
 from defcon import Font
 import os
 
-src = "../src"
+src = "../src/1-drawings"
 
 fonts = []
 for directory in os.listdir(src):
@@ -13,7 +13,7 @@ base = fonts[0]
 fonts = fonts[1:]
 
 print "Default Master", base.path
-print
+print "..."
 
 for glyph in base:
     
@@ -45,3 +45,5 @@ for glyph in base:
         
         if baseAnchors != otherAnchors:
             print "!= anchors", glyph.name, otherGlyph.getParent().info.styleName
+
+print "DONE"
