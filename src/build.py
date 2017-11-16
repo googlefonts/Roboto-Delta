@@ -1,5 +1,12 @@
-from designSpaceDocument import DesignSpaceDocument, SourceDescriptor, InstanceDescriptor, AxisDescriptor
 import os
+
+# --------------
+# 1. DesignSpace
+# --------------
+
+print "Writing DesignSpace"
+
+from designSpaceDocument import DesignSpaceDocument, SourceDescriptor, InstanceDescriptor, AxisDescriptor
 
 designSpacePath = "RobotoDelta.designspace"
 familyName = "RobotoDelta"
@@ -27,12 +34,12 @@ sources = [
 	dict(path="master_ufo/RobotoDelta-UDLNmin.ufo", name="RobotoDelta-UDLNmin.ufo", location=dict(UDLN=-1), styleName="UDLNmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-UDLNmax.ufo", name="RobotoDelta-UDLNmax.ufo", location=dict(UDLN=1), styleName="UDLNmax", familyName=familyName, copyInfo=False),
 	
-	#dict(path="master_ufo/RobotoDelta-wghtmin.ufo", name="RobotoDelta-wghtmin.ufo", location=dict(wght=-1), styleName="wghtmin", familyName=familyName, copyInfo=False),
-	#dict(path="master_ufo/RobotoDelta-wghtmax.ufo", name="RobotoDelta-wghtmax.ufo", location=dict(wght=1), styleName="wghtmax", familyName=familyName, copyInfo=False),
+	dict(path="instances/RobotoDelta-wghtmin.ttf", name="RobotoDelta-wghtmin.ttf", location=dict(wght=-1), styleName="wghtmin", familyName=familyName, copyInfo=False),
+	dict(path="instances/RobotoDelta-wghtmax.ttf", name="RobotoDelta-wghtmax.ttf", location=dict(wght=1), styleName="wghtmax", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-wdthmin.ufo", name="RobotoDelta-wdthmin.ufo", location=dict(wdth=-1), styleName="wdthmin", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-wdthmax.ufo", name="RobotoDelta-wdthmax.ufo", location=dict(wdth=1), styleName="wdthmax", familyName=familyName, copyInfo=False),
-	#dict(path="master_ufo/RobotoDelta-opszmin.ufo", name="RobotoDelta-opszmin.ufo", location=dict(opsz=-1), styleName="opszmin", familyName=familyName, copyInfo=False),
-	#dict(path="master_ufo/RobotoDelta-opszmax.ufo", name="RobotoDelta-opszmax.ufo", location=dict(opsz=1), styleName="opszmax", familyName=familyName, copyInfo=False),
+	dict(path="instances/RobotoDelta-opszmin.ttf", name="RobotoDelta-opszmin.ttf", location=dict(opsz=-1), styleName="opszmin", familyName=familyName, copyInfo=False),
+	dict(path="instances/RobotoDelta-opszmax.ttf", name="RobotoDelta-opszmax.ttf", location=dict(opsz=1), styleName="opszmax", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-PWGTmin.ufo", name="RobotoDelta-PWGTmin.ufo", location=dict(PWGT=-1), styleName="PWGTmin", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-PWGTmax.ufo", name="RobotoDelta-PWGTmax.ufo", location=dict(PWGT=1), styleName="PWGTmax", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-PWDTmin.ufo", name="RobotoDelta-PWDTmin.ufo", location=dict(PWDT=-1), styleName="PWDTmin", familyName=familyName, copyInfo=False),
@@ -68,11 +75,6 @@ axes = [
 instances = [
 ]
 
-#for source in sources:
-#	instances.append(dict(location=source["location"], styleName=source["styleName"], familyName=source["familyName"]))
-
-### 
-
 doc = DesignSpaceDocument()
 
 for source in sources:
@@ -104,8 +106,253 @@ for axis in axes:
 	a.map = axis["map"]
 	doc.addAxis(a)
 
-#doc.checkAxes()
-
-#doc.checkDefault()
-
 doc.write(designSpacePath)
+
+# --------------
+# 2. Master UFOs
+# --------------
+
+print "Building master_ufo"
+
+# TODO use fontParts instead of defcon
+from defcon import Font
+
+# define the default master
+default = "RobotoDelta-Regular.ufo"
+
+# dictionary of glyph constructions used to build the composite accents
+composites = {
+	"Agrave": "A+grave@top",
+	"Aacute": "A+acute@top",
+	"Acircumflex": "A+circumflex@top",
+	"Atilde": "A+tilde@top",
+	"Adieresis": "A+dieresis@top",
+	"Aring": "A+ring@top",
+	"Ccedilla": "C+cedilla@bottom",
+	"Egrave": "E+grave@top",
+	"Eacute": "E+acute@top",
+	"Ecircumflex": "E+circumflex@top",
+	"Edieresis": "E+dieresis@top",
+	"Igrave": "I+grave@top",
+	"Iacute": "I+acute@top",
+	"Icircumflex": "I+circumflex@top",
+	"Idieresis": "I+dieresis@top",
+	"Ntilde": "N+tilde@top",
+	"Ograve": "O+grave@top",
+	"Oacute": "O+acute@top",
+	"Ocircumflex": "O+circumflex@top",
+	"Otilde": "O+tilde@top",
+	"Odieresis": "O+dieresis@top",
+	"Ugrave": "U+grave@top",
+	"Uacute": "U+acute@top",
+	"Ucircumflex": "U+circumflex@top",
+	"Udieresis": "U+dieresis@top",
+	"Yacute": "Y+acute@top",
+	"agrave": "a+grave@top",
+	"aacute": "a+acute@top",
+	"acircumflex": "a+circumflex@top",
+	"atilde": "a+tilde@top",
+	"adieresis": "a+dieresis@top",
+	"aring": "a+ring@top",
+	"ccedilla": "c+cedilla@bottom",
+	"egrave": "e+grave@top",
+	"eacute": "e+acute@top",
+	"ecircumflex": "e+circumflex@top",
+	"edieresis": "e+dieresis@top",
+	"igrave": "dotlessi+grave@top",
+	"iacute": "dotlessi+acute@top",
+	"icircumflex": "dotlessi+circumflex@top",
+	"idieresis": "dotlessi+dieresis@top",
+	"ntilde": "n+tilde@top",
+	"ograve": "o+grave@top",
+	"oacute": "o+acute@top",
+	"ocircumflex": "o+circumflex@top",
+	"otilde": "o+tilde@top",
+	"odieresis": "o+dieresis@top",
+	"ugrave": "u+grave@top",
+	"uacute": "u+acute@top",
+	"ucircumflex": "u+circumflex@top",
+	"udieresis": "u+dieresis@top",
+	"yacute": "y+acute@top",
+	"ydieresis": "y+dieresis@top",
+}
+
+src_dir = "1-drawings"
+target_dir = "master_ufo"
+
+masters = [directory for directory in os.listdir(src_dir) if directory.endswith(".ufo")]
+
+# take the default out of the master list
+if default in masters: masters.remove(default)
+
+# load the default font
+default_path = os.path.join(src_dir, default)
+dflt = Font(default_path)
+
+# load the font objects
+fonts = []
+for master in masters:
+	path = os.path.join(src_dir, master)
+	font = Font(path)
+	fonts.append(font)
+
+for font in fonts:
+	
+	# fill the glyph set with missing glyphs
+	for glyph in dflt:
+		
+		glyphName = glyph.name
+		
+		if glyphName not in font and glyphName not in composites:
+			font.insertGlyph(glyph)
+			font[glyphName].lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.25] # dark grey
+	
+	# build the composites
+	for glyphName in composites.keys():
+		
+		glyph = dflt[glyphName]
+		
+		if glyphName in composites.keys():
+			font.newGlyph(glyphName)
+			composite = font[glyphName]
+			composite.width = glyph.width
+			
+			value = composites[glyphName]
+			items = value.split("+")
+			base = items[0]
+			items = items[1:]
+			
+			component = composite.instantiateComponent()
+			component.baseGlyph = base
+			baseGlyph = font[base]
+			composite.appendComponent(component)
+			
+			for item in items:
+				baseName, anchorName = item.split("@")
+				component = composite.instantiateComponent()
+				component.baseGlyph = baseName
+				anchor = _anchor = None
+				for a in baseGlyph.anchors:
+					if a["name"] == anchorName:
+						anchor = a
+				for a in font[baseName].anchors:
+					if a["name"] == "_"+anchorName:
+						_anchor = a
+				if anchor and _anchor:
+					x = anchor["x"] - _anchor["x"]
+					y = anchor["y"] - _anchor["y"]
+					component.move((x, y))
+				composite.appendComponent(component)
+			composite.lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.5] # grey
+	
+	# set the glyph order
+	font.glyphOrder = dflt.glyphOrder
+	
+	# save in master_ufo directory
+	path = os.path.join(target_dir, os.path.basename(font.path))
+	font.save(path)
+
+# save default in master_ufo directory
+path = os.path.join(target_dir, os.path.basename(dflt.path))
+dflt.save(path)
+
+# --------------
+# 3. Master TTFs
+# --------------
+
+print "Building master_ttf_interpolatable"
+
+from fontmake.font_project import FontProject
+
+ufos = []
+for directory in os.listdir("master_ufo"):
+    if directory.endswith(".ufo"):
+        path = os.path.join("master_ufo", directory)
+        ufos.append(path)
+project = FontProject()
+project.run_from_ufos(ufos, output=("ttf-interpolatable"), remove_overlaps=False, use_production_names=False) # FIXME this also build master_ttf and should not.
+
+# --------------
+# 4. Blending VF
+# --------------
+
+print "Blending..."
+
+from fontTools.varLib import build
+from fontTools.varLib.mutator import instantiateVariableFont
+
+designspace_filename = "RobotoDelta.designspace"
+finder = lambda s: s.replace('master_ufo', 'master_ttf_interpolatable').replace('.ufo', '.ttf')
+varfont, _, _ = build(designspace_filename, finder)
+
+familyName = "RobotoDelta"
+instancedir = "instances/"
+
+locations = {
+	'opszmin' : {
+		'XOPQ': 0.08,
+		'XTRA': 0.16,
+		'YOPQ': 0.12,
+		'YTLC': 0.32,
+	},
+	'Regular' : {
+		# default
+	},
+	'opszmax' : {
+		'XOPQ': -.24,
+		'XTRA': -.18,
+		'YOPQ': -.24,
+		'YTLC': -.24,
+	},
+	
+	'opszmin-wghtmin' : {
+		'XOPQ': -.64,
+		'XTRA': 0.24,
+		'YOPQ': -.36,
+		'YTLC': 0.24,
+	},
+	'wghtmin' : {
+		'XOPQ': -.72,
+		'XTRA': 0.16,
+		'YOPQ': -.48,
+		'YTLC': 0.00,
+	},
+	'opszmax-wghtmin' : {
+		'XOPQ': -1.0,
+		'XTRA': 0.06,
+		'YOPQ': -1.0,
+		'YTLC': -.30,
+	},
+
+	'opszmin-wghtmax' : {
+		'XOPQ': 0.50,
+		'XTRA': -.20,
+		'YOPQ': 0.40,
+		'YTLC': 0.50,
+	},
+	'wghtmax' : {
+		'XOPQ': 0.60,
+		'XTRA': -.50,
+		'YOPQ': 0.50,
+		'YTLC': 0.24,
+	},
+	'opszmax-wghtmax' : {
+		'XOPQ': 0.80,
+		'XTRA': -1.0,
+		'YOPQ': 0.60,
+		'YTLC': -.24,
+	},
+}
+
+for key, location in locations.items():
+	instance = instantiateVariableFont(varfont, location)
+	instancename = "%s-%s.ttf" % (familyName, key)
+	instancepath = os.path.join(instancedir, instancename)
+	instance.save(instancepath)
+
+outfile = "../fonts/RobotoDelta-VF.ttf"
+finder = lambda s: s.replace('master_ufo', 'master_ttf_interpolatable').replace('.ufo', '.ttf')
+varfont, _, _ = build(designspace_filename, finder)
+print "Saving variation font %s" % outfile
+varfont.save(outfile)
+print "DONE"
