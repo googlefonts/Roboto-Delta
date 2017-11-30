@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="A" format="1">
-  <advance width="1280"/>
+  <advance width="1600"/>
   <unicode hex="0041"/>
   <outline>
     <contour>
       <point x="0" y="0" type="line"/>
-      <point x="554" y="1466" type="line"/>
-      <point x="726" y="1466" type="line"/>
-      <point x="1280" y="0" type="line"/>
-      <point x="1080" y="0" type="line"/>
-      <point x="680" y="1100" type="line" smooth="yes"/>
-      <point x="668" y="1133"/>
-      <point x="650" y="1195"/>
-      <point x="643" y="1228" type="qcurve"/>
-      <point x="633" y="1228" type="line"/>
-      <point x="626" y="1195"/>
-      <point x="608" y="1133"/>
-      <point x="596" y="1100" type="qcurve" smooth="yes"/>
-      <point x="192" y="0" type="line"/>
+      <point x="693" y="1466" type="line"/>
+      <point x="908" y="1466" type="line"/>
+      <point x="1600" y="0" type="line"/>
+      <point x="1390" y="0" type="line"/>
+      <point x="890" y="1100" type="line" smooth="yes"/>
+      <point x="863" y="1160"/>
+      <point x="822" y="1260"/>
+      <point x="804" y="1310" type="qcurve"/>
+      <point x="791" y="1310" type="line"/>
+      <point x="774" y="1260"/>
+      <point x="732" y="1160"/>
+      <point x="705" y="1100" type="qcurve" smooth="yes"/>
+      <point x="200" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="238" y="380" type="line"/>
-      <point x="297" y="538" type="line"/>
-      <point x="981" y="538" type="line"/>
-      <point x="1039" y="380" type="line"/>
+      <point x="277" y="380" type="line"/>
+      <point x="351" y="538" type="line"/>
+      <point x="1246" y="538" type="line"/>
+      <point x="1319" y="380" type="line"/>
     </contour>
     <contour>
-      <point x="640.0" y="1432.0" type="move" name="top"/>
+      <point x="800.0" y="1432.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -243,7 +243,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1280</integer>
+          <integer>1600</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -253,9 +253,9 @@
               <key>name</key>
               <string>top</string>
               <key>x</key>
-              <integer>831</integer>
+              <real>831.0</real>
               <key>y</key>
-              <integer>1432</integer>
+              <real>1432.0</real>
             </dict>
           </array>
           <key>components</key>
@@ -455,12 +455,12 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1280</integer>
+          <integer>1600</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
