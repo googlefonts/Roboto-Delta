@@ -12,34 +12,41 @@ designSpacePath = "RobotoDelta.designspace"
 familyName = "RobotoDelta"
 
 sources = [
-	dict(path="master_ufo/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XTRA=359, XOPQ=94, YOPQ=77, YTLC=514, YTUC=712, YTAS=750, YTDE=-203, YTAD=563, YTDD=0, UDLN=-49, wght=400, wdth=0, opsz=12, PWGT=0, PWDT=0, POPS=0, GRAD=0, YTRA=0,), styleName="Regular", familyName=familyName, copyInfo=True),	
-	dict(path="master_ufo/RobotoDelta-XTRAmin.ufo", name="RobotoDelta-XTRAmin.ufo", location=dict(XTRA=210), styleName="XTRAmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-XTRAmax.ufo", name="RobotoDelta-XTRAmax.ufo", location=dict(XTRA=513), styleName="XTRAmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-XOPQmin.ufo", name="RobotoDelta-XOPQmin.ufo", location=dict(XOPQ=26), styleName="XOPQmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-XOPQmax.ufo", name="RobotoDelta-XOPQmax.ufo", location=dict(XOPQ=171), styleName="XOPQmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YOPQmin.ufo", name="RobotoDelta-YOPQmin.ufo", location=dict(YOPQ=26), styleName="YOPQmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YOPQmax.ufo", name="RobotoDelta-YOPQmax.ufo", location=dict(YOPQ=132), styleName="YOPQmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTLCmin.ufo", name="RobotoDelta-YTLCmin.ufo", location=dict(YTLC=416), styleName="YTLCmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTLCmax.ufo", name="RobotoDelta-YTLCmax.ufo", location=dict(YTLC=570), styleName="YTLCmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTUCmin.ufo", name="RobotoDelta-YTUCmin.ufo", location=dict(YTUC=528), styleName="YTUCmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTUCmax.ufo", name="RobotoDelta-YTUCmax.ufo", location=dict(YTUC=760), styleName="YTUCmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTASmin.ufo", name="RobotoDelta-YTASmin.ufo", location=dict(YTAS=649), styleName="YTASmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTASmax.ufo", name="RobotoDelta-YTASmax.ufo", location=dict(YTAS=854), styleName="YTASmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTDEmin.ufo", name="RobotoDelta-YTDEmin.ufo", location=dict(YTDE=-305), styleName="YTDEmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTDEmax.ufo", name="RobotoDelta-YTDEmax.ufo", location=dict(YTDE=-98), styleName="YTDEmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTADmin.ufo", name="RobotoDelta-YTADmin.ufo", location=dict(YTAD=460), styleName="YTADmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTADmax.ufo", name="RobotoDelta-YTADmax.ufo", location=dict(YTAD=600), styleName="YTADmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTDDmin.ufo", name="RobotoDelta-YTDDmin.ufo", location=dict(YTDD=-1), styleName="YTDDmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-YTDDmax.ufo", name="RobotoDelta-YTDDmax.ufo", location=dict(YTDD=1), styleName="YTDDmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-UDLNmin.ufo", name="RobotoDelta-UDLNmin.ufo", location=dict(UDLN=-195), styleName="UDLNmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-UDLNmax.ufo", name="RobotoDelta-UDLNmax.ufo", location=dict(UDLN=0), styleName="UDLNmax", familyName=familyName, copyInfo=False),
+	# TODO update axis values
+	dict(path="master_ufo/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XOPQ=94, YOPQ=77, XTRA=359, YTLC=514, YTUC=712, YTAS=750, YTDE=-203, YTAD=563, YTDD=0, UDLN=-49, wght=400, wdth=0, opsz=12, PWGT=0, PWDT=0, POPS=0, GRAD=0, YTRA=0,), styleName="Regular", familyName=familyName, copyInfo=True),	
 	
-	dict(path="instances/RobotoDelta-wghtmin.ttf", name="RobotoDelta-wghtmin.ttf", location=dict(wght=100), styleName="wghtmin", familyName=familyName, copyInfo=False),
-	dict(path="instances/RobotoDelta-wghtmax.ttf", name="RobotoDelta-wghtmax.ttf", location=dict(wght=900), styleName="wghtmax", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-XOPQmin-i.ufo", name="RobotoDelta-XOPQmin-i.ufo", location=dict(XOPQ=26), styleName="XOPQmin-i", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-XOPQmax-i.ufo", name="RobotoDelta-XOPQmax-i.ufo", location=dict(XOPQ=171), styleName="XOPQmax-i", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-YOPQmin-i.ufo", name="RobotoDelta-YOPQmin-i.ufo", location=dict(YOPQ=26), styleName="YOPQmin-i", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-YOPQmax-i.ufo", name="RobotoDelta-YOPQmax-i.ufo", location=dict(YOPQ=132), styleName="YOPQmax-i", familyName=familyName, copyInfo=False),
+
+	dict(path="master_ufo/RobotoDelta-XOPQmin-YOPQmin.ufo", name="RobotoDelta-XOPQmin-YOPQmin.ufo", location=dict(XOPQ=26, YOPQ=26), styleName="XOPQmin-YOPQmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-XOPQmax-YOPQmax.ufo", name="RobotoDelta-XOPQmax-YOPQmax.ufo", location=dict(XOPQ=171, YOPQ=132), styleName="XOPQmax-YOPQmax", familyName=familyName, copyInfo=False),
+
+	dict(path="master_ufo/RobotoDelta-XTRAmin.ufo", name="RobotoDelta-XTRAmin.ufo", location=dict(XTRA=210), styleName="XTRAmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-XTRAmax.ufo", name="RobotoDelta-XTRAmax.ufo", location=dict(XTRA=513), styleName="XTRAmax", familyName=familyName, copyInfo=False),	
+	
+	#dict(path="master_ufo/RobotoDelta-YTLCmin.ufo", name="RobotoDelta-YTLCmin.ufo", location=dict(YTLC=416), styleName="YTLCmin", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTLCmax.ufo", name="RobotoDelta-YTLCmax.ufo", location=dict(YTLC=570), styleName="YTLCmax", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTUCmin.ufo", name="RobotoDelta-YTUCmin.ufo", location=dict(YTUC=528), styleName="YTUCmin", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTUCmax.ufo", name="RobotoDelta-YTUCmax.ufo", location=dict(YTUC=760), styleName="YTUCmax", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTASmin.ufo", name="RobotoDelta-YTASmin.ufo", location=dict(YTAS=649), styleName="YTASmin", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTASmax.ufo", name="RobotoDelta-YTASmax.ufo", location=dict(YTAS=854), styleName="YTASmax", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTDEmin.ufo", name="RobotoDelta-YTDEmin.ufo", location=dict(YTDE=-305), styleName="YTDEmin", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTDEmax.ufo", name="RobotoDelta-YTDEmax.ufo", location=dict(YTDE=-98), styleName="YTDEmax", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTADmin.ufo", name="RobotoDelta-YTADmin.ufo", location=dict(YTAD=460), styleName="YTADmin", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTADmax.ufo", name="RobotoDelta-YTADmax.ufo", location=dict(YTAD=600), styleName="YTADmax", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTDDmin.ufo", name="RobotoDelta-YTDDmin.ufo", location=dict(YTDD=-1), styleName="YTDDmin", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-YTDDmax.ufo", name="RobotoDelta-YTDDmax.ufo", location=dict(YTDD=1), styleName="YTDDmax", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-UDLNmin.ufo", name="RobotoDelta-UDLNmin.ufo", location=dict(UDLN=-195), styleName="UDLNmin", familyName=familyName, copyInfo=False),
+	#dict(path="master_ufo/RobotoDelta-UDLNmax.ufo", name="RobotoDelta-UDLNmax.ufo", location=dict(UDLN=0), styleName="UDLNmax", familyName=familyName, copyInfo=False),
+	
+	##dict(path="instances/RobotoDelta-wghtmin.ttf", name="RobotoDelta-wghtmin.ttf", location=dict(wght=100), styleName="wghtmin", familyName=familyName, copyInfo=False),
+	##dict(path="instances/RobotoDelta-wghtmax.ttf", name="RobotoDelta-wghtmax.ttf", location=dict(wght=900), styleName="wghtmax", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-wdthmin.ufo", name="RobotoDelta-wdthmin.ufo", location=dict(wdth=-1), styleName="wdthmin", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-wdthmax.ufo", name="RobotoDelta-wdthmax.ufo", location=dict(wdth=1), styleName="wdthmax", familyName=familyName, copyInfo=False),
-	dict(path="instances/RobotoDelta-opszmin.ttf", name="RobotoDelta-opszmin.ttf", location=dict(opsz=8), styleName="opszmin", familyName=familyName, copyInfo=False),
-	dict(path="instances/RobotoDelta-opszmax.ttf", name="RobotoDelta-opszmax.ttf", location=dict(opsz=36), styleName="opszmax", familyName=familyName, copyInfo=False),
+	##dict(path="instances/RobotoDelta-opszmin.ttf", name="RobotoDelta-opszmin.ttf", location=dict(opsz=8), styleName="opszmin", familyName=familyName, copyInfo=False),
+	##dict(path="instances/RobotoDelta-opszmax.ttf", name="RobotoDelta-opszmax.ttf", location=dict(opsz=36), styleName="opszmax", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-PWGTmin.ufo", name="RobotoDelta-PWGTmin.ufo", location=dict(PWGT=-1), styleName="PWGTmin", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-PWGTmax.ufo", name="RobotoDelta-PWGTmax.ufo", location=dict(PWGT=1), styleName="PWGTmax", familyName=familyName, copyInfo=False),
 	#dict(path="master_ufo/RobotoDelta-PWDTmin.ufo", name="RobotoDelta-PWDTmin.ufo", location=dict(PWDT=-1), styleName="PWDTmin", familyName=familyName, copyInfo=False),
@@ -215,7 +222,6 @@ for font in fonts:
 		if glyphName in composites.keys():
 			font.newGlyph(glyphName)
 			composite = font[glyphName]
-			composite.width = glyph.width
 			
 			value = composites[glyphName]
 			items = value.split("+")
@@ -225,6 +231,7 @@ for font in fonts:
 			component = composite.instantiateComponent()
 			component.baseGlyph = base
 			baseGlyph = font[base]
+			composite.width = baseGlyph.width
 			composite.appendComponent(component)
 			
 			for item in items:
