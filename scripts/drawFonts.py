@@ -18,9 +18,13 @@ fonts = [
 fonts = [
     "../src/1-drawings/RobotoDelta-XOPQmin-YOPQmin.ufo",
     "old-duovars/XOPQminYOPQmin.ufo",
+    "../src/1-drawings/RobotoDelta-XOPQmax-YOPQmax.ufo",
+    "old-duovars/XOPQmaxYOPQmax.ufo",
+    "../src/1-drawings/RobotoDelta-XTRAmin.ufo",
+    "old-duovars/XTRAmin.ufo",
     ]
 
-size(1400, 225)
+size(2100, 625)
 
 translate(25, 25)
 scale(0.05)
@@ -43,4 +47,4 @@ for path in reversed(fonts):
     restore()
     
     translate(0, 2000)
-saveImage(["XOPQminYOPQmin.pdf"])
+saveImage(["drawFonts.pdf"])
