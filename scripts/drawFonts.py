@@ -3,19 +3,26 @@ from AppKit import NSBezierPath
 from defcon import Font
 import string
 
+"""
 fonts = [
     "../src/1-drawings/RobotoDelta-Regular.ufo",
     "../src/1-drawings/RobotoDelta-XOPQmin-YOPQmin.ufo",
-    "../src/1-drawings/test-XOPQmin.ufo",
-    "../src/1-drawings/test-YOPQmin.ufo",
+    "../src/1-drawings/RobotoDelta-XOPQmin-i.ufo",
+    "../src/1-drawings/RobotoDelta-YOPQmin-i.ufo",
     "../src/1-drawings/RobotoDelta-XOPQmax-YOPQmax.ufo",
-    "../src/1-drawings/test-XOPQmax.ufo",
-    "../src/1-drawings/test-YOPQmax.ufo",
+    "../src/1-drawings/RobotoDelta-XOPQmax-i.ufo",
+    "../src/1-drawings/RobotoDelta-YOPQmax-i.ufo",
+    ]
+"""
+
+fonts = [
+    "../src/1-drawings/RobotoDelta-XOPQmin-YOPQmin.ufo",
+    "old-duovars/XOPQminYOPQmin.ufo",
     ]
 
-size(2000, 720)
+size(1400, 225)
 
-translate(20, 20)
+translate(25, 25)
 scale(0.05)
 
 for path in reversed(fonts):
@@ -24,7 +31,7 @@ for path in reversed(fonts):
     pen = CocoaPen(f)
     
     save()
-    for char in string.uppercase.replace("WX", ""):
+    for char in string.uppercase:
 
         pen.path = NSBezierPath.alloc().init()
         glyph = f[char]
@@ -36,3 +43,4 @@ for path in reversed(fonts):
     restore()
     
     translate(0, 2000)
+saveImage(["XOPQminYOPQmin.pdf"])
