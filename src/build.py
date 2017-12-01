@@ -2,13 +2,14 @@ from mutatorMath.ufo.document import DesignSpaceDocumentWriter, DesignSpaceDocum
 from designSpaceDocument import DesignSpaceDocument, SourceDescriptor, InstanceDescriptor, AxisDescriptor
 from fontmake.font_project import FontProject
 from fontTools.varLib import build
-#from fontTools.varLib.mutator import instantiateVariableFont
+from fontTools.varLib.mutator import instantiateVariableFont
 from defcon import Font
 import shutil
 import os
+
 	
 def buildDesignSpace(sources, instances, axes):
-	
+	# use DesignSpaceDocument because it supports axis labelNames
 	doc = DesignSpaceDocument()
 	
 	for source in sources:
@@ -43,7 +44,7 @@ def buildDesignSpace(sources, instances, axes):
 	return doc
 
 def buildGlyphSet(dflt, fonts):
-	# fill the glyph set with missing glyphs
+	# fill the glyph set with default glyphs
 	for font in fonts:
 		for glyph in dflt:
 			glyphName = glyph.name
@@ -88,21 +89,20 @@ def buildComposites(composites, fonts):
 			composite.lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.5] # grey
 
 def setGlyphOrder(glyphOrder, fonts):
+	# set the glyph order
 	for font in fonts:
 		font.glyphOrder = glyphOrder
 
-def saveMasters(fonts):
+def saveMasters(fonts, master_dir="master_ufo"):
 	# save in master_ufo directory
 	for font in fonts:
-		path = os.path.join("master_ufo", os.path.basename(font.path))
+		path = os.path.join(master_dir, os.path.basename(font.path))
 		font.save(path)
-
-finder = lambda s: s.replace('master_ufo', 'master_ttf_interpolatable').replace('.ufo', '.ttf')
 
 with open("RobotoDelta.enc") as enc:
 	glyphOrder = enc.read().splitlines()
 
-# dictionary of glyph constructions used to build the composite accents
+# dictionary of glyph construction used to build the composite accents
 composites = {
 	"Agrave": "A+grave@top",
 	"Aacute": "A+acute@top",
@@ -159,13 +159,15 @@ composites = {
 	"ydieresis": "y+dieresis@top",
 }
 
-# clean up
+print "Cleaning up..."
+
+# clean up previous build
 if os.path.exists("instances"):
 	shutil.rmtree("instances", ignore_errors=True)
-if os.path.exists("master_ufo"):
-	shutil.rmtree("master_ufo", ignore_errors=True)
 if os.path.exists("master_ttf"):
 	shutil.rmtree("master_ttf", ignore_errors=True)
+if os.path.exists("master_ufo"):
+	shutil.rmtree("master_ufo", ignore_errors=True)
 if os.path.exists("master_ttf_interpolatable"):
 	shutil.rmtree("master_ttf_interpolatable", ignore_errors=True)
 
@@ -173,6 +175,7 @@ src_dir = "1-drawings"
 master_dir = "master_ufo"
 instance_dir = "instances"
 
+# use a temporary designspace to build instances with mutator math
 familyName = "RobotoDelta"
 tmpDesignSpace = "tmp.designspace"
 doc = DesignSpaceDocumentWriter(tmpDesignSpace)
@@ -202,22 +205,24 @@ for instance in instances:
 	doc.endInstance()
 
 doc.save()
-
+# read and process the designspace
 doc = DesignSpaceDocumentReader(tmpDesignSpace, ufoVersion=2, roundGeometry=False, verbose=False)
+print "Reading DesignSpace..."
 doc.process(makeGlyphs=True, makeKerning=True, makeInfo=True)
-os.remove(tmpDesignSpace)
+os.remove(tmpDesignSpace) # clean up
 
+# update the instances with the source fonts
 for instance in instances:
 	fileName = os.path.basename(instance["fileName"])
 	source_path = os.path.join(src_dir, fileName)
 	instance_path = os.path.join(instance_dir, fileName)
-	master_path = os.path.join(master_dir, fileName)
 	source_font = Font(source_path)
 	instance_font = Font(instance_path)
+	# insert the source glyphs in the instance font
 	for glyph in source_font:
 		instance_font.insertGlyph(glyph)
+	master_path = os.path.join(master_dir, fileName)
 	instance_font.save(master_path)
-###
 
 designSpace = "RobotoDelta.designspace"
 sources = [
@@ -266,11 +271,15 @@ sources = [source.name for source in doc.sources]
 # take the default out of the source list
 sources.remove(default)
 
+print "Building masters..."
+
+# load font objects
 fonts = []
 for fileName in sources:
 	source_path = os.path.join(src_dir, fileName)
 	master_path = os.path.join(master_dir, fileName)
 	if os.path.exists(master_path):
+		# use this updated instance
 		font = Font(master_path)
 	else:
 		font = Font(source_path)
@@ -280,9 +289,9 @@ buildGlyphSet(dflt, fonts)
 allfonts = [dflt]+fonts
 buildComposites(composites, allfonts)
 setGlyphOrder(glyphOrder, allfonts)
-saveMasters(allfonts) # save in master_ufo
+saveMasters(allfonts)
 
-# build var font
+# build Variable Font
 
 ufos = [font.path for font in allfonts]
 project = FontProject()
@@ -294,17 +303,14 @@ project.run_from_ufos(
 	use_production_names=False)
 
 outfile = "../fonts/RobotoDelta-VF.ttf"
+finder = lambda s: s.replace("master_ufo", "master_ttf_interpolatable").replace(".ufo", ".ttf")
 varfont, _, _ = build(designSpace, finder)
+print "Saving Variable Font..."
 varfont.save(outfile)
 
-print "DONE"
+print "DONE!"
 
 """
-
-# --------------
-# 4. Blending VF
-# --------------
-
 print "Blending..."
 
 varfont, _, _ = build(designspace_filename, finder)
