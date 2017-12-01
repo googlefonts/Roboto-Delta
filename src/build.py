@@ -196,7 +196,7 @@ instances = [
 	dict(fileName="instances/RobotoDelta-YOPQmin.ufo", location=dict(XYOPQ=(0, -1)), styleName="YOPQmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-YOPQmax.ufo", location=dict(XYOPQ=(0, 1)), styleName="YOPQmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", location=dict(XYOPQ=-1, XTRA=-1), styleName="XOPQmin-YOPQmin-XTRAmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
-#	dict(fileName="instances/RobotoDelta-XOPQmin-YOPQmin-XTRAmax.ufo", location=dict(XYOPQ=-1, XTRA=1), styleName="XOPQmin-YOPQmin-XTRAmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-XOPQmin-YOPQmin-XTRAmax.ufo", location=dict(XYOPQ=-1, XTRA=1), styleName="XOPQmin-YOPQmin-XTRAmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 ]
 for instance in instances:
 	doc.startInstance(**instance)
@@ -236,6 +236,7 @@ sources = [
 	dict(path="master_ufo/RobotoDelta-XTRAmin.ufo", name="RobotoDelta-XTRAmin.ufo", location=dict(XTRA=210), styleName="XTRAmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-XTRAmax.ufo", name="RobotoDelta-XTRAmax.ufo", location=dict(XTRA=513), styleName="XTRAmax", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", name="RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", location=dict(XOPQ=26, YOPQ=26, XTRA=210), styleName="XOPQmin-YOPQmin-XTRAmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-XOPQmin-YOPQmin-XTRAmax.ufo", name="RobotoDelta-XOPQmin-YOPQmin-XTRAmax.ufo", location=dict(XOPQ=26, YOPQ=26, XTRA=513), styleName="XOPQmin-YOPQmin-XTRAmin", familyName=familyName, copyInfo=False),
 ]
 instances = []
 axes = [
