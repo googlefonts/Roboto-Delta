@@ -1,22 +1,12 @@
-# FIXME anchors in intermediate masters are not kept when extracting the UFO from the variable font instance...
-
+from mutatorMath.ufo.document import DesignSpaceDocumentWriter, DesignSpaceDocumentReader
 from designSpaceDocument import DesignSpaceDocument, SourceDescriptor, InstanceDescriptor, AxisDescriptor
 from fontmake.font_project import FontProject
 from fontTools.varLib import build
-from fontTools.varLib.mutator import instantiateVariableFont
+#from fontTools.varLib.mutator import instantiateVariableFont
 from defcon import Font
-from robofab.world import OpenFont#, NewFont
-from extractor import extractUFO
+import shutil
 import os
-
-# FIXME temp removal of mark and mkmk features with an empty class
-class NoMarkFeatureWriter(object):
-	def __init__(self, font):
-		pass
-		
-	def write(self, doMark, doMkmk):
-		return None
-		
+	
 def buildDesignSpace(sources, instances, axes):
 	
 	doc = DesignSpaceDocument()
@@ -67,36 +57,39 @@ def buildComposites(composites, fonts):
 		for glyphName in composites.keys():
 			font.newGlyph(glyphName)
 			composite = font[glyphName]
-			
+	
 			value = composites[glyphName]
 			items = value.split("+")
 			base = items[0]
 			items = items[1:]
-			
+	
+			component = composite.instantiateComponent()
+			component.baseGlyph = base
 			baseGlyph = font[base]
 			composite.width = baseGlyph.width
-			composite.appendComponent(base)
-			
+			composite.appendComponent(component)
+	
 			for item in items:
 				baseName, anchorName = item.split("@")
+				component = composite.instantiateComponent()
+				component.baseGlyph = baseName
 				anchor = _anchor = None
-				offset = (0, 0)
 				for a in baseGlyph.anchors:
-					if a.name == anchorName:
+					if a["name"] == anchorName:
 						anchor = a
 				for a in font[baseName].anchors:
-					if a.name == "_"+anchorName:
+					if a["name"] == "_"+anchorName:
 						_anchor = a
-				if anchor is not None and _anchor is not None:
-					x = anchor.x - _anchor.x
-					y = anchor.y - _anchor.y
-					offset = (x, y)
-				composite.appendComponent(baseName, offset)
+				if anchor and _anchor:
+					x = anchor["x"] - _anchor["x"]
+					y = anchor["y"] - _anchor["y"]
+					component.move((x, y))
+				composite.appendComponent(component)
 			composite.lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.5] # grey
 
 def setGlyphOrder(glyphOrder, fonts):
 	for font in fonts:
-		font.lib['public.glyphOrder'] = glyphOrder
+		font.glyphOrder = glyphOrder
 
 def saveMasters(fonts):
 	# save in master_ufo directory
@@ -166,26 +159,80 @@ composites = {
 	"ydieresis": "y+dieresis@top",
 }
 
-designSpacePath = "RobotoDelta.designspace"
-familyName = "RobotoDelta"
-default = "RobotoDelta-Regular.ufo"
-src_dir = "1-drawings"
+# clean up
+if os.path.exists("instances"):
+	shutil.rmtree("instances", ignore_errors=True)
+if os.path.exists("master_ufo"):
+	shutil.rmtree("master_ufo", ignore_errors=True)
+if os.path.exists("master_ttf"):
+	shutil.rmtree("master_ttf", ignore_errors=True)
+if os.path.exists("master_ttf_interpolatable"):
+	shutil.rmtree("master_ttf_interpolatable", ignore_errors=True)
 
+src_dir = "1-drawings"
+master_dir = "master_ufo"
+instance_dir = "instances"
+
+familyName = "RobotoDelta"
+tmpDesignSpace = "tmp.designspace"
+doc = DesignSpaceDocumentWriter(tmpDesignSpace)
+# sources
+doc.addSource(path="1-drawings/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XYOPQ=0, XTRA=0), styleName="Regular", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-XOPQmin-YOPQmin.ufo", name="RobotoDelta-XOPQmin-YOPQmin.ufo", location=dict(XYOPQ=-1), styleName="XOPQmin-YOPQmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-XOPQmax-YOPQmax.ufo", name="RobotoDelta-XOPQmax-YOPQmax.ufo", location=dict(XYOPQ=1), styleName="XOPQmax-YOPQmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-XTRAmin.ufo", name="RobotoDelta-XTRAmin.ufo", location=dict(XTRA=-1), styleName="XTRAmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-XTRAmax.ufo", name="RobotoDelta-XTRAmax.ufo", location=dict(XTRA=1), styleName="XTRAmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+# axes
+doc.addAxis(tag="XYOPQ", name="XYOPQ", minimum=-1, maximum=1, default=0, warpMap=None)
+doc.addAxis(tag="XTRA", name="XTRA", minimum=-1, maximum=1, default=0, warpMap=None)
+
+# instances
+instances = [
+	dict(fileName="instances/RobotoDelta-XOPQmin.ufo", location=dict(XYOPQ=(-1, 0)), styleName="XOPQmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-XOPQmax.ufo", location=dict(XYOPQ=(1, 0)), styleName="XOPQmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-YOPQmin.ufo", location=dict(XYOPQ=(0, -1)), styleName="YOPQmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-YOPQmax.ufo", location=dict(XYOPQ=(0, 1)), styleName="YOPQmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", location=dict(XYOPQ=-1, XTRA=-1), styleName="XOPQmin-YOPQmin-XTRAmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+#	dict(fileName="instances/RobotoDelta-XOPQmin-YOPQmin-XTRAmax.ufo", location=dict(XYOPQ=-1, XTRA=1), styleName="XOPQmin-YOPQmin-XTRAmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+]
+for instance in instances:
+	doc.startInstance(**instance)
+	doc.writeInfo()
+	doc.writeKerning()
+	doc.endInstance()
+
+doc.save()
+
+doc = DesignSpaceDocumentReader(tmpDesignSpace, ufoVersion=2, roundGeometry=False, verbose=False)
+doc.process(makeGlyphs=True, makeKerning=True, makeInfo=True)
+os.remove(tmpDesignSpace)
+
+for instance in instances:
+	fileName = os.path.basename(instance["fileName"])
+	source_path = os.path.join(src_dir, fileName)
+	instance_path = os.path.join(instance_dir, fileName)
+	master_path = os.path.join(master_dir, fileName)
+	source_font = Font(source_path)
+	instance_font = Font(instance_path)
+	for glyph in source_font:
+		instance_font.insertGlyph(glyph)
+	instance_font.save(master_path)
+###
+
+designSpace = "RobotoDelta.designspace"
 sources = [
 	dict(path="master_ufo/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XOPQ=94, YOPQ=77, XTRA=359, YTLC=514, YTUC=712, YTAS=750, YTDE=-203, YTAD=563, YTDD=0, UDLN=-49, wght=400, wdth=0, opsz=12, PWGT=0, PWDT=0, POPS=0, GRAD=0, YTRA=0,), styleName="Regular", familyName=familyName, copyInfo=True),	
-
 	dict(path="master_ufo/RobotoDelta-XOPQmin.ufo", name="RobotoDelta-XOPQmin.ufo", location=dict(XOPQ=26), styleName="XOPQmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-XOPQmax.ufo", name="RobotoDelta-XOPQmax.ufo", location=dict(XOPQ=171), styleName="XOPQmax", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-YOPQmin.ufo", name="RobotoDelta-YOPQmin.ufo", location=dict(YOPQ=26), styleName="YOPQmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-YOPQmax.ufo", name="RobotoDelta-YOPQmax.ufo", location=dict(YOPQ=132), styleName="YOPQmax", familyName=familyName, copyInfo=False),
-
 	dict(path="master_ufo/RobotoDelta-XOPQmin-YOPQmin.ufo", name="RobotoDelta-XOPQmin-YOPQmin.ufo", location=dict(XOPQ=26, YOPQ=26), styleName="XOPQmin-YOPQmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-XOPQmax-YOPQmax.ufo", name="RobotoDelta-XOPQmax-YOPQmax.ufo", location=dict(XOPQ=171, YOPQ=132), styleName="XOPQmax-YOPQmax", familyName=familyName, copyInfo=False),
-
 	dict(path="master_ufo/RobotoDelta-XTRAmin.ufo", name="RobotoDelta-XTRAmin.ufo", location=dict(XTRA=210), styleName="XTRAmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-XTRAmax.ufo", name="RobotoDelta-XTRAmax.ufo", location=dict(XTRA=513), styleName="XTRAmax", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", name="RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", location=dict(XOPQ=26, YOPQ=26, XTRA=210), styleName="XOPQmin-YOPQmin-XTRAmin", familyName=familyName, copyInfo=False),
 ]
-
+instances = []
 axes = [
 	dict(minimum=210, maximum=513, default=359, name="XTRA", tag="XTRA", labelNames={"en": "XTRA"}, map=[]),
 	dict(minimum=26, maximum=171, default=94, name="XOPQ", tag="XOPQ", labelNames={"en": "XOPQ"}, map=[]),
@@ -207,107 +254,47 @@ axes = [
 	dict(minimum=-1, maximum=1, default=0, name="YTRA", tag="YTRA", labelNames={"en": "YTRA"}, map=[]),
 ]
 
-instances = [
-]
-
 doc = buildDesignSpace(sources, instances, axes)
-doc.write(designSpacePath)
+doc.write(designSpace)
 
+default = "RobotoDelta-Regular.ufo"
 # load the default font
 default_path = os.path.join(src_dir, default)
-dflt = OpenFont(default_path)
+dflt = Font(default_path)
 
-masters = [source.name for source in doc.sources]
-# take the default out of the master list
-masters.remove(default)
+sources = [source.name for source in doc.sources]
+# take the default out of the source list
+sources.remove(default)
 
-# load the font objects
-fonts = {}
-for master in masters:
-	path = os.path.join(src_dir, master)
-	font = OpenFont(path)
-	fonts[master] = font
+fonts = []
+for fileName in sources:
+	source_path = os.path.join(src_dir, fileName)
+	master_path = os.path.join(master_dir, fileName)
+	if os.path.exists(master_path):
+		font = Font(master_path)
+	else:
+		font = Font(source_path)
+	fonts.append(font)
 	
-# interpolation
-XOPQminYOPQmin = fonts["RobotoDelta-XOPQmin-YOPQmin.ufo"]
-XOPQmaxYOPQmax = fonts["RobotoDelta-XOPQmax-YOPQmax.ufo"]
-XOPQmin = fonts["RobotoDelta-XOPQmin.ufo"]
-YOPQmin = fonts["RobotoDelta-YOPQmin.ufo"]
-XOPQmax = fonts["RobotoDelta-XOPQmax.ufo"]
-YOPQmax = fonts["RobotoDelta-YOPQmax.ufo"]
-
-for glyphName in XOPQminYOPQmin.keys():
-	if glyphName not in XOPQmin:
-		glyph = XOPQmin.newGlyph(glyphName)
-		glyph.interpolate((1, 0), dflt[glyphName], XOPQminYOPQmin[glyphName])
-	if glyphName not in YOPQmin:
-		glyph = YOPQmin.newGlyph(glyphName)
-		glyph.interpolate((0, 1), dflt[glyphName], XOPQminYOPQmin[glyphName])
-	if glyphName not in XOPQmax:
-		glyph = XOPQmax.newGlyph(glyphName)
-		glyph.interpolate((1, 0), dflt[glyphName], XOPQmaxYOPQmax[glyphName])
-	if glyphName not in YOPQmax:
-		glyph = YOPQmax.newGlyph(glyphName)
-		glyph.interpolate((0, 1), dflt[glyphName], XOPQmaxYOPQmax[glyphName])
-
-fonts = fonts.values()
-
 buildGlyphSet(dflt, fonts)
 allfonts = [dflt]+fonts
-
-saveMasters(allfonts) # save in master_ufo
-ufos = [font.path for font in allfonts]
-
-project = FontProject()
-project.run_from_ufos(
-	ufos, 
-	output=("ttf-interpolatable"), # FIXME this also build master_ttf and should not.
-	remove_overlaps=False, 
-	reverse_direction=False, 
-	use_production_names=False, 
-	mark_writer_class=NoMarkFeatureWriter) # FIXME use default mark_writer_class
-
-# tmp vf
-# extract instance and fill intermediate master
-varfont, _, _ = build(designSpacePath, finder)
-instance = instantiateVariableFont(varfont, dict(XOPQ=26, YOPQ=26, XTRA=210))
-instance.save("instance.ttf")
-tmp = Font()
-extractUFO("instance.ttf", tmp)
-tmp.save("instance.ufo", formatVersion=2)
-tmp = OpenFont("instance.ufo")
-font = OpenFont("1-drawings/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo")
-buildGlyphSet(tmp, [font])
-
-allfonts.append(font)
-
 buildComposites(composites, allfonts)
 setGlyphOrder(glyphOrder, allfonts)
 saveMasters(allfonts) # save in master_ufo
 
-# update design space
-intermediates = [
-	dict(path="master_ufo/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", name="RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", location=dict(XOPQ=26, YOPQ=26, XTRA=210), styleName="XOPQmax-YOPQmax-XTRAmin", familyName=familyName, copyInfo=False),
-	]
-sources += intermediates
+# build var font
 
-doc = buildDesignSpace(sources, instances, axes)
-doc.write(designSpacePath)
-
-for i in intermediates:
-	ufos.append(i["path"])
-
+ufos = [font.path for font in allfonts]
 project = FontProject()
 project.run_from_ufos(
 	ufos, 
 	output=("ttf-interpolatable"), # FIXME this also build master_ttf and should not.
 	remove_overlaps=False, 
 	reverse_direction=False, 
-	use_production_names=False, 
-	mark_writer_class=NoMarkFeatureWriter) # FIXME use default mark_writer_class
+	use_production_names=False)
 
 outfile = "../fonts/RobotoDelta-VF.ttf"
-varfont, _, _ = build(designSpacePath, finder)
+varfont, _, _ = build(designSpace, finder)
 varfont.save(outfile)
 
 print "DONE"
