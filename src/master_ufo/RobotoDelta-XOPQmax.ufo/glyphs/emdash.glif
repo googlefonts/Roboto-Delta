@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash" format="1">
-  <advance width="2054"/>
+  <advance width="1599"/>
   <unicode hex="2014"/>
   <outline>
     <contour>
       <point x="80" y="538" type="line"/>
-      <point x="1974" y="538" type="line"/>
-      <point x="1974" y="710" type="line"/>
+      <point x="1519" y="538" type="line"/>
+      <point x="1519" y="710" type="line"/>
       <point x="80" y="710" type="line"/>
     </contour>
   </outline>
@@ -14,7 +14,42 @@
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>backgroundsketch</key>
+        <key>Roboto-Regular</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>minus</string>
+              <key>transformation</key>
+              <array>
+                <real>1.6</real>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>-125</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>emdash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1599</integer>
+        </dict>
+        <key>background</key>
         <dict>
           <key>anchors</key>
           <array>
@@ -33,7 +68,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>307.5</real>
+                  <integer>80</integer>
                   <key>y</key>
                   <integer>538</integer>
                 </dict>
@@ -43,7 +78,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>307.5</real>
+                  <integer>80</integer>
                   <key>y</key>
                   <integer>710</integer>
                 </dict>
@@ -53,7 +88,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>1746.5</real>
+                  <integer>1519</integer>
                   <key>y</key>
                   <integer>710</integer>
                 </dict>
@@ -63,7 +98,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <real>1746.5</real>
+                  <integer>1519</integer>
                   <key>y</key>
                   <integer>538</integer>
                 </dict>
@@ -79,9 +114,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>2054</integer>
+          <integer>1599</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.25</real>
+      </array>
     </dict>
   </lib>
 </glyph>

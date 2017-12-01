@@ -1,4 +1,3 @@
-# TODO interpolate X and Y opaque in master_ufo, fill the 1-drawings...
 # FIXME anchors in intermediate masters are not kept when extracting the UFO from the variable font instance...
 
 from designSpaceDocument import DesignSpaceDocument, SourceDescriptor, InstanceDescriptor, AxisDescriptor
@@ -6,6 +5,7 @@ from fontmake.font_project import FontProject
 from fontTools.varLib import build
 from fontTools.varLib.mutator import instantiateVariableFont
 from defcon import Font
+from robofab.world import OpenFont#, NewFont
 from extractor import extractUFO
 import os
 
@@ -60,43 +60,43 @@ def buildGlyphSet(dflt, fonts):
 			if glyphName not in font and glyphName not in composites:
 				font.insertGlyph(glyph)
 				font[glyphName].lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.25] # dark grey
-		# set the glyph order
-		font.glyphOrder = dflt.glyphOrder
 
 def buildComposites(composites, fonts):
 	# build the composites
-	for glyphName in composites.keys():
-		font.newGlyph(glyphName)
-		composite = font[glyphName]
-		
-		value = composites[glyphName]
-		items = value.split("+")
-		base = items[0]
-		items = items[1:]
-		
-		component = composite.instantiateComponent()
-		component.baseGlyph = base
-		baseGlyph = font[base]
-		composite.width = baseGlyph.width
-		composite.appendComponent(component)
-		
-		for item in items:
-			baseName, anchorName = item.split("@")
-			component = composite.instantiateComponent()
-			component.baseGlyph = baseName
-			anchor = _anchor = None
-			for a in baseGlyph.anchors:
-				if a["name"] == anchorName:
-					anchor = a
-			for a in font[baseName].anchors:
-				if a["name"] == "_"+anchorName:
-					_anchor = a
-			if anchor and _anchor:
-				x = anchor["x"] - _anchor["x"]
-				y = anchor["y"] - _anchor["y"]
-				component.move((x, y))
-			composite.appendComponent(component)
-		composite.lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.5] # grey
+	for font in fonts:
+		for glyphName in composites.keys():
+			font.newGlyph(glyphName)
+			composite = font[glyphName]
+			
+			value = composites[glyphName]
+			items = value.split("+")
+			base = items[0]
+			items = items[1:]
+			
+			baseGlyph = font[base]
+			composite.width = baseGlyph.width
+			composite.appendComponent(base)
+			
+			for item in items:
+				baseName, anchorName = item.split("@")
+				anchor = _anchor = None
+				offset = (0, 0)
+				for a in baseGlyph.anchors:
+					if a.name == anchorName:
+						anchor = a
+				for a in font[baseName].anchors:
+					if a.name == "_"+anchorName:
+						_anchor = a
+				if anchor is not None and _anchor is not None:
+					x = anchor.x - _anchor.x
+					y = anchor.y - _anchor.y
+					offset = (x, y)
+				composite.appendComponent(baseName, offset)
+			composite.lib['com.typemytype.robofont.mark'] = [0, 0, 0, 0.5] # grey
+
+def setGlyphOrder(glyphOrder, fonts):
+	for font in fonts:
+		font.lib['public.glyphOrder'] = glyphOrder
 
 def saveMasters(fonts):
 	# save in master_ufo directory
@@ -105,6 +105,9 @@ def saveMasters(fonts):
 		font.save(path)
 
 finder = lambda s: s.replace('master_ufo', 'master_ttf_interpolatable').replace('.ufo', '.ttf')
+
+with open("RobotoDelta.enc") as enc:
+	glyphOrder = enc.read().splitlines()
 
 # dictionary of glyph constructions used to build the composite accents
 composites = {
@@ -210,20 +213,44 @@ instances = [
 doc = buildDesignSpace(sources, instances, axes)
 doc.write(designSpacePath)
 
+# load the default font
+default_path = os.path.join(src_dir, default)
+dflt = OpenFont(default_path)
+
 masters = [source.name for source in doc.sources]
 # take the default out of the master list
 masters.remove(default)
 
-# load the default font
-default_path = os.path.join(src_dir, default)
-dflt = Font(default_path)
-
 # load the font objects
-fonts = []
+fonts = {}
 for master in masters:
 	path = os.path.join(src_dir, master)
-	font = Font(path)
-	fonts.append(font)
+	font = OpenFont(path)
+	fonts[master] = font
+	
+# interpolation
+XOPQminYOPQmin = fonts["RobotoDelta-XOPQmin-YOPQmin.ufo"]
+XOPQmaxYOPQmax = fonts["RobotoDelta-XOPQmax-YOPQmax.ufo"]
+XOPQmin = fonts["RobotoDelta-XOPQmin.ufo"]
+YOPQmin = fonts["RobotoDelta-YOPQmin.ufo"]
+XOPQmax = fonts["RobotoDelta-XOPQmax.ufo"]
+YOPQmax = fonts["RobotoDelta-YOPQmax.ufo"]
+
+for glyphName in XOPQminYOPQmin.keys():
+	if glyphName not in XOPQmin:
+		glyph = XOPQmin.newGlyph(glyphName)
+		glyph.interpolate((1, 0), dflt[glyphName], XOPQminYOPQmin[glyphName])
+	if glyphName not in YOPQmin:
+		glyph = YOPQmin.newGlyph(glyphName)
+		glyph.interpolate((0, 1), dflt[glyphName], XOPQminYOPQmin[glyphName])
+	if glyphName not in XOPQmax:
+		glyph = XOPQmax.newGlyph(glyphName)
+		glyph.interpolate((1, 0), dflt[glyphName], XOPQmaxYOPQmax[glyphName])
+	if glyphName not in YOPQmax:
+		glyph = YOPQmax.newGlyph(glyphName)
+		glyph.interpolate((0, 1), dflt[glyphName], XOPQmaxYOPQmax[glyphName])
+
+fonts = fonts.values()
 
 buildGlyphSet(dflt, fonts)
 allfonts = [dflt]+fonts
@@ -244,17 +271,19 @@ project.run_from_ufos(
 # extract instance and fill intermediate master
 varfont, _, _ = build(designSpacePath, finder)
 instance = instantiateVariableFont(varfont, dict(XOPQ=26, YOPQ=26, XTRA=210))
-instance_path = "instance.ttf"
-instance.save(instance_path)
+instance.save("instance.ttf")
 tmp = Font()
-extractUFO(instance_path, tmp)
-font = Font("1-drawings/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo")
+extractUFO("instance.ttf", tmp)
+tmp.save("instance.ufo", formatVersion=2)
+tmp = OpenFont("instance.ufo")
+font = OpenFont("1-drawings/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo")
 buildGlyphSet(tmp, [font])
 
 allfonts.append(font)
 
 buildComposites(composites, allfonts)
-saveMasters(allfonts)
+setGlyphOrder(glyphOrder, allfonts)
+saveMasters(allfonts) # save in master_ufo
 
 # update design space
 intermediates = [
