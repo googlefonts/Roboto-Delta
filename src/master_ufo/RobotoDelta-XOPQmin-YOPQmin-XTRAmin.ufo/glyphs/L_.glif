@@ -5,21 +5,21 @@
   <outline>
     <contour>
       <point x="170" y="0" type="line"/>
-      <point x="170" y="1456" type="line"/>
-      <point x="224" y="1456" type="line"/>
-      <point x="224" y="50" type="line"/>
-      <point x="594" y="50" type="line"/>
       <point x="594" y="0" type="line"/>
+      <point x="594" y="50" type="line"/>
+      <point x="224" y="50" type="line"/>
+      <point x="224" y="1456" type="line"/>
+      <point x="170" y="1456" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.25</real>
       </array>
     </dict>
   </lib>
