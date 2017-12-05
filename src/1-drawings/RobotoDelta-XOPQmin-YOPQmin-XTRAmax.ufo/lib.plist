@@ -9,6 +9,13 @@
 		<real>0.0</real>
 		<real>0.7</real>
 	</array>
+	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<array>
+		<real>0.5</real>
+		<real>1.0</real>
+		<real>0.0</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.binarySource</key>
 	<string>/Users/alexandresaumierdemers/Documents/FontBureau/Fonts/Roboto-Delta/src/1-drawings/instance.ttf</string>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -35,6 +42,7 @@
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 		<string>Regular</string>
+		<string>background</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>qcurve</string>
@@ -53,7 +61,6 @@
 	</array>
 	<key>public.glyphOrder</key>
 	<array>
-		<string>space</string>
 	</array>
 </dict>
 </plist>
