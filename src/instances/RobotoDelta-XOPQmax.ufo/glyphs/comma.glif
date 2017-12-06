@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comma" format="1">
-  <advance width="580"/>
+  <advance width="706"/>
   <unicode hex="002C"/>
   <outline>
     <contour>
-      <point x="99" y="-218" type="qcurve"/>
-      <point x="204" y="-291" type="line"/>
-      <point x="287" y="-223"/>
-      <point x="379" y="-19"/>
-      <point x="379" y="71" type="qcurve" smooth="yes"/>
-      <point x="379" y="220" type="line"/>
-      <point x="198" y="220" type="line"/>
-      <point x="198" y="68" type="line" smooth="yes"/>
-      <point x="198" y="-13"/>
-      <point x="146" y="-152"/>
+      <point x="85" y="-218" type="qcurve"/>
+      <point x="264" y="-291" type="line"/>
+      <point x="378" y="-224"/>
+      <point x="516" y="-40"/>
+      <point x="516" y="70" type="qcurve" smooth="yes"/>
+      <point x="516" y="220" type="line"/>
+      <point x="210" y="220" type="line"/>
+      <point x="210" y="70" type="line" smooth="yes"/>
+      <point x="210" y="-20"/>
+      <point x="148" y="-154"/>
     </contour>
   </outline>
   <lib>
@@ -275,6 +275,13 @@
           <integer>580</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="h" format="1">
-  <advance width="1441"/>
+  <advance width="874"/>
   <unicode hex="0068"/>
   <outline>
     <contour>
       <point x="148" y="0" type="line"/>
-      <point x="334" y="0" type="line"/>
-      <point x="334" y="693" type="line"/>
-      <point x="379" y="764"/>
-      <point x="615" y="926"/>
-      <point x="786" y="926" type="qcurve" smooth="yes"/>
-      <point x="950" y="926"/>
-      <point x="1126" y="783"/>
-      <point x="1126" y="602" type="qcurve" smooth="yes"/>
-      <point x="1126" y="0" type="line"/>
-      <point x="1312" y="0" type="line"/>
-      <point x="1312" y="588" type="line" smooth="yes"/>
-      <point x="1312" y="837"/>
-      <point x="1054" y="1082"/>
-      <point x="846" y="1082" type="qcurve" smooth="yes"/>
-      <point x="689" y="1082"/>
-      <point x="428" y="971"/>
-      <point x="334" y="868" type="qcurve"/>
-      <point x="334" y="1536" type="line"/>
+      <point x="202" y="0" type="line"/>
+      <point x="202" y="844" type="line"/>
+      <point x="241" y="922"/>
+      <point x="376" y="1022"/>
+      <point x="465" y="1022" type="qcurve" smooth="yes"/>
+      <point x="569" y="1022"/>
+      <point x="682" y="910"/>
+      <point x="682" y="781" type="qcurve" smooth="yes"/>
+      <point x="682" y="0" type="line"/>
+      <point x="736" y="0" type="line"/>
+      <point x="736" y="779" type="line" smooth="yes"/>
+      <point x="736" y="937"/>
+      <point x="595" y="1072"/>
+      <point x="475" y="1072" type="qcurve" smooth="yes"/>
+      <point x="385" y="1072"/>
+      <point x="245" y="987"/>
+      <point x="202" y="922" type="qcurve"/>
+      <point x="202" y="1536" type="line"/>
       <point x="148" y="1536" type="line"/>
     </contour>
   </outline>
@@ -300,7 +300,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1128</integer>
+          <integer>1138</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -511,9 +511,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1128</integer>
+          <integer>1138</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

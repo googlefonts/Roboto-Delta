@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.pnum" format="1">
-  <advance width="678"/>
+  <advance width="792"/>
   <outline>
     <contour>
-      <point x="488" y="1464" type="line"/>
-      <point x="415" y="1464" type="line"/>
-      <point x="47" y="1258" type="line"/>
-      <point x="47" y="1066" type="line"/>
-      <point x="295" y="1209" type="line"/>
-      <point x="295" y="0" type="line"/>
-      <point x="488" y="0" type="line"/>
+      <point x="605" y="1464" type="line"/>
+      <point x="576" y="1464" type="line"/>
+      <point x="47" y="1264" type="line"/>
+      <point x="47" y="1097" type="line"/>
+      <point x="415" y="1240" type="line"/>
+      <point x="415" y="0" type="line"/>
+      <point x="605" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -211,6 +211,13 @@
           <integer>792</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

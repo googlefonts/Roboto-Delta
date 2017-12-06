@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>com.typemytype.robofont.Regular.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.25</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.Roboto-Regular.layerShow</key>
 	<false/>
 	<key>com.typemytype.robofont.Roboto-Regular.layerStrokeColor</key>
@@ -11,6 +18,14 @@
 		<real>0.0</real>
 		<real>0.7</real>
 	</array>
+	<key>com.typemytype.robofont.background.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.background.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
 	<array>
 		<real>0.0</real>
@@ -55,6 +70,20 @@
 			<key>y</key>
 			<integer>1432</integer>
 		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>0</integer>
+			<key>y</key>
+			<integer>674</integer>
+		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
@@ -63,6 +92,7 @@
 		<string>background</string>
 		<string>temp</string>
 		<string>Roboto-Regular</string>
+		<string>Regular</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>qcurve</string>
@@ -333,6 +363,8 @@
 		<real>0.25</real>
 		<real>0.7</real>
 	</array>
+	<key>com.typemytype.robofont.templateCharacterSet</key>
+	<string>RobotoDelta</string>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>space</string>
@@ -521,6 +553,7 @@
 		<string>fl</string>
 		<string>f_f_i</string>
 		<string>f_f_l</string>
+		<string>dotlessi</string>
 		<string>Agrave</string>
 		<string>Aacute</string>
 		<string>Acircumflex</string>
@@ -562,7 +595,6 @@
 		<string>iacute</string>
 		<string>icircumflex</string>
 		<string>idieresis</string>
-		<string>dotlessi</string>
 		<string>ntilde</string>
 		<string>ograve</string>
 		<string>oacute</string>

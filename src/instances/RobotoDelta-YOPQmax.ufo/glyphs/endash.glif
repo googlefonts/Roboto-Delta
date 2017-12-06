@@ -4,10 +4,10 @@
   <unicode hex="2013"/>
   <outline>
     <contour>
-      <point x="124" y="538" type="line"/>
-      <point x="1220" y="538" type="line"/>
-      <point x="1220" y="710" type="line"/>
-      <point x="124" y="710" type="line"/>
+      <point x="124" y="500" type="line"/>
+      <point x="1220" y="500" type="line"/>
+      <point x="1220" y="760" type="line"/>
+      <point x="124" y="760" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -117,6 +117,13 @@
           <integer>1344</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

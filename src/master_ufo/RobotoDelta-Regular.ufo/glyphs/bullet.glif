@@ -4,20 +4,20 @@
   <unicode hex="2022"/>
   <outline>
     <contour>
-      <point x="164" y="732" type="line" smooth="yes"/>
-      <point x="164" y="647"/>
+      <point x="164" y="734" type="line" smooth="yes"/>
+      <point x="164" y="648"/>
       <point x="284" y="536"/>
       <point x="378" y="536" type="qcurve" smooth="yes"/>
       <point x="472" y="536"/>
-      <point x="592" y="647"/>
-      <point x="592" y="732" type="qcurve" smooth="yes"/>
-      <point x="592" y="773" type="line" smooth="yes"/>
-      <point x="592" y="858"/>
-      <point x="472" y="971"/>
-      <point x="377" y="971" type="qcurve" smooth="yes"/>
-      <point x="284" y="971"/>
-      <point x="164" y="859"/>
-      <point x="164" y="773" type="qcurve" smooth="yes"/>
+      <point x="592" y="648"/>
+      <point x="592" y="734" type="qcurve" smooth="yes"/>
+      <point x="592" y="774" type="line" smooth="yes"/>
+      <point x="592" y="860"/>
+      <point x="472" y="972"/>
+      <point x="378" y="972" type="qcurve" smooth="yes"/>
+      <point x="284" y="972"/>
+      <point x="164" y="860"/>
+      <point x="164" y="774" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -327,6 +327,13 @@
           <integer>756</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

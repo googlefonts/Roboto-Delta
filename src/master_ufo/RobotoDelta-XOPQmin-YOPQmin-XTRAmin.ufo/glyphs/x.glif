@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="x" format="1">
-  <advance width="711"/>
+  <advance width="978"/>
   <unicode hex="0078"/>
   <outline>
     <contour>
-      <point x="24" y="0" type="line"/>
-      <point x="212" y="0" type="line"/>
-      <point x="414" y="471" type="line"/>
-      <point x="419" y="471" type="line"/>
-      <point x="673" y="1052" type="line"/>
-      <point x="486" y="1052" type="line"/>
-      <point x="295" y="590" type="line"/>
-      <point x="289" y="590" type="line"/>
+      <point x="20" y="0" type="line"/>
+      <point x="230" y="0" type="line"/>
+      <point x="547" y="484" type="line"/>
+      <point x="558" y="484" type="line"/>
+      <point x="938" y="1052" type="line"/>
+      <point x="728" y="1052" type="line"/>
+      <point x="431" y="582" type="line"/>
+      <point x="420" y="582" type="line"/>
     </contour>
     <contour>
-      <point x="37" y="1052" type="line"/>
-      <point x="291" y="471" type="line"/>
-      <point x="299" y="471" type="line"/>
-      <point x="497" y="0" type="line"/>
-      <point x="687" y="0" type="line"/>
-      <point x="418" y="610" type="line"/>
-      <point x="408" y="610" type="line"/>
-      <point x="226" y="1052" type="line"/>
+      <point x="40" y="1052" type="line"/>
+      <point x="420" y="484" type="line"/>
+      <point x="428" y="484" type="line"/>
+      <point x="745" y="0" type="line"/>
+      <point x="958" y="0" type="line"/>
+      <point x="558" y="582" type="line"/>
+      <point x="550" y="582" type="line"/>
+      <point x="253" y="1052" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -229,7 +229,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>977</integer>
+          <integer>978</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -421,9 +421,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>977</integer>
+          <integer>978</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

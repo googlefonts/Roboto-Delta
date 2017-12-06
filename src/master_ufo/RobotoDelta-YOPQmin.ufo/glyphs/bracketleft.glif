@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketleft" format="1">
-  <advance width="651"/>
+  <advance width="650"/>
   <unicode hex="005B"/>
   <outline>
     <contour>
-      <point x="147" y="-312" type="line"/>
-      <point x="623" y="-312" type="line"/>
-      <point x="623" y="-152" type="line"/>
-      <point x="332" y="-152" type="line"/>
-      <point x="332" y="1296" type="line"/>
-      <point x="623" y="1296" type="line"/>
-      <point x="623" y="1456" type="line"/>
-      <point x="147" y="1456" type="line"/>
+      <point x="144" y="-310" type="line"/>
+      <point x="620" y="-310" type="line"/>
+      <point x="620" y="-260" type="line"/>
+      <point x="329" y="-260" type="line"/>
+      <point x="329" y="1406" type="line"/>
+      <point x="620" y="1406" type="line"/>
+      <point x="620" y="1456" type="line"/>
+      <point x="144" y="1456" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -123,7 +123,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>651</integer>
+          <integer>650</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -230,9 +230,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>651</integer>
+          <integer>650</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

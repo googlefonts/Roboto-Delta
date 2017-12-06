@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="divisionslash" format="1">
-  <advance width="532"/>
+  <advance width="734"/>
   <unicode hex="2215"/>
   <outline>
     <contour>
       <point x="-50" y="-125" type="line"/>
-      <point x="122" y="-125" type="line"/>
-      <point x="532" y="1456" type="line"/>
-      <point x="360" y="1456" type="line"/>
+      <point x="126" y="-125" type="line"/>
+      <point x="734" y="1456" type="line"/>
+      <point x="558" y="1456" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -43,7 +43,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>360</integer>
+                  <integer>558</integer>
                   <key>y</key>
                   <integer>1456</integer>
                 </dict>
@@ -53,7 +53,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>532</integer>
+                  <integer>734</integer>
                   <key>y</key>
                   <integer>1456</integer>
                 </dict>
@@ -63,7 +63,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>122</integer>
+                  <integer>127</integer>
                   <key>y</key>
                   <integer>-125</integer>
                 </dict>
@@ -79,9 +79,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>532</integer>
+          <integer>734</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.25</real>
+      </array>
     </dict>
   </lib>
 </glyph>

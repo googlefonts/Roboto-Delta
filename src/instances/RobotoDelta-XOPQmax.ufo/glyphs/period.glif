@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="period" format="1">
-  <advance width="580"/>
+  <advance width="762"/>
   <unicode hex="002E"/>
   <outline>
     <contour>
-      <point x="161" y="101" type="qcurve" smooth="yes"/>
-      <point x="161" y="50"/>
-      <point x="227" y="-22"/>
-      <point x="290" y="-22" type="qcurve" smooth="yes"/>
-      <point x="353" y="-22"/>
-      <point x="419" y="50"/>
-      <point x="419" y="101" type="qcurve" smooth="yes"/>
-      <point x="419" y="153"/>
-      <point x="353" y="225"/>
-      <point x="290" y="225" type="qcurve" smooth="yes"/>
-      <point x="227" y="225"/>
-      <point x="161" y="153"/>
+      <point x="160" y="103" type="qcurve" smooth="yes"/>
+      <point x="160" y="51"/>
+      <point x="274" y="-22"/>
+      <point x="381" y="-22" type="qcurve" smooth="yes"/>
+      <point x="488" y="-22"/>
+      <point x="602" y="51"/>
+      <point x="602" y="103" type="qcurve" smooth="yes"/>
+      <point x="602" y="155"/>
+      <point x="488" y="228"/>
+      <point x="381" y="228" type="qcurve" smooth="yes"/>
+      <point x="274" y="228"/>
+      <point x="160" y="155"/>
     </contour>
   </outline>
   <lib>
@@ -285,6 +285,13 @@
           <integer>580</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

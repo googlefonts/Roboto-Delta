@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="equal" format="1">
-  <advance width="1489"/>
+  <advance width="1170"/>
   <unicode hex="003D"/>
   <outline>
     <contour>
-      <point x="153" y="787" type="line"/>
-      <point x="1336" y="787" type="line"/>
-      <point x="1336" y="955" type="line"/>
-      <point x="153" y="955" type="line"/>
+      <point x="213" y="454" type="line"/>
+      <point x="957" y="454" type="line"/>
+      <point x="957" y="504" type="line"/>
+      <point x="213" y="504" type="line"/>
     </contour>
     <contour>
-      <point x="153" y="379" type="line"/>
-      <point x="1336" y="379" type="line"/>
-      <point x="1336" y="547" type="line"/>
-      <point x="153" y="547" type="line"/>
+      <point x="213" y="844" type="line"/>
+      <point x="957" y="844" type="line"/>
+      <point x="957" y="894" type="line"/>
+      <point x="213" y="894" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -245,6 +245,13 @@
           <integer>1170</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

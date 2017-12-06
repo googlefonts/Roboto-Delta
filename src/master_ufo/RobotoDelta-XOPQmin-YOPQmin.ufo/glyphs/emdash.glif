@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash" format="1">
-  <advance width="1599"/>
+  <advance width="1480"/>
   <unicode hex="2014"/>
   <outline>
     <contour>
-      <point x="80" y="538" type="line"/>
-      <point x="1519" y="538" type="line"/>
-      <point x="1519" y="710" type="line"/>
-      <point x="80" y="710" type="line"/>
+      <point x="80" y="616" type="line"/>
+      <point x="1400" y="616" type="line"/>
+      <point x="1400" y="666" type="line"/>
+      <point x="80" y="666" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -47,7 +47,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1599</integer>
+          <integer>1480</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -70,7 +70,27 @@
                   <key>x</key>
                   <integer>80</integer>
                   <key>y</key>
-                  <integer>538</integer>
+                  <integer>544</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1520</integer>
+                  <key>y</key>
+                  <integer>544</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1520</integer>
+                  <key>y</key>
+                  <integer>716</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -80,27 +100,7 @@
                   <key>x</key>
                   <integer>80</integer>
                   <key>y</key>
-                  <integer>710</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1519</integer>
-                  <key>y</key>
-                  <integer>710</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1519</integer>
-                  <key>y</key>
-                  <integer>538</integer>
+                  <integer>716</integer>
                 </dict>
               </array>
             </dict>
@@ -114,15 +114,15 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1599</integer>
+          <integer>1480</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.25</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

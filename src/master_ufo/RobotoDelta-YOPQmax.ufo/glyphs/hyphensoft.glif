@@ -4,10 +4,10 @@
   <unicode hex="00AD"/>
   <outline>
     <contour>
-      <point x="38" y="543" type="line"/>
-      <point x="606" y="543" type="line"/>
-      <point x="606" y="715" type="line"/>
-      <point x="38" y="715" type="line"/>
+      <point x="40" y="500" type="line"/>
+      <point x="604" y="500" type="line"/>
+      <point x="604" y="760" type="line"/>
+      <point x="40" y="760" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -100,9 +100,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>38</integer>
+                  <integer>40</integer>
                   <key>y</key>
-                  <integer>543</integer>
+                  <integer>544</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -110,9 +110,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>38</integer>
+                  <integer>604</integer>
                   <key>y</key>
-                  <integer>715</integer>
+                  <integer>544</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -120,9 +120,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>606</integer>
+                  <integer>604</integer>
                   <key>y</key>
-                  <integer>715</integer>
+                  <integer>716</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -130,9 +130,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>606</integer>
+                  <integer>40</integer>
                   <key>y</key>
-                  <integer>543</integer>
+                  <integer>716</integer>
                 </dict>
               </array>
             </dict>
@@ -149,6 +149,13 @@
           <integer>644</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

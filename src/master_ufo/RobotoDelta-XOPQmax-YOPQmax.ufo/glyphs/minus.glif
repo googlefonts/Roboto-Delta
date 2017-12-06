@@ -4,14 +4,31 @@
   <unicode hex="2212"/>
   <outline>
     <contour>
-      <point x="128" y="588" type="line"/>
-      <point x="1042" y="588" type="line"/>
-      <point x="1042" y="760" type="line"/>
-      <point x="128" y="760" type="line"/>
+      <point x="110" y="534" type="line"/>
+      <point x="1060" y="534" type="line"/>
+      <point x="1060" y="814" type="line"/>
+      <point x="110" y="814" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <real>1028.9242038216562</real>
+          <key>y</key>
+          <real>379.93407643312116</real>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>Roboto-Regular</key>
@@ -100,7 +117,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>128</integer>
+                  <integer>130</integer>
                   <key>y</key>
                   <integer>588</integer>
                 </dict>
@@ -110,29 +127,29 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>128</integer>
-                  <key>y</key>
-                  <integer>760</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1042</integer>
-                  <key>y</key>
-                  <integer>760</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1042</integer>
+                  <integer>1040</integer>
                   <key>y</key>
                   <integer>588</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1040</integer>
+                  <key>y</key>
+                  <integer>760</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>130</integer>
+                  <key>y</key>
+                  <integer>760</integer>
                 </dict>
               </array>
             </dict>
@@ -151,10 +168,10 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.25</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bullet" format="1">
-  <advance width="868"/>
+  <advance width="528"/>
   <unicode hex="2022"/>
   <outline>
     <contour>
-      <point x="164" y="732" type="line" smooth="yes"/>
-      <point x="164" y="638"/>
-      <point x="327" y="536"/>
-      <point x="434" y="536" type="qcurve" smooth="yes"/>
-      <point x="540" y="536"/>
-      <point x="704" y="638"/>
-      <point x="704" y="732" type="qcurve" smooth="yes"/>
-      <point x="704" y="773" type="line" smooth="yes"/>
-      <point x="704" y="867"/>
-      <point x="540" y="971"/>
-      <point x="432" y="971" type="qcurve" smooth="yes"/>
-      <point x="327" y="971"/>
-      <point x="164" y="868"/>
-      <point x="164" y="773" type="qcurve" smooth="yes"/>
+      <point x="164" y="742" type="line" smooth="yes"/>
+      <point x="164" y="690"/>
+      <point x="220" y="624"/>
+      <point x="264" y="624" type="qcurve" smooth="yes"/>
+      <point x="308" y="624"/>
+      <point x="364" y="690"/>
+      <point x="364" y="742" type="qcurve" smooth="yes"/>
+      <point x="364" y="766" type="line" smooth="yes"/>
+      <point x="364" y="818"/>
+      <point x="308" y="884"/>
+      <point x="264" y="884" type="qcurve" smooth="yes"/>
+      <point x="220" y="884"/>
+      <point x="164" y="818"/>
+      <point x="164" y="766" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -327,6 +327,13 @@
           <integer>756</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

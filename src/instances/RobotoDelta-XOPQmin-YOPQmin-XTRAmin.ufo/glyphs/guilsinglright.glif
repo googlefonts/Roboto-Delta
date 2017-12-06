@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guilsinglright" format="1">
-  <advance width="537"/>
+  <advance width="514"/>
   <unicode hex="203A"/>
   <outline>
     <contour>
-      <point x="60" y="999" type="line"/>
-      <point x="256" y="601" type="line"/>
-      <point x="60" y="203" type="line"/>
-      <point x="222" y="203" type="line"/>
-      <point x="459" y="607" type="line"/>
-      <point x="459" y="594" type="line"/>
-      <point x="222" y="999" type="line"/>
+      <point x="126" y="204" type="line"/>
+      <point x="442" y="592" type="line"/>
+      <point x="442" y="612" type="line"/>
+      <point x="126" y="1000" type="line"/>
+      <point x="66" y="1000" type="line"/>
+      <point x="378" y="602" type="line"/>
+      <point x="66" y="204" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -247,6 +247,13 @@
           <integer>655</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

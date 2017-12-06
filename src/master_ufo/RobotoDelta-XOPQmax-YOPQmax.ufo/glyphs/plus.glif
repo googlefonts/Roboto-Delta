@@ -4,16 +4,16 @@
   <unicode hex="002B"/>
   <outline>
     <contour>
-      <point x="86" y="591" type="line"/>
-      <point x="1084" y="591" type="line"/>
-      <point x="1084" y="757" type="line"/>
-      <point x="86" y="757" type="line"/>
+      <point x="70" y="534" type="line"/>
+      <point x="1100" y="534" type="line"/>
+      <point x="1100" y="814" type="line"/>
+      <point x="70" y="814" type="line"/>
     </contour>
     <contour>
-      <point x="493" y="146" type="line"/>
-      <point x="677" y="146" type="line"/>
-      <point x="677" y="1206" type="line"/>
-      <point x="493" y="1206" type="line"/>
+      <point x="415" y="148" type="line"/>
+      <point x="755" y="148" type="line"/>
+      <point x="755" y="1200" type="line"/>
+      <point x="415" y="1200" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -151,9 +151,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>86</integer>
+                  <integer>90</integer>
                   <key>y</key>
-                  <integer>591</integer>
+                  <integer>592</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -161,9 +161,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>86</integer>
+                  <integer>1080</integer>
                   <key>y</key>
-                  <integer>757</integer>
+                  <integer>592</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -171,9 +171,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>1084</integer>
+                  <integer>1080</integer>
                   <key>y</key>
-                  <integer>757</integer>
+                  <integer>756</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -181,9 +181,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>1084</integer>
+                  <integer>90</integer>
                   <key>y</key>
-                  <integer>591</integer>
+                  <integer>756</integer>
                 </dict>
               </array>
             </dict>
@@ -196,9 +196,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>493</integer>
+                  <integer>495</integer>
                   <key>y</key>
-                  <integer>146</integer>
+                  <integer>148</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -206,9 +206,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>493</integer>
+                  <integer>675</integer>
                   <key>y</key>
-                  <integer>1206</integer>
+                  <integer>148</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -216,9 +216,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>677</integer>
+                  <integer>675</integer>
                   <key>y</key>
-                  <integer>1206</integer>
+                  <integer>1200</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -226,9 +226,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>677</integer>
+                  <integer>495</integer>
                   <key>y</key>
-                  <integer>146</integer>
+                  <integer>1200</integer>
                 </dict>
               </array>
             </dict>
@@ -247,10 +247,10 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.25</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

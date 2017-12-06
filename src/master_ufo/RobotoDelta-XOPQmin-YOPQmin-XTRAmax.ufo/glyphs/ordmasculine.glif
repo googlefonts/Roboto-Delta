@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ordmasculine" format="1">
-  <advance width="1275"/>
+  <advance width="977"/>
   <unicode hex="00BA"/>
   <outline>
     <contour>
       <point x="78" y="1020" type="line" smooth="yes"/>
-      <point x="78" y="835"/>
-      <point x="381" y="603"/>
-      <point x="637" y="603" type="qcurve" smooth="yes"/>
-      <point x="887" y="603"/>
-      <point x="1197" y="829"/>
-      <point x="1197" y="993" type="qcurve" smooth="yes"/>
-      <point x="1197" y="1067" type="line" smooth="yes"/>
-      <point x="1197" y="1246"/>
-      <point x="895" y="1473"/>
-      <point x="634" y="1473" type="qcurve" smooth="yes"/>
-      <point x="386" y="1473"/>
-      <point x="78" y="1246"/>
+      <point x="78" y="845"/>
+      <point x="292" y="603"/>
+      <point x="488" y="603" type="qcurve" smooth="yes"/>
+      <point x="680" y="603"/>
+      <point x="899" y="839"/>
+      <point x="899" y="993" type="qcurve" smooth="yes"/>
+      <point x="899" y="1067" type="line" smooth="yes"/>
+      <point x="899" y="1236"/>
+      <point x="685" y="1473"/>
+      <point x="486" y="1473" type="qcurve" smooth="yes"/>
+      <point x="296" y="1473"/>
+      <point x="78" y="1236"/>
       <point x="78" y="1085" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="252" y="1092" type="line" smooth="yes"/>
-      <point x="252" y="1162"/>
-      <point x="420" y="1326"/>
-      <point x="635" y="1326" type="qcurve" smooth="yes"/>
-      <point x="854" y="1326"/>
-      <point x="1023" y="1158"/>
-      <point x="1023" y="1074" type="qcurve" smooth="yes"/>
-      <point x="1023" y="1002" type="line" smooth="yes"/>
-      <point x="1023" y="927"/>
-      <point x="854" y="750"/>
-      <point x="638" y="750" type="qcurve" smooth="yes"/>
-      <point x="419" y="750"/>
-      <point x="252" y="934"/>
-      <point x="252" y="1029" type="qcurve" smooth="yes"/>
+      <point x="258" y="1092" type="line" smooth="yes"/>
+      <point x="258" y="1173"/>
+      <point x="364" y="1326"/>
+      <point x="487" y="1326" type="qcurve" smooth="yes"/>
+      <point x="612" y="1326"/>
+      <point x="719" y="1169"/>
+      <point x="719" y="1074" type="qcurve" smooth="yes"/>
+      <point x="719" y="1002" type="line" smooth="yes"/>
+      <point x="719" y="915"/>
+      <point x="612" y="750"/>
+      <point x="489" y="750" type="qcurve" smooth="yes"/>
+      <point x="364" y="750"/>
+      <point x="258" y="922"/>
+      <point x="258" y="1029" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -601,6 +601,13 @@
           <integer>977</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

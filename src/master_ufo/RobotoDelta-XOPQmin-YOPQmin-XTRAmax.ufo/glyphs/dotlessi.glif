@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotlessi" format="1">
-  <advance width="496"/>
+  <advance width="500"/>
   <unicode hex="0131"/>
   <outline>
     <contour>
       <point x="157" y="0" type="line"/>
-      <point x="339" y="0" type="line"/>
-      <point x="339" y="1052" type="line"/>
+      <point x="343" y="0" type="line"/>
+      <point x="343" y="1052" type="line"/>
       <point x="157" y="1052" type="line"/>
     </contour>
     <contour>
-      <point x="249" y="1052" type="move" name="top"/>
+      <point x="250" y="1052" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -114,7 +114,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>499</integer>
+          <integer>500</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -189,9 +189,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>499</integer>
+          <integer>500</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

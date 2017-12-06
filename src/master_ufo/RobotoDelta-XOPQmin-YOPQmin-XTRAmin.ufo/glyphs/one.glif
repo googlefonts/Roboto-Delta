@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one" format="1">
-  <advance width="1039"/>
+  <advance width="1156"/>
   <unicode hex="0031"/>
   <outline>
     <contour>
-      <point x="420" y="0" type="line"/>
-      <point x="612" y="0" type="line"/>
-      <point x="612" y="1476" type="line"/>
-      <point x="560" y="1476" type="line"/>
-      <point x="171" y="1327" type="line"/>
-      <point x="171" y="1141" type="line"/>
-      <point x="420" y="1247" type="line"/>
+      <point x="539" y="0" type="line"/>
+      <point x="729" y="0" type="line"/>
+      <point x="729" y="1476" type="line"/>
+      <point x="700" y="1476" type="line"/>
+      <point x="171" y="1276" type="line"/>
+      <point x="171" y="1089" type="line"/>
+      <point x="539" y="1245" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -212,6 +212,13 @@
           <integer>1156</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

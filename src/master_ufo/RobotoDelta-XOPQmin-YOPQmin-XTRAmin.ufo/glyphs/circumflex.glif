@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflex" format="1">
-  <advance width="872"/>
+  <advance width="1024"/>
   <unicode hex="02C6"/>
   <outline>
     <contour>
-      <point x="510" y="1456" type="line"/>
-      <point x="361" y="1456" type="line"/>
-      <point x="190" y="1147" type="line"/>
-      <point x="190" y="1153" type="line"/>
-      <point x="354" y="1153" type="line"/>
-      <point x="435" y="1283" type="line"/>
-      <point x="516" y="1153" type="line"/>
-      <point x="682" y="1153" type="line"/>
-      <point x="682" y="1146" type="line"/>
+      <point x="188" y="1156" type="line"/>
+      <point x="352" y="1156" type="line"/>
+      <point x="512" y="1322" type="line"/>
+      <point x="672" y="1156" type="line"/>
+      <point x="836" y="1156" type="line"/>
+      <point x="588" y="1456" type="line"/>
+      <point x="436" y="1456" type="line"/>
     </contour>
     <contour>
-      <point x="436" y="1052" type="move" name="_top"/>
+      <point x="512.0" y="1052.0" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
@@ -281,6 +279,13 @@
           <integer>1024</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

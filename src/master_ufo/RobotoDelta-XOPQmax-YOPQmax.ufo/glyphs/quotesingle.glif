@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotesingle" format="1">
-  <advance width="401"/>
+  <advance width="520"/>
   <unicode hex="0027"/>
   <outline>
     <contour>
-      <point x="124" y="963" type="line"/>
-      <point x="275" y="963" type="line"/>
-      <point x="301" y="1320" type="line"/>
-      <point x="301" y="1456" type="line"/>
+      <point x="140" y="722" type="line"/>
+      <point x="380" y="722" type="line"/>
+      <point x="420" y="1252" type="line"/>
+      <point x="420" y="1456" type="line"/>
       <point x="100" y="1456" type="line"/>
-      <point x="100" y="1311" type="line"/>
+      <point x="100" y="1252" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -35,7 +35,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>254</integer>
+                  <integer>314</integer>
                   <key>y</key>
                   <integer>1536</integer>
                 </dict>
@@ -45,7 +45,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>105</integer>
+                  <integer>165</integer>
                   <key>y</key>
                   <integer>1536</integer>
                 </dict>
@@ -55,7 +55,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>105</integer>
+                  <integer>165</integer>
                   <key>y</key>
                   <integer>1409</integer>
                 </dict>
@@ -65,7 +65,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>104</integer>
+                  <integer>164</integer>
                   <key>y</key>
                   <integer>1058</integer>
                 </dict>
@@ -75,7 +75,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>233</integer>
+                  <integer>293</integer>
                   <key>y</key>
                   <integer>1058</integer>
                 </dict>
@@ -85,7 +85,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>254</integer>
+                  <integer>314</integer>
                   <key>y</key>
                   <integer>1426</integer>
                 </dict>
@@ -101,7 +101,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>401</integer>
+          <integer>520</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -122,9 +122,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>124</integer>
+                  <integer>185</integer>
                   <key>y</key>
-                  <integer>963</integer>
+                  <integer>966</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -132,9 +132,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>100</integer>
+                  <integer>335</integer>
                   <key>y</key>
-                  <integer>1311</integer>
+                  <integer>966</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -142,27 +142,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>100</integer>
-                  <key>y</key>
-                  <integer>1456</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>301</integer>
-                  <key>y</key>
-                  <integer>1456</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>301</integer>
+                  <integer>360</integer>
                   <key>y</key>
                   <integer>1320</integer>
                 </dict>
@@ -172,9 +152,29 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>275</integer>
+                  <integer>360</integer>
                   <key>y</key>
-                  <integer>963</integer>
+                  <integer>1456</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>160</integer>
+                  <key>y</key>
+                  <integer>1456</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>160</integer>
+                  <key>y</key>
+                  <integer>1320</integer>
                 </dict>
               </array>
             </dict>
@@ -188,15 +188,15 @@
           <array>
           </array>
           <key>width</key>
-          <integer>401</integer>
+          <integer>520</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.25</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

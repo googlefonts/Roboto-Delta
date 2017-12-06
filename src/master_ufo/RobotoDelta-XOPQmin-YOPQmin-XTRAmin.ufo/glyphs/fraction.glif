@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fraction" format="1">
-  <advance width="677"/>
+  <advance width="1031"/>
   <unicode hex="2044"/>
   <outline>
     <contour>
-      <point x="30" y="202" type="line"/>
-      <point x="155" y="79" type="line"/>
-      <point x="647" y="1247" type="line"/>
-      <point x="522" y="1370" type="line"/>
+      <point x="30" y="-2" type="line"/>
+      <point x="72" y="-30" type="line"/>
+      <point x="1001" y="1458" type="line"/>
+      <point x="959" y="1486" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -33,7 +33,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>875</integer>
+                  <integer>965</integer>
                   <key>y</key>
                   <integer>1249</integer>
                 </dict>
@@ -43,7 +43,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>771</integer>
+                  <integer>861</integer>
                   <key>y</key>
                   <integer>1315</integer>
                 </dict>
@@ -53,7 +53,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>60</integer>
+                  <integer>150</integer>
                   <key>y</key>
                   <integer>177</integer>
                 </dict>
@@ -63,7 +63,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>164</integer>
+                  <integer>254</integer>
                   <key>y</key>
                   <integer>111</integer>
                 </dict>
@@ -79,7 +79,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>905</integer>
+          <integer>1085</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -100,9 +100,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>30</integer>
+                  <integer>120</integer>
                   <key>y</key>
-                  <integer>200</integer>
+                  <integer>204</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -110,9 +110,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>741</integer>
+                  <integer>254</integer>
                   <key>y</key>
-                  <integer>1338</integer>
+                  <integer>116</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -120,9 +120,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>875</integer>
+                  <integer>965</integer>
                   <key>y</key>
-                  <integer>1249</integer>
+                  <integer>1252</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -130,9 +130,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>164</integer>
+                  <integer>831</integer>
                   <key>y</key>
-                  <integer>111</integer>
+                  <integer>1340</integer>
                 </dict>
               </array>
             </dict>
@@ -146,9 +146,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>905</integer>
+          <integer>1085</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>
