@@ -22,18 +22,18 @@
     <contour>
       <point x="309" y="729" type="qcurve" smooth="yes"/>
       <point x="309" y="827" type="line" smooth="yes"/>
-      <point x="309" y="1101"/>
-      <point x="540" y="1413"/>
-      <point x="730" y="1413" type="qcurve" smooth="yes"/>
-      <point x="920" y="1413"/>
-      <point x="1151" y="1101"/>
+      <point x="309" y="1106.6109215017066"/>
+      <point x="540.0" y="1425.0"/>
+      <point x="730" y="1425" type="qcurve" smooth="yes"/>
+      <point x="920.0" y="1425.0"/>
+      <point x="1151" y="1106.6109215017066"/>
       <point x="1151" y="827" type="qcurve" smooth="yes"/>
       <point x="1151" y="729" type="line" smooth="yes"/>
-      <point x="1151" y="455"/>
-      <point x="920" y="143"/>
-      <point x="730" y="143" type="qcurve" smooth="yes"/>
-      <point x="540" y="143"/>
-      <point x="309" y="455"/>
+      <point x="1151" y="449.85665529010237"/>
+      <point x="920.0" y="132.0"/>
+      <point x="730" y="132" type="qcurve" smooth="yes"/>
+      <point x="540.0" y="132.0"/>
+      <point x="309" y="449.85665529010237"/>
     </contour>
     <contour>
       <point x="730" y="1530" type="move" name="top"/>
@@ -51,9 +51,9 @@
               <key>name</key>
               <string>top</string>
               <key>x</key>
-              <integer>730</integer>
+              <real>730.0</real>
               <key>y</key>
-              <integer>1432</integer>
+              <real>1432.0</real>
             </dict>
           </array>
           <key>components</key>
@@ -622,7 +622,7 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>

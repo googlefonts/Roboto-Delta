@@ -18,6 +18,9 @@
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
+		<string>backgroundsketch</string>
+		<string>BackgroundSketch</string>
+		<string>background</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>qcurve</string>
@@ -28,7 +31,6 @@
 		<dict>
 			<key>ascending</key>
 			<array>
-				<string>space</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -36,7 +38,6 @@
 	</array>
 	<key>public.glyphOrder</key>
 	<array>
-		<string>space</string>
 	</array>
 </dict>
 </plist>
