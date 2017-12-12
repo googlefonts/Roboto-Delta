@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ntilde" format="1">
-  <advance width="1137"/>
-  <unicode hex="00F1"/>
+  <advance width="1138"/>
   <outline>
     <component base="n"/>
-    <component base="tilde" xOffset="85"/>
+    <component base="tilde" xOffset="85.0"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
       </array>
     </dict>
   </lib>

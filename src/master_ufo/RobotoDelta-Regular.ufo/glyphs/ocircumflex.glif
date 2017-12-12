@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ocircumflex" format="1">
   <advance width="1162"/>
-  <unicode hex="00F4"/>
   <outline>
     <component base="o"/>
     <component base="circumflex" xOffset="69"/>
@@ -10,10 +9,10 @@
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
       </array>
     </dict>
   </lib>

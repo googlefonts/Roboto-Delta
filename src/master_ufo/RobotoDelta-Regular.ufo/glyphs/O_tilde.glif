@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Otilde" format="1">
-  <advance width="1461"/>
-  <unicode hex="00D5"/>
+  <advance width="1460"/>
   <outline>
     <component base="O"/>
     <component base="tilde" xOffset="218" yOffset="380"/>
@@ -10,10 +9,10 @@
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
       </array>
     </dict>
   </lib>

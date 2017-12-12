@@ -5,11 +5,11 @@ src = "../src/1-drawings"
 
 fonts = []
 for directory in os.listdir(src):
-    if directory.endswith(".ufo"):
+    if directory.endswith(".ufo") and "-old" not in directory:
         path = os.path.join(src, directory)
         fonts.append(Font(path))
 
-base = fonts[0]
+base = fonts[2]
 fonts = fonts[1:]
 
 print "Default Master", base.path

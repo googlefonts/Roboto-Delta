@@ -2,12 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<key>com.typemytype.robofont.Regular.layerShow</key>
+	<false/>
+	<key>com.typemytype.robofont.Regular.layerStrokeColor</key>
 	<array>
 		<real>1.0</real>
 		<real>0.75</real>
 		<real>0.0</real>
 		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.background.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.background.layerShowStroke</key>
+	<true/>
+	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<array>
+		<real>1.0</real>
+		<real>1.0</real>
+		<real>0.0</real>
+		<real>1.0</real>
 	</array>
 	<key>com.typemytype.robofont.binarySource</key>
 	<string>/Users/alexandresaumierdemers/Downloads/RobotoDeltaNew-Regular.ttf</string>
@@ -59,6 +76,7 @@
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 		<string>background</string>
+		<string>Regular</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>qcurve</string>
@@ -256,11 +274,66 @@
 				<string>f_f_i</string>
 				<string>f_f_l</string>
 				<string>dotlessi</string>
+				<string>Agrave</string>
+				<string>Aacute</string>
+				<string>Acircumflex</string>
+				<string>Atilde</string>
+				<string>Adieresis</string>
+				<string>Aring</string>
+				<string>Ccedilla</string>
+				<string>Egrave</string>
+				<string>Eacute</string>
+				<string>Ecircumflex</string>
+				<string>Edieresis</string>
+				<string>Igrave</string>
+				<string>Iacute</string>
+				<string>Icircumflex</string>
+				<string>Idieresis</string>
+				<string>Ntilde</string>
+				<string>Ograve</string>
+				<string>Oacute</string>
+				<string>Ocircumflex</string>
+				<string>Otilde</string>
+				<string>Odieresis</string>
+				<string>Ugrave</string>
+				<string>Uacute</string>
+				<string>Ucircumflex</string>
+				<string>Udieresis</string>
+				<string>Yacute</string>
+				<string>agrave</string>
+				<string>aacute</string>
+				<string>acircumflex</string>
+				<string>atilde</string>
+				<string>adieresis</string>
+				<string>aring</string>
+				<string>ccedilla</string>
+				<string>egrave</string>
+				<string>eacute</string>
+				<string>ecircumflex</string>
+				<string>edieresis</string>
+				<string>igrave</string>
+				<string>iacute</string>
+				<string>icircumflex</string>
+				<string>idieresis</string>
+				<string>ntilde</string>
+				<string>ograve</string>
+				<string>oacute</string>
+				<string>ocircumflex</string>
+				<string>otilde</string>
+				<string>odieresis</string>
+				<string>ugrave</string>
+				<string>uacute</string>
+				<string>ucircumflex</string>
+				<string>udieresis</string>
+				<string>yacute</string>
+				<string>ydieresis</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
 		</dict>
 	</array>
+	<key>com.typemytype.robofont.templateCharacterSet</key>
+	<string>RobotoDelta</string>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>space</string>
