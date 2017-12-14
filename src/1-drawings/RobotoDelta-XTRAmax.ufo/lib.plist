@@ -13,6 +13,14 @@
 	</dict>
 	<key>com.typemytype.robofont.Regular.layerShow</key>
 	<false/>
+	<key>com.typemytype.robofont.Regular.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.Regular.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.Regular.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.Regular.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.Regular.layerStrokeColor</key>
 	<array>
 		<real>1.0</real>
@@ -22,6 +30,14 @@
 	</array>
 	<key>com.typemytype.robofont.Roboto-Regular.layerShow</key>
 	<false/>
+	<key>com.typemytype.robofont.Roboto-Regular.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.Roboto-Regular.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.Roboto-Regular.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.Roboto-Regular.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.Roboto-Regular.layerStrokeColor</key>
 	<array>
 		<real>0.0</real>
@@ -29,12 +45,14 @@
 		<real>0.0</real>
 		<real>1.0</real>
 	</array>
+	<key>com.typemytype.robofont.background.layerShow</key>
+	<true/>
 	<key>com.typemytype.robofont.background.layerShowCoordinates</key>
 	<false/>
 	<key>com.typemytype.robofont.background.layerShowFill</key>
 	<false/>
 	<key>com.typemytype.robofont.background.layerShowPoints</key>
-	<true/>
+	<false/>
 	<key>com.typemytype.robofont.background.layerShowStroke</key>
 	<true/>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
@@ -58,6 +76,14 @@
 	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.foreground.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
 	<array>
 		<real>1.0</real>
@@ -354,6 +380,14 @@
 	</array>
 	<key>com.typemytype.robofont.temp.layerShow</key>
 	<false/>
+	<key>com.typemytype.robofont.temp.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.temp.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.temp.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.temp.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.temp.layerStrokeColor</key>
 	<array>
 		<real>0.0</real>
