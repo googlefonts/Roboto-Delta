@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="backslash" format="1">
-  <advance width="730"/>
+  <advance width="780"/>
   <unicode hex="005C"/>
   <outline>
     <contour>
-      <point x="-125" y="1456" type="line"/>
-      <point x="672" y="-125" type="line"/>
-      <point x="855" y="-125" type="line"/>
-      <point x="57" y="1456" type="line"/>
+      <point x="-100" y="1456" type="line"/>
+      <point x="697" y="-125" type="line"/>
+      <point x="880" y="-125" type="line"/>
+      <point x="82" y="1456" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -15,6 +15,73 @@
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>Roboto-Regular</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-75</integer>
+                  <key>y</key>
+                  <integer>1456</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>533</integer>
+                  <key>y</key>
+                  <integer>-125</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>709</integer>
+                  <key>y</key>
+                  <integer>-125</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>101</integer>
+                  <key>y</key>
+                  <integer>1456</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>backslash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>780</integer>
+        </dict>
+        <key>temp</key>
         <dict>
           <key>anchors</key>
           <array>
@@ -43,7 +110,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>508</integer>
+                  <integer>660</integer>
                   <key>y</key>
                   <integer>-125</integer>
                 </dict>
@@ -53,7 +120,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>684</integer>
+                  <integer>880</integer>
                   <key>y</key>
                   <integer>-125</integer>
                 </dict>
@@ -63,7 +130,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>76</integer>
+                  <integer>120</integer>
                   <key>y</key>
                   <integer>1456</integer>
                 </dict>
@@ -79,80 +146,13 @@
           <array>
           </array>
           <key>width</key>
-          <integer>730</integer>
-        </dict>
-        <key>temp</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>-125</integer>
-                  <key>y</key>
-                  <integer>1456</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>635</integer>
-                  <key>y</key>
-                  <integer>-125</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>855</integer>
-                  <key>y</key>
-                  <integer>-125</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>95</integer>
-                  <key>y</key>
-                  <integer>1456</integer>
-                </dict>
-              </array>
-            </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>backslash</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>730</integer>
+          <integer>780</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>1.0</real>
-        <real>0.5</real>
+        <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
       </array>
