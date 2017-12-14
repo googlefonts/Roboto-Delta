@@ -2,26 +2,65 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>com.loicsander.scaleFast</key>
+	<dict>
+		<key>guides</key>
+		<array>
+		</array>
+		<key>presets</key>
+		<dict>
+		</dict>
+	</dict>
+	<key>com.typemytype.robofont.Regular.layerShow</key>
+	<true/>
+	<key>com.typemytype.robofont.Regular.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.Regular.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.Regular.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.Regular.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.Regular.layerStrokeColor</key>
 	<array>
-		<real>0.5</real>
 		<real>1.0</real>
 		<real>0.0</real>
-		<real>0.7</real>
+		<real>1.0</real>
+		<real>1.0</real>
 	</array>
+	<key>com.typemytype.robofont.Roboto-Regular.layerShow</key>
+	<false/>
+	<key>com.typemytype.robofont.Roboto-Regular.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.Roboto-Regular.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.Roboto-Regular.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.Roboto-Regular.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.Roboto-Regular.layerStrokeColor</key>
 	<array>
-		<real>0.5</real>
+		<real>0.0</real>
 		<real>1.0</real>
 		<real>0.0</real>
-		<real>0.7</real>
+		<real>1.0</real>
 	</array>
+	<key>com.typemytype.robofont.background.layerShow</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.background.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.background.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
 	<array>
+		<real>1.0</real>
+		<real>0.5</real>
 		<real>0.0</real>
-		<real>0.8</real>
-		<real>0.2</real>
-		<real>0.7</real>
+		<real>1.0</real>
 	</array>
 	<key>com.typemytype.robofont.binarySource</key>
 	<string>/Users/alexandresaumierdemers/Downloads/RobotoDeltaNew-Regular.ttf</string>
@@ -37,12 +76,22 @@
 	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 	<false/>
+	<key>com.typemytype.robofont.foreground.layerShow</key>
+	<true/>
+	<key>com.typemytype.robofont.foreground.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.foreground.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.foreground.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
 	<array>
-		<real>0.8759533110119048</real>
-		<real>0.8520636920919201</real>
-		<real>0.6924212208413115</real>
-		<real>0.3</real>
+		<real>1.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>1.0</real>
 	</array>
 	<key>com.typemytype.robofont.glyphtweaker.layerStrokeColor</key>
 	<array>
@@ -73,8 +122,8 @@
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 		<string>background</string>
-		<string>Regular</string>
 		<string>Roboto-Regular</string>
+		<string>Regular</string>
 		<string>temp</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
@@ -331,15 +380,36 @@
 			<string>glyphList</string>
 		</dict>
 	</array>
+	<key>com.typemytype.robofont.temp.layerShow</key>
+	<false/>
+	<key>com.typemytype.robofont.temp.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.temp.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.temp.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.temp.layerShowStroke</key>
+	<true/>
 	<key>com.typemytype.robofont.temp.layerStrokeColor</key>
 	<array>
 		<real>0.0</real>
+		<real>0.0</real>
 		<real>1.0</real>
-		<real>0.25</real>
-		<real>0.7</real>
+		<real>1.0</real>
 	</array>
 	<key>com.typemytype.robofont.templateCharacterSet</key>
 	<string>RobotoDelta</string>
+	<key>fbCurvePalet</key>
+	<dict>
+		<key>sliderBottomMax</key>
+		<integer>80</integer>
+		<key>sliderBottomMin</key>
+		<integer>30</integer>
+		<key>sliderTopMax</key>
+		<integer>80</integer>
+		<key>sliderTopMin</key>
+		<integer>0</integer>
+	</dict>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>space</string>

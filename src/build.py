@@ -1,3 +1,4 @@
+from glyphNameFormatter.data import name2unicode_AGD
 from mutatorMath.ufo.document import DesignSpaceDocumentWriter, DesignSpaceDocumentReader
 from designSpaceDocument import DesignSpaceDocument, SourceDescriptor, InstanceDescriptor, AxisDescriptor
 from fontmake.font_project import FontProject
@@ -58,7 +59,8 @@ def buildComposites(composites, fonts):
 		for glyphName in composites.keys():
 			font.newGlyph(glyphName)
 			composite = font[glyphName]
-	
+			composite.unicode = name2unicode_AGD[glyphName]
+			
 			value = composites[glyphName]
 			items = value.split("+")
 			base = items[0]
