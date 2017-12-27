@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="currency" format="1">
-  <advance width="1461"/>
+  <advance width="1142"/>
   <unicode hex="00A4"/>
   <outline>
     <contour>
-      <point x="321" y="622" type="qcurve" smooth="yes"/>
-      <point x="321" y="818"/>
-      <point x="555" y="1074"/>
-      <point x="735" y="1074" type="qcurve" smooth="yes"/>
-      <point x="909" y="1074"/>
-      <point x="1148" y="809"/>
-      <point x="1148" y="622" type="qcurve" smooth="yes"/>
-      <point x="1148" y="429"/>
-      <point x="916" y="169"/>
-      <point x="735" y="169" type="qcurve" smooth="yes"/>
-      <point x="562" y="169"/>
-      <point x="321" y="436"/>
+      <point x="255" y="610" type="qcurve" smooth="yes"/>
+      <point x="255.0" y="355.0"/>
+      <point x="434.26956521739135" y="0.0"/>
+      <point x="571" y="0" type="qcurve" smooth="yes"/>
+      <point x="707.7304347826087" y="0.0"/>
+      <point x="887.0" y="355.0"/>
+      <point x="887" y="610" type="qcurve" smooth="yes"/>
+      <point x="887.0" y="865.0"/>
+      <point x="707.7304347826087" y="1220.0"/>
+      <point x="571" y="1220" type="qcurve" smooth="yes"/>
+      <point x="434.26956521739135" y="1220.0"/>
+      <point x="255.0" y="865.0"/>
     </contour>
     <contour>
-      <point x="146" y="622" type="qcurve" smooth="yes"/>
-      <point x="146" y="360"/>
-      <point x="493" y="1"/>
-      <point x="735" y="1" type="qcurve" smooth="yes"/>
-      <point x="967" y="1"/>
-      <point x="1325" y="367"/>
-      <point x="1325" y="622" type="qcurve" smooth="yes"/>
-      <point x="1325" y="884"/>
-      <point x="978" y="1241"/>
-      <point x="735" y="1241" type="qcurve" smooth="yes"/>
-      <point x="509" y="1241"/>
-      <point x="146" y="872"/>
+      <point x="309" y="610" type="qcurve" smooth="yes"/>
+      <point x="309.0" y="846.3120567375886"/>
+      <point x="456.0" y="1170.0"/>
+      <point x="571" y="1170" type="qcurve" smooth="yes"/>
+      <point x="686.0" y="1170.0"/>
+      <point x="833.0" y="846.3120567375886"/>
+      <point x="833" y="610" type="qcurve" smooth="yes"/>
+      <point x="833.0" y="373.68794326241135"/>
+      <point x="686.0" y="50.0"/>
+      <point x="571" y="50" type="qcurve" smooth="yes"/>
+      <point x="456.0" y="50.0"/>
+      <point x="309.0" y="373.68794326241135"/>
     </contour>
     <contour>
-      <point x="1371" y="1142" type="line"/>
-      <point x="1239" y="1279" type="line"/>
-      <point x="1037" y="1073" type="line"/>
-      <point x="1169" y="936" type="line"/>
+      <point x="205" y="1210" type="line"/>
+      <point x="354" y="1012" type="line"/>
+      <point x="398" y="1038" type="line"/>
+      <point x="249" y="1236" type="line"/>
     </contour>
     <contour>
-      <point x="438" y="194" type="line"/>
-      <point x="307" y="329" type="line"/>
-      <point x="105" y="124" type="line"/>
-      <point x="236" y="-12" type="line"/>
+      <point x="744" y="1038" type="line"/>
+      <point x="788" y="1012" type="line"/>
+      <point x="937" y="1210" type="line"/>
+      <point x="893" y="1236" type="line"/>
     </contour>
     <contour>
-      <point x="1239" y="-13" type="line"/>
-      <point x="1371" y="124" type="line"/>
-      <point x="1169" y="329" type="line"/>
-      <point x="1037" y="193" type="line"/>
+      <point x="744" y="182" type="line"/>
+      <point x="893" y="-16" type="line"/>
+      <point x="937" y="10" type="line"/>
+      <point x="788" y="208" type="line"/>
     </contour>
     <contour>
-      <point x="307" y="936" type="line"/>
-      <point x="438" y="1072" type="line"/>
-      <point x="236" y="1278" type="line"/>
-      <point x="105" y="1142" type="line"/>
+      <point x="205" y="10" type="line"/>
+      <point x="249" y="-16" type="line"/>
+      <point x="398" y="182" type="line"/>
+      <point x="354" y="208" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -478,7 +478,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1461</integer>
+          <integer>1460</integer>
         </dict>
         <key>background</key>
         <dict>
@@ -898,12 +898,12 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1461</integer>
+          <integer>1460</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>

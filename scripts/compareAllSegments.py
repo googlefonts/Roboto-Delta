@@ -10,7 +10,7 @@ for directory in os.listdir(src):
         fonts.append(Font(path))
 
 base = fonts[2]
-fonts = fonts[1:]
+###fonts = fonts[1:]
 
 print "Default Master", base.path
 print "..."

@@ -182,14 +182,17 @@ familyName = "RobotoDelta"
 tmpDesignSpace = "tmp.designspace"
 doc = DesignSpaceDocumentWriter(tmpDesignSpace)
 # sources
-doc.addSource(path="1-drawings/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XYOPQ=0, XTRA=0), styleName="Regular", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XYOPQ=0, XTRA=0, YTLC=0), styleName="Regular", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-XOPQmin-YOPQmin.ufo", name="RobotoDelta-XOPQmin-YOPQmin.ufo", location=dict(XYOPQ=-1), styleName="XOPQmin-YOPQmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-XOPQmax-YOPQmax.ufo", name="RobotoDelta-XOPQmax-YOPQmax.ufo", location=dict(XYOPQ=1), styleName="XOPQmax-YOPQmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-XTRAmin.ufo", name="RobotoDelta-XTRAmin.ufo", location=dict(XTRA=-1), styleName="XTRAmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-XTRAmax.ufo", name="RobotoDelta-XTRAmax.ufo", location=dict(XTRA=1), styleName="XTRAmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-YTLCmin.ufo", name="RobotoDelta-YTLCmin.ufo", location=dict(YTLC=-1), styleName="YTLCmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-YTLCmax.ufo", name="RobotoDelta-YTLCmax.ufo", location=dict(YTLC=1), styleName="YTLCmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 # axes
 doc.addAxis(tag="XYOPQ", name="XYOPQ", minimum=-1, maximum=1, default=0, warpMap=None)
 doc.addAxis(tag="XTRA", name="XTRA", minimum=-1, maximum=1, default=0, warpMap=None)
+doc.addAxis(tag="YTLC", name="YTLC", minimum=-1, maximum=1, default=0, warpMap=None)
 
 # instances
 instances = [
@@ -199,6 +202,11 @@ instances = [
 	dict(fileName="instances/RobotoDelta-YOPQmax.ufo", location=dict(XYOPQ=(0, 1)), styleName="YOPQmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", location=dict(XYOPQ=-1, XTRA=-1), styleName="XOPQmin-YOPQmin-XTRAmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-XOPQmin-YOPQmin-XTRAmax.ufo", location=dict(XYOPQ=-1, XTRA=1), styleName="XOPQmin-YOPQmin-XTRAmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	
+	dict(fileName="instances/RobotoDelta-opszmin.ufo", location=dict(XYOPQ=(0.08, 0.12), XTRA=0.16, YTLC=0.32), styleName="opszmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-opszmax.ufo", location=dict(XYOPQ=(-0.24, -0.18), XTRA=-0.18, YTLC=-0.265), styleName="opszmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-wghtmin.ufo", location=dict(XYOPQ=(-0.74, -0.68), XTRA=0.16), styleName="wghtmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-wghtmax.ufo", location=dict(XYOPQ=(0.74, 0.5), XTRA=-0.5, YTLC=0.23), styleName="wghtmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 ]
 for instance in instances:
 	doc.startInstance(**instance)
@@ -336,76 +344,63 @@ print "DONE!"
 """
 print "Blending..."
 
-varfont, _, _ = build(designspace_filename, finder)
-
-familyName = "RobotoDelta"
-instancedir = "instances/"
-
 locations = {
 	'Regular': {
 		# default
 	},
-	'opszmin': {
-		'YOPQ': 84,
-		'XOPQ': 100,
-		'YTLC': 532,
-		'XTRA': 384,
-	},
-	'opszmax': {
-		'YOPQ': 64,
-		'XOPQ': 78,
-		'YTLC': 490,
-		'XTRA': 332,
-	},
-	'wghtmin': {
-		'YOPQ': 52,
-		'XOPQ': 44,
-		'YTLC': 514,
-		'XTRA': 384,
-	},
-	'wghtmax': {
-		'YOPQ': 104,
-		'XOPQ': 140,
-		'YTLC': 528,
-		'XTRA': 284,
-	},
-	'opszmin-wghtmin': {
-		'YOPQ': 58,
-		'XOPQ': 50,
-		'YTLC': 528,
-		'XTRA': 396,
-	},
-	'opszmin-wghtmax': {
-		'YOPQ': 100,
-		'XOPQ': 132,
-		'YTLC': 542,
-		'XTRA': 330,
-	},
-	'opszmax-wghtmin': {
-		'YOPQ': 26,
-		'XOPQ': 26,
-		'YTLC': 484,
-		'XTRA': 368,
-	},
-	'opszmax-wghtmax': {
-		'YOPQ': 110,
-		'XOPQ': 156,
-		'YTLC': 490,
-		'XTRA': 210,
-	},
+		'opszmin': {
+			'YOPQ': 84,
+			'XOPQ': 100,
+			'YTLC': 532,
+			'XTRA': 384,
+		},
+		'opszmax': {
+			'YOPQ': 68,
+			'XOPQ': 78,
+			'YTLC': 488,
+			'XTRA': 332,
+		},
+		'wghtmin': {
+			'YOPQ': 42,
+			'XOPQ': 44,
+			#'YTLC': 514,
+			'XTRA': 384,
+		},
+		'wghtmax': {
+			'YOPQ': 104,
+			'XOPQ': 151,
+			'YTLC': 527,
+			'XTRA': 284,
+		},
+#	'opszmin-wghtmin': {
+#		'YOPQ': 58,
+#		'XOPQ': 50,
+#		'YTLC': 528,
+#		'XTRA': 396,
+#	},
+#	'opszmin-wghtmax': {
+#		'YOPQ': 100,
+#		'XOPQ': 132,
+#		'YTLC': 542,
+#		'XTRA': 330,
+#	},
+#	'opszmax-wghtmin': {
+#		'YOPQ': 26,
+#		'XOPQ': 26,
+#		'YTLC': 484,
+#		'XTRA': 368,
+#	},
+#	'opszmax-wghtmax': {
+#		'YOPQ': 110,
+#		'XOPQ': 156,
+#		'YTLC': 490,
+#		'XTRA': 210,
+#	},
 }
 
 for key, location in locations.items():
 	instance = instantiateVariableFont(varfont, location)
-	instancename = "%s-%s.ttf" % (familyName, key)
-	instancepath = os.path.join(instancedir, instancename)
-	instance.save(instancepath)
-
-
-finder = lambda s: s.replace('master_ufo', 'master_ttf_interpolatable').replace('.ufo', '.ttf')
-varfont, _, _ = build(designspace_filename, finder)
-print "Saving variation font %s" % outfile
-varfont.save(outfile)
-print "DONE"
-
+	instance_name = "%s-%s.ttf" % (familyName, key)
+	instance_path = os.path.join(instance_dir, instance_name)
+	instance.save(instance_path)
 """
