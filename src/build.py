@@ -207,6 +207,9 @@ instances = [
 	dict(fileName="instances/RobotoDelta-opszmax.ufo", location=dict(XYOPQ=(-0.24, -0.18), XTRA=-0.18, YTLC=-0.265), styleName="opszmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-wghtmin.ufo", location=dict(XYOPQ=(-0.74, -0.68), XTRA=0.16), styleName="wghtmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-wghtmax.ufo", location=dict(XYOPQ=(0.74, 0.5), XTRA=-0.5, YTLC=0.23), styleName="wghtmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+
+	dict(fileName="instances/RobotoDelta-wdthmin.ufo", location=dict(XYOPQ=(-0.12, -0.09), XTRA=-1.00), styleName="wdthmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-wdthmax.ufo", location=dict(XYOPQ=(0.12, 0.09), XTRA=1.00), styleName="wdthmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 ]
 for instance in instances:
 	doc.startInstance(**instance)
@@ -236,7 +239,7 @@ for instance in instances:
 
 designSpace = "RobotoDelta.designspace"
 sources = [
-	dict(path="master_ufo/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XOPQ=94, YOPQ=77, XTRA=359, YTLC=514, YTUC=712, YTAS=750, YTDE=-203, YTAD=563, YTDD=0, UDLN=-49, wght=400, wdth=0, opsz=12, PWGT=0, PWDT=0, POPS=0, GRAD=0, YTRA=0), styleName="Regular", familyName=familyName, copyInfo=True),	
+	dict(path="master_ufo/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XOPQ=94, YOPQ=77, XTRA=359, YTLC=514, YTUC=712, YTAS=750, YTDE=-203, YTAD=563, YTDD=0, UDLN=-49, wght=400, wdth=100, opsz=12, PWGT=0, PWDT=0, POPS=0, GRAD=0, YTRA=0), styleName="Regular", familyName=familyName, copyInfo=True),	
 	dict(path="master_ufo/RobotoDelta-XOPQmin.ufo", name="RobotoDelta-XOPQmin.ufo", location=dict(XOPQ=26), styleName="XOPQmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-XOPQmax.ufo", name="RobotoDelta-XOPQmax.ufo", location=dict(XOPQ=171), styleName="XOPQmax", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-YOPQmin.ufo", name="RobotoDelta-YOPQmin.ufo", location=dict(YOPQ=26), styleName="YOPQmin", familyName=familyName, copyInfo=False),
@@ -267,6 +270,9 @@ sources = [
 	
 	dict(path="master_ufo/RobotoDelta-opszmin.ufo", name="RobotoDelta-opszmin.ufo", location=dict(opsz=8), styleName="opszmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-opszmax.ufo", name="RobotoDelta-opszmax.ufo", location=dict(opsz=36), styleName="opszmax", familyName=familyName, copyInfo=False),
+
+	dict(path="master_ufo/RobotoDelta-wdthmin.ufo", name="RobotoDelta-wdthmin.ufo", location=dict(wdth=75), styleName="wdthmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-wdthmax.ufo", name="RobotoDelta-wdthmax.ufo", location=dict(wdth=125), styleName="wdthmax", familyName=familyName, copyInfo=False),
 ]
 instances = []
 axes = [
@@ -281,7 +287,7 @@ axes = [
 	dict(minimum=-1, maximum=1, default=0, name="YTDD", tag="YTDD", labelNames={"en": "YTDD"}, map=[]),
 	dict(minimum=-195, maximum=0, default=-49, name="UDLN", tag="UDLN", labelNames={"en": "UDLN"}, map=[]),
 	dict(minimum=100, maximum=900, default=400, name="wght", tag="wght", labelNames={"en": "wght"}, map=[]),
-	dict(minimum=-1, maximum=1, default=0, name="wdth", tag="wdth", labelNames={"en": "wdth"}, map=[]),
+	dict(minimum=75, maximum=125, default=100, name="wdth", tag="wdth", labelNames={"en": "wdth"}, map=[]),
 	dict(minimum=8, maximum=36, default=12, name="opsz", tag="opsz", labelNames={"en": "opsz"}, map=[]),
 	dict(minimum=-1, maximum=1, default=0, name="PWGT", tag="PWGT", labelNames={"en": "PWGT"}, map=[]),
 	dict(minimum=-1, maximum=1, default=0, name="PWDT", tag="PWDT", labelNames={"en": "PWDT"}, map=[]),
