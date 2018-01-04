@@ -182,18 +182,26 @@ familyName = "RobotoDelta"
 tmpDesignSpace = "tmp.designspace"
 doc = DesignSpaceDocumentWriter(tmpDesignSpace)
 # sources
-doc.addSource(path="1-drawings/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XYOPQ=0, XTRA=0, YTLC=0), styleName="Regular", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-Regular.ufo", name="RobotoDelta-Regular.ufo", location=dict(XYOPQ=0, XTRA=0, YTLC=0, YTUC=0, YTAS=0, YTDE=0), styleName="Regular", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-XOPQmin-YOPQmin.ufo", name="RobotoDelta-XOPQmin-YOPQmin.ufo", location=dict(XYOPQ=-1), styleName="XOPQmin-YOPQmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-XOPQmax-YOPQmax.ufo", name="RobotoDelta-XOPQmax-YOPQmax.ufo", location=dict(XYOPQ=1), styleName="XOPQmax-YOPQmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-XTRAmin.ufo", name="RobotoDelta-XTRAmin.ufo", location=dict(XTRA=-1), styleName="XTRAmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-XTRAmax.ufo", name="RobotoDelta-XTRAmax.ufo", location=dict(XTRA=1), styleName="XTRAmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-YTLCmin.ufo", name="RobotoDelta-YTLCmin.ufo", location=dict(YTLC=-1), styleName="YTLCmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 doc.addSource(path="1-drawings/RobotoDelta-YTLCmax.ufo", name="RobotoDelta-YTLCmax.ufo", location=dict(YTLC=1), styleName="YTLCmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-YTUCmin.ufo", name="RobotoDelta-YTUCmin.ufo", location=dict(YTUC=-1), styleName="YTUCmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-YTUCmax.ufo", name="RobotoDelta-YTUCmax.ufo", location=dict(YTUC=1), styleName="YTUCmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-YTASmin.ufo", name="RobotoDelta-YTASmin.ufo", location=dict(YTAS=-1), styleName="YTASmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-YTASmax.ufo", name="RobotoDelta-YTASmax.ufo", location=dict(YTAS=1), styleName="YTASmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-YTDEmin.ufo", name="RobotoDelta-YTDEmin.ufo", location=dict(YTDE=-1), styleName="YTDEmin", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
+doc.addSource(path="1-drawings/RobotoDelta-YTDEmax.ufo", name="RobotoDelta-YTDEmax.ufo", location=dict(YTDE=1), styleName="YTDEmax", familyName=familyName, copyLib=False, copyGroups=False, copyInfo=False, copyFeatures=False, muteKerning=False, muteInfo=False, mutedGlyphNames=None)
 # axes
 doc.addAxis(tag="XYOPQ", name="XYOPQ", minimum=-1, maximum=1, default=0, warpMap=None)
 doc.addAxis(tag="XTRA", name="XTRA", minimum=-1, maximum=1, default=0, warpMap=None)
 doc.addAxis(tag="YTLC", name="YTLC", minimum=-1, maximum=1, default=0, warpMap=None)
-
+doc.addAxis(tag="YTUC", name="YTUC", minimum=-1, maximum=1, default=0, warpMap=None)
+doc.addAxis(tag="YTAS", name="YTAS", minimum=-1, maximum=1, default=0, warpMap=None)
+doc.addAxis(tag="YTDE", name="YTDE", minimum=-1, maximum=1, default=0, warpMap=None)
 # instances
 instances = [
 	dict(fileName="instances/RobotoDelta-XOPQmin.ufo", location=dict(XYOPQ=(-1, 0)), styleName="XOPQmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
@@ -203,6 +211,9 @@ instances = [
 	dict(fileName="instances/RobotoDelta-XOPQmin-YOPQmin-XTRAmin.ufo", location=dict(XYOPQ=-1, XTRA=-1), styleName="XOPQmin-YOPQmin-XTRAmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-XOPQmin-YOPQmin-XTRAmax.ufo", location=dict(XYOPQ=-1, XTRA=1), styleName="XOPQmin-YOPQmin-XTRAmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	
+	dict(fileName="instances/RobotoDelta-YTRAmin.ufo", location=dict(YTLC=-1, YTUC=-1, YTAS=-1, YTDE=1), styleName="YTRAmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-YTRAmax.ufo", location=dict(YTLC=1, YTUC=1, YTAS=1, YTDE=-1), styleName="YTRAmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+		
 	dict(fileName="instances/RobotoDelta-opszmin.ufo", location=dict(XYOPQ=(0.08, 0.12), XTRA=0.16, YTLC=0.32), styleName="opszmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-opszmax.ufo", location=dict(XYOPQ=(-0.24, -0.18), XTRA=-0.18, YTLC=-0.265), styleName="opszmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-wghtmin.ufo", location=dict(XYOPQ=(-0.74, -0.68), XTRA=0.16), styleName="wghtmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),

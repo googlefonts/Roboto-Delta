@@ -9,6 +9,13 @@
 		<real>0.0</real>
 		<real>0.7</real>
 	</array>
+	<key>com.typemytype.robofont.Roboto-Regular.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.25</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.background.layerStrokeColor</key>
 	<array>
 		<real>1.0</real>
@@ -53,6 +60,20 @@
 			<key>y</key>
 			<integer>1060</integer>
 		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>730</integer>
+			<key>y</key>
+			<integer>1112</integer>
+		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
@@ -61,6 +82,8 @@
 		<string>background</string>
 		<string>sketch</string>
 		<string>Regular</string>
+		<string>Roboto-Regular</string>
+		<string>temp</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>qcurve</string>
@@ -114,6 +137,13 @@
 			<key>type</key>
 			<string>glyphList</string>
 		</dict>
+	</array>
+	<key>com.typemytype.robofont.temp.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>1.0</real>
+		<real>0.7</real>
 	</array>
 	<key>public.glyphOrder</key>
 	<array>
