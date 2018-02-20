@@ -8,8 +8,8 @@ xopq = 64 #minimum=26, maximum=171, default=94
 yopq = 48 #minimum=26, maximum=132, default=77
 
 # grade max
-xopq = 124 #minimum=26, maximum=171, default=94
-yopq = 108 #minimum=26, maximum=132, default=77
+#xopq = 124 #minimum=26, maximum=171, default=94
+#yopq = 108 #minimum=26, maximum=132, default=77
 
 xtramin = 210
 xtramax = 513
@@ -28,7 +28,6 @@ for key in glyphSet.keys():
 for key in glyphSet.keys():
 	g = glyphSet[key]
 	data[key]["default"] = g.width
-
 
 # MAX
 location = {"XOPQ": xopq, "YOPQ": yopq, "XTRA": xtramax}
@@ -59,7 +58,7 @@ for key, value in data.items():
 
 	dflt, mn, mx = value["default"], value["min"], value["max"]
 	try:
-		f = (dflt-mn)/(mx-mn)
+		f = 1.0 * (dflt-mn)/(mx-mn)
 	except ZeroDivisionError:
 		f = 0 # TEST THIS
 	loc = (xtramax-xtramin)*f+xtramin
@@ -85,5 +84,5 @@ for tag in ('fvar','avar','gvar'):
 
 import os
 TARGET_DIR = ""
-fileName = "RobotoDelta-GRADmax.ttf"
+fileName = "RobotoDelta-GRADmin.ttf"
 gradeFont.save(os.path.join(TARGET_DIR, fileName))
