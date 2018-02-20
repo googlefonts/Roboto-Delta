@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zero.pnum" format="1">
-  <advance width="1156"/>
+  <advance width="920.0"/>
   <outline>
-    <component base="zero"/>
+    <contour>
+      <point x="126.68" y="350.0" type="line" smooth="yes"/>
+      <point x="126.68" y="187.64"/>
+      <point x="302.44" y="-30.0"/>
+      <point x="460.0" y="-30.0" type="qcurve" smooth="yes"/>
+      <point x="615.8" y="-30.0"/>
+      <point x="793.3199999999999" y="187.64"/>
+      <point x="793.3199999999999" y="350.0" type="qcurve" smooth="yes"/>
+      <point x="793.3199999999999" y="1106.0" type="line" smooth="yes"/>
+      <point x="793.3199999999999" y="1272.36"/>
+      <point x="615.8" y="1486.0"/>
+      <point x="460.0" y="1486.0" type="qcurve" smooth="yes"/>
+      <point x="302.44" y="1486.0"/>
+      <point x="126.68" y="1272.36"/>
+      <point x="126.68" y="1106.0" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="305.0" y="340.0" type="qcurve" smooth="yes"/>
+      <point x="305.0" y="1116.0" type="line" smooth="yes"/>
+      <point x="305.0" y="1206.96"/>
+      <point x="380.24" y="1337.72"/>
+      <point x="460.0" y="1337.72" type="qcurve" smooth="yes"/>
+      <point x="539.76" y="1337.72"/>
+      <point x="615.0" y="1206.96"/>
+      <point x="615.0" y="1116.0" type="qcurve" smooth="yes"/>
+      <point x="615.0" y="340.0" type="line" smooth="yes"/>
+      <point x="615.0" y="254.04"/>
+      <point x="539.76" y="118.28"/>
+      <point x="460.0" y="118.28" type="qcurve" smooth="yes"/>
+      <point x="380.24" y="118.28"/>
+      <point x="305.0" y="254.04"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -573,7 +604,7 @@
       <array>
         <real>0.0</real>
         <real>1.0</real>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
       </array>
     </dict>

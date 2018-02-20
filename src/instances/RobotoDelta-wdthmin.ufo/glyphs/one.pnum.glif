@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.pnum" format="1">
-  <advance width="802"/>
+  <advance width="962.48"/>
   <outline>
-    <component base="one" xOffset="-130"/>
+    <contour>
+      <point x="444.0" y="0.0" type="line"/>
+      <point x="619.44" y="0.0" type="line"/>
+      <point x="619.44" y="1476.0" type="line"/>
+      <point x="597.44" y="1476.0" type="line"/>
+      <point x="216.0" y="1310.41" type="line"/>
+      <point x="216.0" y="1136.2" type="line"/>
+      <point x="444.0" y="1233.3" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -304,7 +312,7 @@
       <array>
         <real>0.0</real>
         <real>1.0</real>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
       </array>
     </dict>

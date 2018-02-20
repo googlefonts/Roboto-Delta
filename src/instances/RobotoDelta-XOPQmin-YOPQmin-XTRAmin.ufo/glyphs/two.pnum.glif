@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="two.pnum" format="1">
-  <advance width="1110"/>
+  <advance width="966"/>
   <outline>
-    <component base="two" xOffset="-40"/>
+    <contour>
+      <point x="280" y="0" type="line"/>
+      <point x="720" y="0" type="line"/>
+      <point x="720" y="50" type="line"/>
+      <point x="306" y="50" type="line"/>
+      <point x="600" y="721" type="line" smooth="yes"/>
+      <point x="671" y="892"/>
+      <point x="705" y="1048"/>
+      <point x="705" y="1140" type="qcurve" smooth="yes"/>
+      <point x="705" y="1301"/>
+      <point x="601" y="1486"/>
+      <point x="506" y="1486" type="qcurve" smooth="yes"/>
+      <point x="411" y="1486"/>
+      <point x="286" y="1257"/>
+      <point x="286" y="1030" type="qcurve" smooth="yes"/>
+      <point x="286" y="1020" type="line"/>
+      <point x="341" y="1020" type="line"/>
+      <point x="341" y="1030" type="line" smooth="yes"/>
+      <point x="341" y="1249"/>
+      <point x="437" y="1436"/>
+      <point x="506" y="1436" type="qcurve" smooth="yes"/>
+      <point x="575" y="1436"/>
+      <point x="650" y="1280"/>
+      <point x="650" y="1130" type="qcurve" smooth="yes"/>
+      <point x="650" y="1032"/>
+      <point x="590" y="857"/>
+      <point x="547" y="738" type="qcurve" smooth="yes"/>
+      <point x="280" y="50" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -539,7 +567,7 @@
       <array>
         <real>0.0</real>
         <real>1.0</real>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
       </array>
     </dict>

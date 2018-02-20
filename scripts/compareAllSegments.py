@@ -9,7 +9,7 @@ for directory in os.listdir(src):
         path = os.path.join(src, directory)
         fonts.append(Font(path))
 
-base = fonts[2]
+base = fonts[4]
 ###fonts = fonts[1:]
 
 print "Default Master", base.path

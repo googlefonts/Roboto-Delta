@@ -8,8 +8,8 @@ xopq = 64 #minimum=26, maximum=171, default=94
 yopq = 48 #minimum=26, maximum=132, default=77
 
 # grade max
-#xopq = 124 #minimum=26, maximum=171, default=94
-#yopq = 108 #minimum=26, maximum=132, default=77
+xopq = 124 #minimum=26, maximum=171, default=94
+yopq = 108 #minimum=26, maximum=132, default=77
 
 xtramin = 210
 xtramax = 513
@@ -84,5 +84,5 @@ for tag in ('fvar','avar','gvar'):
 
 import os
 TARGET_DIR = ""
-fileName = "RobotoDelta-GRADmin.ttf"
+fileName = "RobotoDelta-GRADmax.ttf"
 gradeFont.save(os.path.join(TARGET_DIR, fileName))
