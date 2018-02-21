@@ -215,7 +215,7 @@ instances = [
 	dict(fileName="instances/RobotoDelta-YTRAmax.ufo", location=dict(YTLC=1, YTUC=1, YTAS=1, YTDE=-1), styleName="YTRAmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 		
 	dict(fileName="instances/RobotoDelta-opszmin.ufo", location=dict(XYOPQ=(0.08, 0.12), XTRA=0.16, YTLC=0.32), styleName="opszmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
-	dict(fileName="instances/RobotoDelta-opszmax.ufo", location=dict(XYOPQ=(-0.24, -0.18), XTRA=-0.18, YTLC=-0.265), styleName="opszmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-opsz36.ufo", location=dict(XYOPQ=(-0.24, -0.18), XTRA=-0.18, YTLC=-0.265), styleName="opsz36", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-wghtmin.ufo", location=dict(XYOPQ=(-0.74, -0.68), XTRA=0.16), styleName="wghtmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-wghtmax.ufo", location=dict(XYOPQ=(0.74, 0.5), XTRA=-0.5, YTLC=0.23), styleName="wghtmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 
@@ -286,7 +286,8 @@ sources = [
 	dict(path="master_ufo/RobotoDelta-wghtmax.ufo", name="RobotoDelta-wghtmax.ufo", location=dict(PWGT=150), styleName="wghtmax", familyName=familyName, copyInfo=False),
 	
 	dict(path="master_ufo/RobotoDelta-opszmin.ufo", name="RobotoDelta-opszmin.ufo", location=dict(opsz=8), styleName="opszmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-opszmax.ufo", name="RobotoDelta-opszmax.ufo", location=dict(opsz=36), styleName="opszmax", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-opsz36.ufo", name="RobotoDelta-opsz36.ufo", location=dict(opsz=36), styleName="opsz36", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-opszmax.ufo", name="RobotoDelta-opszmax.ufo", location=dict(opsz=144), styleName="opszmax", familyName=familyName, copyInfo=False),
 
 	dict(path="master_ufo/RobotoDelta-wdthmin.ufo", name="RobotoDelta-wdthmin.ufo", location=dict(wdth=75), styleName="wdthmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wdthmax.ufo", name="RobotoDelta-wdthmax.ufo", location=dict(wdth=125), styleName="wdthmax", familyName=familyName, copyInfo=False),
@@ -307,7 +308,7 @@ axes = [
 	dict(minimum=-195, maximum=0, default=-49, name="UDLN", tag="UDLN", labelNames={"en": "UDLN"}, map=[]),
 	dict(minimum=100, maximum=900, default=400, name="wght", tag="wght", labelNames={"en": "wght"}, map=[]),
 	dict(minimum=75, maximum=125, default=100, name="wdth", tag="wdth", labelNames={"en": "wdth"}, map=[]),
-	dict(minimum=8, maximum=36, default=12, name="opsz", tag="opsz", labelNames={"en": "opsz"}, map=[]),
+	dict(minimum=8, maximum=144, default=12, name="opsz", tag="opsz", labelNames={"en": "opsz"}, map=[]),
 	dict(minimum=44, maximum=150, default=94, name="PWGT", tag="PWGT", labelNames={"en": "PWGT"}, map=[]),
 	dict(minimum=560, maximum=867, default=712, name="PWDT", tag="PWDT", labelNames={"en": "PWDT"}, map=[]),
 	dict(minimum=-1, maximum=1, default=0, name="POPS", tag="POPS", labelNames={"en": "POPS"}, map=[]),
@@ -365,67 +366,3 @@ print "Saving Variable Font..."
 varfont.save(outfile)
 
 print "DONE!"
-
-"""
-print "Blending..."
-
-locations = {
-	'Regular': {
-		# default
-	},
-		'opszmin': {
-			'YOPQ': 84,
-			'XOPQ': 100,
-			'YTLC': 532,
-			'XTRA': 384,
-		},
-		'opszmax': {
-			'YOPQ': 68,
-			'XOPQ': 78,
-			'YTLC': 488,
-			'XTRA': 332,
-		},
-		'wghtmin': {
-			'YOPQ': 42,
-			'XOPQ': 44,
-			#'YTLC': 514,
-			'XTRA': 384,
-		},
-		'wghtmax': {
-			'YOPQ': 104,
-			'XOPQ': 151,
-			'YTLC': 527,
-			'XTRA': 284,
-		},
-#	'opszmin-wghtmin': {
-#		'YOPQ': 58,
-#		'XOPQ': 50,
-#		'YTLC': 528,
-#		'XTRA': 396,
-#	},
-#	'opszmin-wghtmax': {
-#		'YOPQ': 100,
-#		'XOPQ': 132,
-#		'YTLC': 542,
-#		'XTRA': 330,
-#	},
-#	'opszmax-wghtmin': {
-#		'YOPQ': 26,
-#		'XOPQ': 26,
-#		'YTLC': 484,
-#		'XTRA': 368,
-#	},
-#	'opszmax-wghtmax': {
-#		'YOPQ': 110,
-#		'XOPQ': 156,
-#		'YTLC': 490,
-#		'XTRA': 210,
-#	},
-}
-
-for key, location in locations.items():
-	instance = instantiateVariableFont(varfont, location)
-	instance_name = "%s-%s.ttf" % (familyName, key)
-	instance_path = os.path.join(instance_dir, instance_name)
-	instance.save(instance_path)
-"""

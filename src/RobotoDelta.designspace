@@ -37,7 +37,7 @@
         <axis default="100" maximum="125" minimum="75" name="wdth" tag="wdth">
             <labelname xml:lang="en">wdth</labelname>
         </axis>
-        <axis default="12" maximum="36" minimum="8" name="opsz" tag="opsz">
+        <axis default="12" maximum="144" minimum="8" name="opsz" tag="opsz">
             <labelname xml:lang="en">opsz</labelname>
         </axis>
         <axis default="94" maximum="150" minimum="44" name="PWGT" tag="PWGT">
@@ -806,7 +806,7 @@
                 <dimension name="YTUC" xvalue="712" />
             </location>
         </source>
-        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-opszmax.ufo" name="RobotoDelta-opszmax.ufo" stylename="opszmax">
+        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-opsz36.ufo" name="RobotoDelta-opsz36.ufo" stylename="opsz36">
             <location>
                 <dimension name="YOPQ" xvalue="77" />
                 <dimension name="YTAS" xvalue="750" />
@@ -818,6 +818,28 @@
                 <dimension name="UDLN" xvalue="-49" />
                 <dimension name="POPS" xvalue="0" />
                 <dimension name="opsz" xvalue="36" />
+                <dimension name="PWDT" xvalue="712" />
+                <dimension name="YTLC" xvalue="514" />
+                <dimension name="XTRA" xvalue="359" />
+                <dimension name="YTAD" xvalue="563" />
+                <dimension name="wght" xvalue="400" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="XOPQ" xvalue="94" />
+                <dimension name="YTUC" xvalue="712" />
+            </location>
+        </source>
+        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-opszmax.ufo" name="RobotoDelta-opszmax.ufo" stylename="opszmax">
+            <location>
+                <dimension name="YOPQ" xvalue="77" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="PWGT" xvalue="94" />
+                <dimension name="YTRA" xvalue="0" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="YTDE" xvalue="-203" />
+                <dimension name="YTDD" xvalue="0" />
+                <dimension name="UDLN" xvalue="-49" />
+                <dimension name="POPS" xvalue="0" />
+                <dimension name="opsz" xvalue="144" />
                 <dimension name="PWDT" xvalue="712" />
                 <dimension name="YTLC" xvalue="514" />
                 <dimension name="XTRA" xvalue="359" />
