@@ -13,7 +13,7 @@ It is prominently positioned in the global design community, with Google using i
 It is the default face of the Material Design Specification, and available to everyone under an unrestrictive license, it has been adopted by more than 11M websites and has become the most popular family in the Google Fonts library.
 
 In 2016 the OpenType format was [updated](https://medium.com/@tiro/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369) with a revised version of Apple's “TrueType GX” run-time interpolation technology.
-The primary motivation for the OpenType specification authors to do this was obtaining dramatic reductions in the file-size of large font families, such as Google's [Noto](https://www.google.com/get/noto) fonts. 
+The primary motivation for the OpenType specification authors to do this was obtaining dramatic reductions in the file-size of large font families, such as Google's [Noto](https://github.com/googlei18n/noto-fonts/tree/master/phaseIII_only/unhinted/variable-ttf) fonts. 
 The Google Fonts team intends to go beyond compression: To make Variable Fonts meaningful.
 
 Variations technology offers the potential of new ways to do typography, and could improve Material Specification Typography guidance in myriad ways.
