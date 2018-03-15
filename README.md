@@ -20,3 +20,5 @@ This enables file-size reduction while increasing the fine typographic control a
 it enables a new kind of “parametric” typography.
 
 Applying this approach to Google’s primary text typeface, we hope to socialize the benefits of this novel approach across the design community.
+
+This project was commissioned by Google, but is not an official Google project, and Google provides no support for it.
