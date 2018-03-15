@@ -1,3 +1,5 @@
+# License: Apache 2.0
+
 from glyphNameFormatter.data import name2unicode_AGD
 from mutatorMath.ufo.document import DesignSpaceDocumentWriter, DesignSpaceDocumentReader
 from designSpaceDocument import DesignSpaceDocument, SourceDescriptor, InstanceDescriptor, AxisDescriptor
