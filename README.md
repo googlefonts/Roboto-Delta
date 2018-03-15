@@ -2,6 +2,8 @@
 
 A demo version of Roboto as a parametric variable font.
 
+**[Download latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/raw/master/fonts/RobotoDelta-VF.ttf)**
+
 Roboto became a flagship Google brand typeface in 2011.
 It is prominently positioned in the global design community, with Google using it in most UIs and for branded content at small sizes.
 It is the default face of the Material Design Specification.
