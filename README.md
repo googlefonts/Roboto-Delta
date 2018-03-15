@@ -27,4 +27,6 @@ Applying this approach to Google’s primary text typeface, we hope to socialize
 
 ## License
 
-[SIL Open Font License](OFL.txt)
+Fonts (UFO, TTF) are available under the [SIL Open Font License v1.1](OFL.txt)
+
+Scripts and documentation is available under the [Apache 2.0](/scripts/LICENSE.txt)
