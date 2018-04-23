@@ -30,3 +30,9 @@ Applying this approach to Google’s primary text typeface, we hope to socialize
 Fonts (UFO, TTF) are available under the [SIL Open Font License v1.1](OFL.txt)
 
 Scripts and documentation is available under the [Apache 2.0](/scripts/LICENSE.txt)
+
+## Proposed Schedule
+
+* May 1: Updated `opsz`, `wght`, `wdth` masters
+* May 15: New corner masters as necessary
+* June 1: Changes and `ital`
