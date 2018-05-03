@@ -7,7 +7,7 @@ from fontTools.ttLib import TTFont
 
 basePath = os.path.split(os.path.split(__file__)[0])[0]
 sourcePath =  os.path.join(basePath, u"fonts/RobotoDelta-VF.ttf")
-destPath = os.path.join(basePath, "src/master_ufo")
+destPath = os.path.join(basePath, "src/1-drawing")
 
 pathToFontToolsMutator = os.path.join(os.path.split(fontTools.__file__)[0], 'varLib/mutator.py')
 
