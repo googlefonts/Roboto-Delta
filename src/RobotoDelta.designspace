@@ -31,7 +31,7 @@
         <axis default="-49" maximum="0" minimum="-195" name="UDLN" tag="UDLN">
             <labelname xml:lang="en">UDLN</labelname>
         </axis>
-        <axis default="400" maximum="900" minimum="100" name="wght" tag="wght">
+        <axis default="400" maximum="900" minimum="300" name="wght" tag="wght">
             <labelname xml:lang="en">wght</labelname>
         </axis>
         <axis default="100" maximum="125" minimum="75" name="wdth" tag="wdth">
@@ -712,7 +712,7 @@
                 <dimension name="YTLC" xvalue="514" />
                 <dimension name="XTRA" xvalue="359" />
                 <dimension name="YTAD" xvalue="563" />
-                <dimension name="wght" xvalue="100" />
+                <dimension name="wght" xvalue="300" />
                 <dimension name="GRAD" xvalue="0" />
                 <dimension name="XOPQ" xvalue="94" />
                 <dimension name="YTUC" xvalue="712" />
