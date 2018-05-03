@@ -282,7 +282,7 @@ sources = [
 	dict(path="master_ufo/RobotoDelta-GRADmin.ufo", name="RobotoDelta-GRADmin.ufo", location=dict(GRAD=-1), styleName="GRADmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-GRADmax.ufo", name="RobotoDelta-GRADmax.ufo", location=dict(GRAD=1), styleName="GRADmax", familyName=familyName, copyInfo=False),
 		
-	dict(path="master_ufo/RobotoDelta-wghtmin.ufo", name="RobotoDelta-wghtmin.ufo", location=dict(wght=100), styleName="wghtmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-wghtmin.ufo", name="RobotoDelta-wghtmin.ufo", location=dict(wght=300), styleName="wghtmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wghtmax.ufo", name="RobotoDelta-wghtmax.ufo", location=dict(wght=900), styleName="wghtmax", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wghtmin.ufo", name="RobotoDelta-wghtmin.ufo", location=dict(PWGT=44), styleName="wghtmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wghtmax.ufo", name="RobotoDelta-wghtmax.ufo", location=dict(PWGT=150), styleName="wghtmax", familyName=familyName, copyInfo=False),
