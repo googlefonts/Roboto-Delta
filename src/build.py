@@ -334,6 +334,7 @@ print "Building masters..."
 
 # load font objects
 fonts = []
+accentFonts = []
 for fileName in sources:
 	source_path = os.path.join(src_dir, fileName)
 	master_path = os.path.join(master_dir, fileName)
@@ -342,11 +343,13 @@ for fileName in sources:
 		font = Font(master_path)
 	else:
 		font = Font(source_path)
+	if fileName not in ['RobotoDelta-opszmax.ufo', 'RobotoDelta-wghtmin.ufo', 'RobotoDelta-wghtmax.ufo']:
+	    accentFonts.append(font)
 	fonts.append(font)
 	
 buildGlyphSet(dflt, fonts)
 allfonts = [dflt]+fonts
-buildComposites(composites, allfonts)
+buildComposites(composites, accentFonts)
 setGlyphOrder(glyphOrder, allfonts)
 saveMasters(allfonts)
 
