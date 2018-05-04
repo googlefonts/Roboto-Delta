@@ -7,14 +7,14 @@ from fontTools.ttLib import TTFont
 
 basePath = os.path.split(os.path.split(__file__)[0])[0]
 sourcePath =  os.path.join(basePath, u"fonts/RobotoDelta-VF.ttf")
-destPath = os.path.join(basePath, "src/1-drawing")
+destPath = os.path.join(basePath, "src/1-drawings")
 
 pathToFontToolsMutator = os.path.join(os.path.split(fontTools.__file__)[0], 'varLib/mutator.py')
 
 
 locations = {
-   'wghtmin': {
-    'wght': 300
+   'wdthmax': {
+    'wdth': 112.5
     },
 }
 
