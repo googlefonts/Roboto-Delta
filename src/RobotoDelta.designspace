@@ -31,10 +31,10 @@
         <axis default="-49" maximum="0" minimum="-195" name="UDLN" tag="UDLN">
             <labelname xml:lang="en">UDLN</labelname>
         </axis>
-        <axis default="400" maximum="900" minimum="100" name="wght" tag="wght">
+        <axis default="400" maximum="900" minimum="300" name="wght" tag="wght">
             <labelname xml:lang="en">wght</labelname>
         </axis>
-        <axis default="100" maximum="125" minimum="75" name="wdth" tag="wdth">
+        <axis default="100" maximum="112.500000" minimum="87.500000" name="wdth" tag="wdth">
             <labelname xml:lang="en">wdth</labelname>
         </axis>
         <axis default="12" maximum="144" minimum="8" name="opsz" tag="opsz">
@@ -863,7 +863,7 @@
                 <dimension name="YTDD" xvalue="0" />
                 <dimension name="UDLN" xvalue="-49" />
                 <dimension name="wght" xvalue="400" />
-                <dimension name="wdth" xvalue="75" />
+                <dimension name="wdth" xvalue="87.500000" />
                 <dimension name="opsz" xvalue="12" />
                 <dimension name="PWGT" xvalue="94" />
                 <dimension name="PWDT" xvalue="712" />
@@ -885,7 +885,7 @@
                 <dimension name="YTDD" xvalue="0" />
                 <dimension name="UDLN" xvalue="-49" />
                 <dimension name="wght" xvalue="400" />
-                <dimension name="wdth" xvalue="125" />
+                <dimension name="wdth" xvalue="112.500000" />
                 <dimension name="opsz" xvalue="12" />
                 <dimension name="PWGT" xvalue="94" />
                 <dimension name="PWDT" xvalue="712" />
