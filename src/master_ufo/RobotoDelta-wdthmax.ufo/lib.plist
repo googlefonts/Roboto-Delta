@@ -4,6 +4,9 @@
 <dict>
 	<key>com.typemytype.robofont.binarySource</key>
 	<string>/Users/david/Documents/Type_Network/Roboto-Delta/src/1-drawings/RobotoDelta-wdthmax.ttf</string>
+	<key>com.typemytype.robofont.layerOrder</key>
+	<array>
+	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>qcurve</string>
 	<key>com.typemytype.robofont.sort</key>
@@ -11,7 +14,6 @@
 		<dict>
 			<key>ascending</key>
 			<array>
-				<string>.notdef</string>
 				<string>space</string>
 				<string>nbspace</string>
 				<string>comma</string>
@@ -447,5 +449,16 @@
 		<string>yacute</string>
 		<string>ydieresis</string>
 	</array>
+	<key>tnCurvePalet</key>
+	<dict>
+		<key>sliderBottomMax</key>
+		<integer>80</integer>
+		<key>sliderBottomMin</key>
+		<integer>30</integer>
+		<key>sliderTopMax</key>
+		<integer>80</integer>
+		<key>sliderTopMin</key>
+		<integer>30</integer>
+	</dict>
 </dict>
 </plist>
