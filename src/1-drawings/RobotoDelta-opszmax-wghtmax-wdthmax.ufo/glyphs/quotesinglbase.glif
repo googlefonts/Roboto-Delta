@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesinglbase" format="1">
+  <advance width="578"/>
+  <unicode hex="201A"/>
+  <outline>
+    <contour>
+      <point x="60" y="-219" type="qcurve"/>
+      <point x="219" y="-321" type="line"/>
+      <point x="345" y="-223"/>
+      <point x="458" y="-22"/>
+      <point x="458" y="106" type="qcurve" smooth="yes"/>
+      <point x="458" y="275" type="line"/>
+      <point x="198" y="275" type="line"/>
+      <point x="198" y="106" type="line" smooth="yes"/>
+      <point x="198" y="22"/>
+      <point x="133" y="-131"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
