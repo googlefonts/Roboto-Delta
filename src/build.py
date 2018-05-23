@@ -97,6 +97,12 @@ def setGlyphOrder(glyphOrder, fonts):
 	for font in fonts:
 		font.glyphOrder = glyphOrder
 
+def clearAnchors(fonts):
+	# set the glyph order
+	for font in fonts:
+		for glyph in font:
+		    glyph.clearAnchors()
+
 def saveMasters(fonts, master_dir="master_ufo"):
 	# save in master_ufo directory
 	for font in fonts:
@@ -282,8 +288,10 @@ sources = [
 	dict(path="master_ufo/RobotoDelta-GRADmin.ufo", name="RobotoDelta-GRADmin.ufo", location=dict(GRAD=-1), styleName="GRADmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-GRADmax.ufo", name="RobotoDelta-GRADmax.ufo", location=dict(GRAD=1), styleName="GRADmax", familyName=familyName, copyInfo=False),
 		
-	dict(path="master_ufo/RobotoDelta-wghtmin.ufo", name="RobotoDelta-wghtmin.ufo", location=dict(wght=300), styleName="wghtmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-wghtmin.ufo", name="RobotoDelta-wghtmin.ufo", location=dict(wght=100), styleName="wghtmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wghtmax.ufo", name="RobotoDelta-wghtmax.ufo", location=dict(wght=900), styleName="wghtmax", familyName=familyName, copyInfo=False),
+
+
 	dict(path="master_ufo/RobotoDelta-wghtmin.ufo", name="RobotoDelta-wghtmin.ufo", location=dict(PWGT=44), styleName="wghtmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wghtmax.ufo", name="RobotoDelta-wghtmax.ufo", location=dict(PWGT=150), styleName="wghtmax", familyName=familyName, copyInfo=False),
 	
@@ -291,10 +299,25 @@ sources = [
 	dict(path="master_ufo/RobotoDelta-opsz36.ufo", name="RobotoDelta-opsz36.ufo", location=dict(opsz=36), styleName="opsz36", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-opszmax.ufo", name="RobotoDelta-opszmax.ufo", location=dict(opsz=144), styleName="opszmax", familyName=familyName, copyInfo=False),
 
-	dict(path="master_ufo/RobotoDelta-wdthmin.ufo", name="RobotoDelta-wdthmin.ufo", location=dict(wdth=87.5), styleName="wdthmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-wdthmax.ufo", name="RobotoDelta-wdthmax.ufo", location=dict(wdth=112.5), styleName="wdthmax", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-wdthmin.ufo", name="RobotoDelta-wdthmin.ufo", location=dict(wdth=75), styleName="wdthmin", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/RobotoDelta-wdthmax.ufo", name="RobotoDelta-wdthmax.ufo", location=dict(wdth=125), styleName="wdthmax", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wdthmin.ufo", name="RobotoDelta-wdthmin.ufo", location=dict(PWDT=560), styleName="wdthmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wdthmax.ufo", name="RobotoDelta-wdthmax.ufo", location=dict(PWDT=867), styleName="wdthmax", familyName=familyName, copyInfo=False),
+	
+	
+	dict(path="master_ufo/RobotoDelta-opszmax-wdthmax.ufo", name="RobotoDelta-opszmax-wdthmax.ufo", location=dict(wdth=125, opsz=144), styleName="opszmax-wdthmax", familyName=familyName, copyInfo=False),
+
+	dict(path="master_ufo/RobotoDelta-opszmax-wdthmin.ufo", name="RobotoDelta-opszmax-wdthmin.ufo", location=dict(wdth=75, opsz=144), styleName="opszmax-wdthmin", familyName=familyName, copyInfo=False),
+	
+	dict(path="master_ufo/RobotoDelta-wghtmax-opszmax.ufo", name="RobotoDelta-wghtmax-opszmax.ufo", location=dict(wght=900, opsz=144), styleName="wghtmax-opszmax", familyName=familyName, copyInfo=False),
+		
+	dict(path="master_ufo/RobotoDelta-opszmax-wghtmax-wdthmax.ufo", name="RobotoDelta-opszmax-wghtmax-wdthmax.ufo", location=dict(wght=900, opsz=144, wdth=125), styleName="opszmax-wghtmax-wdthmax", familyName=familyName, copyInfo=False),
+	
+	dict(path="master_ufo/RobotoDelta-opszmax-wghtmax-wdthmin.ufo", name="RobotoDelta-opszmax-wghtmax-wdthmin.ufo", location=dict(wght=900, opsz=144, wdth=75), styleName="opszmax-wghtmax-wdthmin", familyName=familyName, copyInfo=False),
+		
+	
+	
+	
 ]
 instances = []
 axes = [
@@ -308,8 +331,8 @@ axes = [
 	dict(minimum=460, maximum=600, default=563, name="YTAD", tag="YTAD", labelNames={"en": "YTAD"}, map=[]),
 	dict(minimum=-1, maximum=1, default=0, name="YTDD", tag="YTDD", labelNames={"en": "YTDD"}, map=[]),
 	dict(minimum=-195, maximum=0, default=-49, name="UDLN", tag="UDLN", labelNames={"en": "UDLN"}, map=[]),
-	dict(minimum=300, maximum=900, default=400, name="wght", tag="wght", labelNames={"en": "wght"}, map=[]),
-	dict(minimum=87.5, maximum=112.5, default=100, name="wdth", tag="wdth", labelNames={"en": "wdth"}, map=[]),
+	dict(minimum=100, maximum=900, default=400, name="wght", tag="wght", labelNames={"en": "wght"}, map=[]),
+	dict(minimum=75, maximum=125, default=100, name="wdth", tag="wdth", labelNames={"en": "wdth"}, map=[]),
 	dict(minimum=8, maximum=144, default=12, name="opsz", tag="opsz", labelNames={"en": "opsz"}, map=[]),
 	dict(minimum=44, maximum=150, default=94, name="PWGT", tag="PWGT", labelNames={"en": "PWGT"}, map=[]),
 	dict(minimum=560, maximum=867, default=712, name="PWDT", tag="PWDT", labelNames={"en": "PWDT"}, map=[]),
@@ -351,6 +374,7 @@ buildGlyphSet(dflt, fonts)
 allfonts = [dflt]+fonts
 buildComposites(composites, accentFonts)
 setGlyphOrder(glyphOrder, allfonts)
+clearAnchors(allfonts)
 saveMasters(allfonts)
 
 # build Variable Font

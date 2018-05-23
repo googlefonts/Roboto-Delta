@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="1">
+  <advance width="786"/>
+  <unicode hex="0056"/>
+  <outline>
+    <contour>
+      <point x="-10" y="1456" type="line"/>
+      <point x="325" y="-9" type="line"/>
+      <point x="461" y="-9" type="line"/>
+      <point x="796" y="1456" type="line"/>
+      <point x="702" y="1456" type="line"/>
+      <point x="421" y="187" type="line" smooth="yes"/>
+      <point x="412" y="148"/>
+      <point x="405" y="109"/>
+      <point x="399" y="70" type="qcurve"/>
+      <point x="395" y="70" type="line"/>
+      <point x="388" y="109"/>
+      <point x="381" y="148"/>
+      <point x="372" y="187" type="qcurve" smooth="yes"/>
+      <point x="91" y="1456" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>-92</integer>
+          <key>y</key>
+          <integer>100</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

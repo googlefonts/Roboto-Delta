@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown" format="1">
+  <advance width="528"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="213" y="-280" type="line"/>
+      <point x="315" y="-280" type="line"/>
+      <point x="306" y="784" type="line"/>
+      <point x="222" y="784" type="line"/>
+    </contour>
+    <contour>
+      <point x="186" y="1112" type="qcurve" smooth="yes"/>
+      <point x="186" y="1077"/>
+      <point x="226" y="1026"/>
+      <point x="264" y="1026" type="qcurve" smooth="yes"/>
+      <point x="302" y="1026"/>
+      <point x="342" y="1077"/>
+      <point x="342" y="1112" type="qcurve" smooth="yes"/>
+      <point x="342" y="1147"/>
+      <point x="301" y="1198"/>
+      <point x="263" y="1198" type="qcurve" smooth="yes"/>
+      <point x="226" y="1198"/>
+      <point x="186" y="1147"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
