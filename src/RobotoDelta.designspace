@@ -31,7 +31,7 @@
         <axis default="-49" maximum="0" minimum="-195" name="UDLN" tag="UDLN">
             <labelname xml:lang="en">UDLN</labelname>
         </axis>
-        <axis default="400" maximum="900" minimum="300" name="wght" tag="wght">
+        <axis default="400" maximum="900" minimum="100" name="wght" tag="wght">
             <labelname xml:lang="en">wght</labelname>
         </axis>
         <axis default="100" maximum="125" minimum="75" name="wdth" tag="wdth">
@@ -863,7 +863,7 @@
                 <dimension name="YTDD" xvalue="0" />
                 <dimension name="UDLN" xvalue="-49" />
                 <dimension name="wght" xvalue="400" />
-                <dimension name="wdth" xvalue="75.00000" />
+                <dimension name="wdth" xvalue="75" />
                 <dimension name="opsz" xvalue="12" />
                 <dimension name="PWGT" xvalue="94" />
                 <dimension name="PWDT" xvalue="712" />
@@ -933,6 +933,116 @@
                 <dimension name="opsz" xvalue="12" />
                 <dimension name="PWGT" xvalue="94" />
                 <dimension name="PWDT" xvalue="867" />
+                <dimension name="POPS" xvalue="0" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="YTRA" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-opszmax-wdthmax.ufo" name="RobotoDelta-opszmax-wdthmax.ufo" stylename="opszmax-wdthmax">
+            <location>
+                <dimension name="XTRA" xvalue="359" />
+                <dimension name="XOPQ" xvalue="94" />
+                <dimension name="YOPQ" xvalue="77" />
+                <dimension name="YTLC" xvalue="514" />
+                <dimension name="YTUC" xvalue="712" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTDE" xvalue="-203" />
+                <dimension name="YTAD" xvalue="563" />
+                <dimension name="YTDD" xvalue="0" />
+                <dimension name="UDLN" xvalue="-49" />
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="125" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="PWGT" xvalue="94" />
+                <dimension name="PWDT" xvalue="712" />
+                <dimension name="POPS" xvalue="0" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="YTRA" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-opszmax-wdthmin.ufo" name="RobotoDelta-opszmax-wdthmin.ufo" stylename="opszmax-wdthmin">
+            <location>
+                <dimension name="XTRA" xvalue="359" />
+                <dimension name="XOPQ" xvalue="94" />
+                <dimension name="YOPQ" xvalue="77" />
+                <dimension name="YTLC" xvalue="514" />
+                <dimension name="YTUC" xvalue="712" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTDE" xvalue="-203" />
+                <dimension name="YTAD" xvalue="563" />
+                <dimension name="YTDD" xvalue="0" />
+                <dimension name="UDLN" xvalue="-49" />
+                <dimension name="wght" xvalue="400" />
+                <dimension name="wdth" xvalue="75" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="PWGT" xvalue="94" />
+                <dimension name="PWDT" xvalue="712" />
+                <dimension name="POPS" xvalue="0" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="YTRA" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-wghtmax-opszmax.ufo" name="RobotoDelta-wghtmax-opszmax.ufo" stylename="wghtmax-opszmax">
+            <location>
+                <dimension name="XTRA" xvalue="359" />
+                <dimension name="XOPQ" xvalue="94" />
+                <dimension name="YOPQ" xvalue="77" />
+                <dimension name="YTLC" xvalue="514" />
+                <dimension name="YTUC" xvalue="712" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTDE" xvalue="-203" />
+                <dimension name="YTAD" xvalue="563" />
+                <dimension name="YTDD" xvalue="0" />
+                <dimension name="UDLN" xvalue="-49" />
+                <dimension name="wght" xvalue="900" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="PWGT" xvalue="94" />
+                <dimension name="PWDT" xvalue="712" />
+                <dimension name="POPS" xvalue="0" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="YTRA" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-opszmax-wghtmax-wdthmax.ufo" name="RobotoDelta-opszmax-wghtmax-wdthmax.ufo" stylename="opszmax-wghtmax-wdthmax">
+            <location>
+                <dimension name="XTRA" xvalue="359" />
+                <dimension name="XOPQ" xvalue="94" />
+                <dimension name="YOPQ" xvalue="77" />
+                <dimension name="YTLC" xvalue="514" />
+                <dimension name="YTUC" xvalue="712" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTDE" xvalue="-203" />
+                <dimension name="YTAD" xvalue="563" />
+                <dimension name="YTDD" xvalue="0" />
+                <dimension name="UDLN" xvalue="-49" />
+                <dimension name="wght" xvalue="900" />
+                <dimension name="wdth" xvalue="125" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="PWGT" xvalue="94" />
+                <dimension name="PWDT" xvalue="712" />
+                <dimension name="POPS" xvalue="0" />
+                <dimension name="GRAD" xvalue="0" />
+                <dimension name="YTRA" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-opszmax-wghtmax-wdthmin.ufo" name="RobotoDelta-opszmax-wghtmax-wdthmin.ufo" stylename="opszmax-wghtmax-wdthmin">
+            <location>
+                <dimension name="XTRA" xvalue="359" />
+                <dimension name="XOPQ" xvalue="94" />
+                <dimension name="YOPQ" xvalue="77" />
+                <dimension name="YTLC" xvalue="514" />
+                <dimension name="YTUC" xvalue="712" />
+                <dimension name="YTAS" xvalue="750" />
+                <dimension name="YTDE" xvalue="-203" />
+                <dimension name="YTAD" xvalue="563" />
+                <dimension name="YTDD" xvalue="0" />
+                <dimension name="UDLN" xvalue="-49" />
+                <dimension name="wght" xvalue="900" />
+                <dimension name="wdth" xvalue="75" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="PWGT" xvalue="94" />
+                <dimension name="PWDT" xvalue="712" />
                 <dimension name="POPS" xvalue="0" />
                 <dimension name="GRAD" xvalue="0" />
                 <dimension name="YTRA" xvalue="0" />
