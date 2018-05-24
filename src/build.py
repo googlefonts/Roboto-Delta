@@ -224,7 +224,7 @@ instances = [
 		
 	dict(fileName="instances/RobotoDelta-opszmin.ufo", location=dict(XYOPQ=(0.08, 0.12), XTRA=0.16, YTLC=0.32), styleName="opszmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-opsz36.ufo", location=dict(XYOPQ=(-0.24, -0.18), XTRA=-0.18, YTLC=-0.265), styleName="opsz36", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
-#	dict(fileName="instances/RobotoDelta-wghtmin.ufo", location=dict(XYOPQ=(-0.74, -0.68), XTRA=0.16), styleName="wghtmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+	dict(fileName="instances/RobotoDelta-wghtmin.ufo", location=dict(XYOPQ=(-0.74, -0.68), XTRA=0.16), styleName="wghtmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 #	dict(fileName="instances/RobotoDelta-wghtmax.ufo", location=dict(XYOPQ=(0.74, 0.5), XTRA=-0.5, YTLC=0.23), styleName="wghtmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 
 #	dict(fileName="instances/RobotoDelta-wdthmin.ufo", location=dict(XYOPQ=(-0.12, -0.09), XTRA=-1.00), styleName="wdthmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
