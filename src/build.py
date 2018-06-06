@@ -310,6 +310,9 @@ sources = [
 	dict(path="master_ufo/RobotoDelta-opszmax-wdthmin.ufo", name="RobotoDelta-opszmax-wdthmin.ufo", location=dict(wdth=75, opsz=144), styleName="opszmax-wdthmin", familyName=familyName, copyInfo=False),
 	
 	dict(path="master_ufo/RobotoDelta-wghtmax-opszmax.ufo", name="RobotoDelta-wghtmax-opszmax.ufo", location=dict(wght=900, opsz=144), styleName="wghtmax-opszmax", familyName=familyName, copyInfo=False),
+	
+		dict(path="master_ufo/RobotoDelta-wghtmin-opszmax.ufo", name="RobotoDelta-wghtmin-opszmax.ufo", location=dict(wght=100, opsz=144), styleName="wghtmin-opszmax", familyName=familyName, copyInfo=False),
+
 		
 	dict(path="master_ufo/RobotoDelta-opszmax-wghtmax-wdthmax.ufo", name="RobotoDelta-opszmax-wghtmax-wdthmax.ufo", location=dict(wght=900, opsz=144, wdth=125), styleName="opszmax-wghtmax-wdthmax", familyName=familyName, copyInfo=False),
 	
