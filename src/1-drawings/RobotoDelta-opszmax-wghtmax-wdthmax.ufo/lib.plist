@@ -2,26 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>com.letterror.lightMeter.prefs</key>
-	<dict>
-		<key>chunkSize</key>
-		<integer>5</integer>
-		<key>diameter</key>
-		<integer>200</integer>
-		<key>drawTail</key>
-		<false/>
-		<key>invert</key>
-		<false/>
-		<key>toolDiameter</key>
-		<integer>30</integer>
-		<key>toolStyle</key>
-		<string>fluid</string>
-	</dict>
+	<key>com.typemytype.robofont.compileSettings.autohint</key>
+	<true/>
+	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
+	<false/>
+	<key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
+	<true/>
+	<key>com.typemytype.robofont.compileSettings.decompose</key>
+	<false/>
+	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
+	<integer>0</integer>
+	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
+	<false/>
+	<key>com.typemytype.robofont.italicSlantOffset</key>
+	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>qcurve</string>
+	<key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
+	<integer>1</integer>
 	<key>com.typemytype.robofont.sort</key>
 	<array>
 		<dict>
@@ -90,6 +91,7 @@
 				<string>aacute</string>
 				<string>acircumflex</string>
 				<string>acute</string>
+				<string>acutecmb</string>
 				<string>adieresis</string>
 				<string>ae</string>
 				<string>agrave</string>
@@ -113,8 +115,10 @@
 				<string>c</string>
 				<string>ccedilla</string>
 				<string>cedilla</string>
+				<string>cedillacmb</string>
 				<string>cent</string>
 				<string>circumflex</string>
+				<string>circumflexcmb</string>
 				<string>colon</string>
 				<string>comma</string>
 				<string>copyright</string>
@@ -123,6 +127,7 @@
 				<string>dagger</string>
 				<string>degree</string>
 				<string>dieresis</string>
+				<string>dieresiscmb</string>
 				<string>divide</string>
 				<string>divisionslash</string>
 				<string>dollar</string>
@@ -156,6 +161,7 @@
 				<string>g</string>
 				<string>germandbls</string>
 				<string>grave</string>
+				<string>gravecmb</string>
 				<string>greater</string>
 				<string>guillemetleft</string>
 				<string>guillemetright</string>
@@ -227,6 +233,7 @@
 				<string>r</string>
 				<string>registered</string>
 				<string>ring</string>
+				<string>ringcmb</string>
 				<string>s</string>
 				<string>section</string>
 				<string>semicolon</string>
@@ -245,6 +252,7 @@
 				<string>threequarters</string>
 				<string>threesuperior</string>
 				<string>tilde</string>
+				<string>tildecmb</string>
 				<string>trademark</string>
 				<string>two</string>
 				<string>two.inferior</string>
@@ -337,6 +345,7 @@
 		<string>aacute</string>
 		<string>acircumflex</string>
 		<string>acute</string>
+		<string>acutecmb</string>
 		<string>adieresis</string>
 		<string>ae</string>
 		<string>agrave</string>
@@ -360,8 +369,10 @@
 		<string>c</string>
 		<string>ccedilla</string>
 		<string>cedilla</string>
+		<string>cedillacmb</string>
 		<string>cent</string>
 		<string>circumflex</string>
+		<string>circumflexcmb</string>
 		<string>colon</string>
 		<string>comma</string>
 		<string>copyright</string>
@@ -370,6 +381,7 @@
 		<string>dagger</string>
 		<string>degree</string>
 		<string>dieresis</string>
+		<string>dieresiscmb</string>
 		<string>divide</string>
 		<string>divisionslash</string>
 		<string>dollar</string>
@@ -403,6 +415,7 @@
 		<string>g</string>
 		<string>germandbls</string>
 		<string>grave</string>
+		<string>gravecmb</string>
 		<string>greater</string>
 		<string>guillemetleft</string>
 		<string>guillemetright</string>
@@ -474,6 +487,7 @@
 		<string>r</string>
 		<string>registered</string>
 		<string>ring</string>
+		<string>ringcmb</string>
 		<string>s</string>
 		<string>section</string>
 		<string>semicolon</string>
@@ -492,6 +506,7 @@
 		<string>threequarters</string>
 		<string>threesuperior</string>
 		<string>tilde</string>
+		<string>tildecmb</string>
 		<string>trademark</string>
 		<string>two</string>
 		<string>two.inferior</string>
