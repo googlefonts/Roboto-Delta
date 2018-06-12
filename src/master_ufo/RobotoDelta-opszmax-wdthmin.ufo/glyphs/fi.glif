@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fi" format="1">
-  <advance width="727"/>
+  <advance width="721"/>
   <unicode hex="FB01"/>
   <outline>
     <contour>
@@ -9,8 +9,8 @@
       <point x="238" y="874" type="line"/>
       <point x="238" y="885" type="line"/>
       <point x="238" y="1141" type="line" smooth="yes"/>
-      <point x="238" y="1270.730769230769"/>
-      <point x="316.0" y="1391.0"/>
+      <point x="238" y="1271"/>
+      <point x="316" y="1391"/>
       <point x="391" y="1391" type="qcurve" smooth="yes"/>
       <point x="431" y="1391"/>
       <point x="498" y="1365"/>
@@ -38,15 +38,4 @@
       <point x="517" y="914" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
