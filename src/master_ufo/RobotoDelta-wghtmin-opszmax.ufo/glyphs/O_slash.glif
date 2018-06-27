@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Oslash" format="1">
-  <advance width="1248"/>
+  <advance width="1227"/>
   <unicode hex="00D8"/>
   <outline>
     <contour>
-      <point x="19" y="-80" type="line"/>
-      <point x="99" y="-80" type="line"/>
-      <point x="260" y="150" type="line"/>
-      <point x="258" y="150" type="line"/>
-      <point x="662" y="726" type="line"/>
-      <point x="588" y="726" type="line"/>
-      <point x="254" y="250" type="line"/>
-      <point x="252" y="250" type="line"/>
+      <point x="8" y="-80" type="line"/>
+      <point x="73" y="-80" type="line"/>
+      <point x="254" y="175" type="line"/>
+      <point x="252" y="175" type="line"/>
+      <point x="646" y="726" type="line"/>
+      <point x="581" y="726" type="line"/>
+      <point x="229" y="228" type="line"/>
+      <point x="227" y="228" type="line"/>
     </contour>
     <contour>
-      <point x="588" y="726" type="line"/>
-      <point x="662" y="726" type="line"/>
-      <point x="995" y="1202" type="line"/>
-      <point x="996" y="1202" type="line"/>
-      <point x="1230" y="1532" type="line"/>
-      <point x="1150" y="1532" type="line"/>
-      <point x="990" y="1302" type="line"/>
-      <point x="991" y="1302" type="line"/>
+      <point x="581" y="726" type="line"/>
+      <point x="646" y="726" type="line"/>
+      <point x="996" y="1219" type="line"/>
+      <point x="997" y="1219" type="line"/>
+      <point x="1219" y="1532" type="line"/>
+      <point x="1153" y="1532" type="line"/>
+      <point x="976" y="1283" type="line"/>
+      <point x="977" y="1283" type="line"/>
     </contour>
     <contour>
-      <point x="102" y="682" type="line" smooth="yes"/>
-      <point x="102" y="346"/>
-      <point x="395" y="-30"/>
-      <point x="625" y="-30" type="qcurve" smooth="yes"/>
-      <point x="854" y="-30"/>
-      <point x="1146" y="346"/>
-      <point x="1146" y="682" type="qcurve" smooth="yes"/>
-      <point x="1146" y="774" type="line" smooth="yes"/>
-      <point x="1146" y="1110"/>
-      <point x="854" y="1486"/>
-      <point x="625" y="1486" type="qcurve" smooth="yes"/>
-      <point x="395" y="1486"/>
-      <point x="102" y="1110"/>
-      <point x="102" y="774" type="qcurve" smooth="yes"/>
+      <point x="97" y="682" type="line" smooth="yes"/>
+      <point x="97" y="346.0"/>
+      <point x="386.6386233269599" y="-30.0"/>
+      <point x="614" y="-30" type="qcurve" smooth="yes"/>
+      <point x="840.362763915547" y="-30.0"/>
+      <point x="1129" y="346.0"/>
+      <point x="1129" y="682" type="qcurve" smooth="yes"/>
+      <point x="1129" y="774" type="line" smooth="yes"/>
+      <point x="1129" y="1110.0"/>
+      <point x="840.362763915547" y="1486.0"/>
+      <point x="614" y="1486" type="qcurve" smooth="yes"/>
+      <point x="386.6386233269599" y="1486.0"/>
+      <point x="97" y="1110.0"/>
+      <point x="97" y="774" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="167" y="682" type="qcurve" smooth="yes"/>
-      <point x="167" y="774" type="line" smooth="yes"/>
-      <point x="167" y="1082"/>
-      <point x="421" y="1421"/>
-      <point x="625" y="1421" type="qcurve" smooth="yes"/>
-      <point x="828" y="1421"/>
-      <point x="1081" y="1082"/>
-      <point x="1081" y="774" type="qcurve" smooth="yes"/>
-      <point x="1081" y="682" type="line" smooth="yes"/>
-      <point x="1081" y="374"/>
-      <point x="828" y="35"/>
-      <point x="625" y="35" type="qcurve" smooth="yes"/>
-      <point x="421" y="35"/>
-      <point x="167" y="374"/>
+      <point x="151" y="682" type="qcurve" smooth="yes"/>
+      <point x="151" y="774" type="line" smooth="yes"/>
+      <point x="151" y="1088.6646058732613"/>
+      <point x="408.0" y="1435.0"/>
+      <point x="614" y="1435" type="qcurve" smooth="yes"/>
+      <point x="819.0" y="1435.0"/>
+      <point x="1074" y="1089"/>
+      <point x="1074" y="774" type="qcurve" smooth="yes"/>
+      <point x="1074" y="682" type="line" smooth="yes"/>
+      <point x="1074" y="367"/>
+      <point x="819.0" y="21.0"/>
+      <point x="614" y="21" type="qcurve" smooth="yes"/>
+      <point x="408.0" y="21.0"/>
+      <point x="151" y="367.3353941267388"/>
     </contour>
   </outline>
   <lib>
@@ -61,10 +61,80 @@
       <key>com.typemytype.robofont.guides</key>
       <array>
       </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>bg</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>73</integer>
+                  <key>y</key>
+                  <integer>-80</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>8</integer>
+                  <key>y</key>
+                  <integer>-80</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1153</integer>
+                  <key>y</key>
+                  <integer>1532</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1219</integer>
+                  <key>y</key>
+                  <integer>1532</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Oslash</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1227</integer>
+        </dict>
+      </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>1.0</real>
-        <real>0.0</real>
+        <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
       </array>
