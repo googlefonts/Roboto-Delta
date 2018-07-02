@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oe" format="1">
+  <advance width="1476"/>
+  <unicode hex="0153"/>
+  <outline>
+    <contour>
+      <point x="48" y="441" type="line" smooth="yes"/>
+      <point x="48" y="235"/>
+      <point x="269" y="-26"/>
+      <point x="454" y="-26" type="qcurve" smooth="yes"/>
+      <point x="573" y="-26"/>
+      <point x="742" y="95"/>
+      <point x="785" y="200" type="qcurve"/>
+      <point x="826" y="95"/>
+      <point x="993" y="-26"/>
+      <point x="1118" y="-26" type="qcurve" smooth="yes"/>
+      <point x="1237" y="-26"/>
+      <point x="1400" y="69"/>
+      <point x="1441" y="128" type="qcurve"/>
+      <point x="1353" y="205" type="line"/>
+      <point x="1316" y="151"/>
+      <point x="1201" y="88"/>
+      <point x="1123" y="88" type="qcurve" smooth="yes"/>
+      <point x="985" y="88"/>
+      <point x="856" y="290"/>
+      <point x="856" y="441" type="qcurve" smooth="yes"/>
+      <point x="856" y="468" type="line" smooth="yes"/>
+      <point x="856" y="618"/>
+      <point x="978" y="823"/>
+      <point x="1098" y="823" type="qcurve" smooth="yes"/>
+      <point x="1212" y="823"/>
+      <point x="1309" y="652"/>
+      <point x="1309" y="533" type="qcurve"/>
+      <point x="1309" y="530" type="line"/>
+      <point x="808" y="530" type="line"/>
+      <point x="808" y="429" type="line"/>
+      <point x="1457" y="429" type="line"/>
+      <point x="1457" y="483" type="line" smooth="yes"/>
+      <point x="1457" y="691"/>
+      <point x="1269" y="935"/>
+      <point x="1097" y="935" type="qcurve" smooth="yes"/>
+      <point x="985" y="935"/>
+      <point x="825" y="814"/>
+      <point x="784" y="709" type="qcurve"/>
+      <point x="741" y="814"/>
+      <point x="573" y="935"/>
+      <point x="454" y="935" type="qcurve" smooth="yes"/>
+      <point x="269" y="935"/>
+      <point x="48" y="673"/>
+      <point x="48" y="468" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="199" y="441" type="qcurve" smooth="yes"/>
+      <point x="199" y="468" type="line" smooth="yes"/>
+      <point x="199" y="616"/>
+      <point x="328" y="820"/>
+      <point x="454" y="820" type="qcurve" smooth="yes"/>
+      <point x="580" y="820"/>
+      <point x="709" y="616"/>
+      <point x="709" y="468" type="qcurve" smooth="yes"/>
+      <point x="709" y="441" type="line" smooth="yes"/>
+      <point x="709" y="293"/>
+      <point x="580" y="88"/>
+      <point x="454" y="88" type="qcurve" smooth="yes"/>
+      <point x="328" y="88"/>
+      <point x="199" y="293"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>950</integer>
+          <key>y</key>
+          <integer>348</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>bg</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>o</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>e</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>641</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>oe</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1348</integer>
+        </dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

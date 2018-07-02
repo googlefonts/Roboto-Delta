@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="R" format="1">
+  <advance width="1098"/>
+  <unicode hex="0052"/>
+  <outline>
+    <contour>
+      <point x="139" y="0" type="line"/>
+      <point x="300" y="0" type="line"/>
+      <point x="300" y="602" type="line"/>
+      <point x="569" y="602" type="line" smooth="yes"/>
+      <point x="788" y="602"/>
+      <point x="1014" y="840"/>
+      <point x="1014" y="1031" type="qcurve" smooth="yes"/>
+      <point x="1014" y="1222"/>
+      <point x="788" y="1456"/>
+      <point x="569" y="1456" type="qcurve" smooth="yes"/>
+      <point x="139" y="1456" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="724" type="line"/>
+      <point x="300" y="1334" type="line"/>
+      <point x="569" y="1334" type="line" smooth="yes"/>
+      <point x="729" y="1334"/>
+      <point x="853" y="1160"/>
+      <point x="853" y="1031" type="qcurve" smooth="yes"/>
+      <point x="853" y="901"/>
+      <point x="729" y="724"/>
+      <point x="569" y="724" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="886" y="0" type="line"/>
+      <point x="1070" y="0" type="line"/>
+      <point x="714" y="672" type="line"/>
+      <point x="537" y="672" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
