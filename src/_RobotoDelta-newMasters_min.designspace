@@ -162,5 +162,25 @@
                 <dimension name="GRAD" xvalue="0" />
             </location>
         </source>
+        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-wghtmax-opszmax.ufo" stylename="wghtmax-opszmax">
+            <location>
+                <dimension name="PWDT" xvalue="712" />
+                <dimension name="PWGT" xvalue="94" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="wght" xvalue="900" />
+                <dimension name="GRAD" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-wghtmin-opszmax.ufo" stylename="wghtmin-opszmax">
+            <location>
+                <dimension name="PWDT" xvalue="712" />
+                <dimension name="PWGT" xvalue="94" />
+                <dimension name="wdth" xvalue="100" />
+                <dimension name="opsz" xvalue="144" />
+                <dimension name="wght" xvalue="100" />
+                <dimension name="GRAD" xvalue="0" />
+            </location>
+        </source>
     </sources>
 </designspace>
