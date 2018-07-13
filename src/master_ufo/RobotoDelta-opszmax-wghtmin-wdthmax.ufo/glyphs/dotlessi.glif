@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotlessi" format="1">
-  <advance width="311"/>
+  <advance width="322"/>
   <unicode hex="0131"/>
   <outline>
     <contour>
-      <point x="113" y="0" type="line"/>
-      <point x="198" y="0" type="line"/>
-      <point x="198" y="894" type="line"/>
-      <point x="113" y="894" type="line"/>
+      <point x="136" y="0" type="line"/>
+      <point x="186" y="0" type="line"/>
+      <point x="186" y="887" type="line"/>
+      <point x="136" y="887" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

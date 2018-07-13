@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Oacute" format="1">
-  <advance width="1439"/>
+  <advance width="1396"/>
   <unicode hex="00D3"/>
   <outline>
+    <component base="acute" xOffset="-43" yOffset="-60"/>
     <component base="O"/>
-    <component base="acute"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

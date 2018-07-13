@@ -1,31 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="D" format="1">
-  <advance width="1322"/>
+  <advance width="1292"/>
   <unicode hex="0044"/>
   <outline>
     <contour>
-      <point x="150" y="0" type="line"/>
-      <point x="561" y="0" type="line" smooth="yes"/>
-      <point x="878.0" y="0.0"/>
-      <point x="1218.0" y="356.0"/>
-      <point x="1218" y="687" type="qcurve" smooth="yes"/>
-      <point x="1218" y="769" type="line" smooth="yes"/>
-      <point x="1218.0" y="1100.0"/>
-      <point x="878.0" y="1456.0"/>
-      <point x="561" y="1456" type="qcurve" smooth="yes"/>
-      <point x="150" y="1456" type="line"/>
+      <point x="176" y="0" type="line"/>
+      <point x="553" y="0" type="line" smooth="yes"/>
+      <point x="831" y="0"/>
+      <point x="1179" y="370"/>
+      <point x="1179" y="688" type="qcurve" smooth="yes"/>
+      <point x="1179" y="768" type="line" smooth="yes"/>
+      <point x="1179" y="1086"/>
+      <point x="831" y="1456"/>
+      <point x="553" y="1456" type="qcurve" smooth="yes"/>
+      <point x="176" y="1456" type="line"/>
     </contour>
     <contour>
-      <point x="232" y="80" type="line"/>
-      <point x="232" y="1376" type="line"/>
-      <point x="561" y="1376" type="line" smooth="yes"/>
-      <point x="838.0" y="1376.0"/>
-      <point x="1135.0" y="1061.0"/>
-      <point x="1135" y="769" type="qcurve" smooth="yes"/>
-      <point x="1135" y="687" type="line" smooth="yes"/>
-      <point x="1135.0" y="395.0"/>
-      <point x="838.0" y="80.0"/>
-      <point x="561" y="80" type="qcurve" smooth="yes"/>
+      <point x="230" y="50" type="line"/>
+      <point x="230" y="1406" type="line"/>
+      <point x="553" y="1406" type="line" smooth="yes"/>
+      <point x="815" y="1406"/>
+      <point x="1126" y="1068"/>
+      <point x="1126" y="768" type="qcurve" smooth="yes"/>
+      <point x="1126" y="688" type="line" smooth="yes"/>
+      <point x="1126" y="388"/>
+      <point x="815" y="50"/>
+      <point x="553" y="50" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

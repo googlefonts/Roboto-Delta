@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endash" format="1">
-  <advance width="1401"/>
+  <advance width="1453"/>
   <unicode hex="2013"/>
   <outline>
     <contour>
-      <point x="104" y="596" type="line"/>
-      <point x="1297" y="596" type="line"/>
-      <point x="1297" y="679" type="line"/>
-      <point x="104" y="679" type="line"/>
+      <point x="123" y="604" type="line"/>
+      <point x="1329" y="604" type="line"/>
+      <point x="1329" y="673" type="line"/>
+      <point x="123" y="673" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

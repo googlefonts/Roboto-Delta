@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclamdown" format="1">
-  <advance width="483"/>
+  <advance width="511"/>
   <unicode hex="00A1"/>
   <outline>
     <contour>
-      <point x="192" y="-280" type="line"/>
-      <point x="292" y="-280" type="line"/>
-      <point x="284" y="782" type="line"/>
-      <point x="200" y="782" type="line"/>
+      <point x="224" y="-280" type="line"/>
+      <point x="289" y="-280" type="line"/>
+      <point x="283" y="796" type="line"/>
+      <point x="229" y="796" type="line"/>
     </contour>
     <contour>
-      <point x="166" y="1106" type="qcurve" smooth="yes"/>
-      <point x="166" y="1068"/>
-      <point x="206" y="1014"/>
-      <point x="242" y="1014" type="qcurve" smooth="yes"/>
-      <point x="279" y="1014"/>
-      <point x="317" y="1068"/>
-      <point x="317" y="1106" type="qcurve" smooth="yes"/>
-      <point x="317" y="1144"/>
-      <point x="279" y="1198"/>
-      <point x="242" y="1198" type="qcurve" smooth="yes"/>
-      <point x="205" y="1198"/>
-      <point x="166" y="1144"/>
+      <point x="194" y="1119" type="qcurve" smooth="yes"/>
+      <point x="194" y="1087"/>
+      <point x="227" y="1041"/>
+      <point x="256" y="1041" type="qcurve" smooth="yes"/>
+      <point x="286" y="1041"/>
+      <point x="317" y="1087"/>
+      <point x="317" y="1119" type="qcurve" smooth="yes"/>
+      <point x="317" y="1152"/>
+      <point x="286" y="1198"/>
+      <point x="256" y="1198" type="qcurve" smooth="yes"/>
+      <point x="227" y="1198"/>
+      <point x="194" y="1152"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

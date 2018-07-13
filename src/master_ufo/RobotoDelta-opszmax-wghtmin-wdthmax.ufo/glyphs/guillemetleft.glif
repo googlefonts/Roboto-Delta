@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemetleft" format="1">
-  <advance width="1034"/>
+  <advance width="985"/>
   <unicode hex="00AB"/>
   <outline>
     <contour>
-      <point x="434" y="202" type="line"/>
-      <point x="546" y="202" type="line"/>
-      <point x="165" y="602" type="line"/>
-      <point x="546" y="1002" type="line"/>
-      <point x="434" y="1002" type="line"/>
-      <point x="52" y="612" type="line"/>
-      <point x="52" y="592" type="line"/>
+      <point x="451" y="207" type="line"/>
+      <point x="525" y="207" type="line"/>
+      <point x="148" y="602" type="line"/>
+      <point x="525" y="997" type="line"/>
+      <point x="451" y="997" type="line"/>
+      <point x="64" y="612" type="line"/>
+      <point x="64" y="592" type="line"/>
     </contour>
     <contour>
-      <point x="877" y="202" type="line"/>
-      <point x="988" y="202" type="line"/>
-      <point x="608" y="602" type="line"/>
-      <point x="988" y="1002" type="line"/>
-      <point x="877" y="1002" type="line"/>
-      <point x="495" y="612" type="line"/>
-      <point x="495" y="592" type="line"/>
+      <point x="854" y="207" type="line"/>
+      <point x="927" y="207" type="line"/>
+      <point x="552" y="602" type="line"/>
+      <point x="927" y="997" type="line"/>
+      <point x="854" y="997" type="line"/>
+      <point x="468" y="612" type="line"/>
+      <point x="468" y="592" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

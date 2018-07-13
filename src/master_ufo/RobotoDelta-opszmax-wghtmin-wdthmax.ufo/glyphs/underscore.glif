@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscore" format="1">
-  <advance width="1037"/>
+  <advance width="1086"/>
   <unicode hex="005F"/>
   <outline>
     <contour>
-      <point x="-20" y="-186" type="line"/>
-      <point x="338" y="-186" type="line"/>
-      <point x="338" y="-105" type="line"/>
-      <point x="-20" y="-105" type="line"/>
+      <point x="-18" y="-167" type="line"/>
+      <point x="356" y="-167" type="line"/>
+      <point x="356" y="-100" type="line"/>
+      <point x="-18" y="-100" type="line"/>
     </contour>
     <contour>
-      <point x="338" y="-186" type="line"/>
-      <point x="698" y="-186" type="line"/>
-      <point x="698" y="-105" type="line"/>
-      <point x="338" y="-105" type="line"/>
+      <point x="356" y="-167" type="line"/>
+      <point x="731" y="-167" type="line"/>
+      <point x="731" y="-100" type="line"/>
+      <point x="356" y="-100" type="line"/>
     </contour>
     <contour>
-      <point x="698" y="-186" type="line"/>
-      <point x="1057" y="-186" type="line"/>
-      <point x="1057" y="-105" type="line"/>
-      <point x="698" y="-105" type="line"/>
+      <point x="731" y="-167" type="line"/>
+      <point x="1105" y="-167" type="line"/>
+      <point x="1105" y="-100" type="line"/>
+      <point x="731" y="-100" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

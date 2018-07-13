@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="less" format="1">
-  <advance width="1265"/>
+  <advance width="1360"/>
   <unicode hex="003C"/>
   <outline>
     <contour>
-      <point x="1106" y="244" type="line"/>
-      <point x="1106" y="341" type="line"/>
-      <point x="252" y="674" type="line"/>
-      <point x="1106" y="1007" type="line"/>
-      <point x="1106" y="1104" type="line"/>
-      <point x="149" y="720" type="line"/>
-      <point x="149" y="628" type="line"/>
+      <point x="1167" y="261" type="line"/>
+      <point x="1167" y="335" type="line"/>
+      <point x="265" y="674" type="line"/>
+      <point x="1167" y="1013" type="line"/>
+      <point x="1167" y="1087" type="line"/>
+      <point x="184" y="707" type="line"/>
+      <point x="184" y="640" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

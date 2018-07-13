@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenleft" format="1">
-  <advance width="614"/>
+  <advance width="610"/>
   <unicode hex="0028"/>
   <outline>
     <contour>
-      <point x="638" y="-436" type="qcurve"/>
-      <point x="638" y="-355" type="line"/>
-      <point x="462" y="-290"/>
-      <point x="187" y="137"/>
-      <point x="187" y="508" type="qcurve" smooth="yes"/>
-      <point x="187" y="532" type="line" smooth="yes"/>
-      <point x="187" y="903"/>
-      <point x="462" y="1330"/>
-      <point x="638" y="1395" type="qcurve"/>
-      <point x="638" y="1476" type="line"/>
-      <point x="417" y="1408"/>
-      <point x="104" y="919"/>
-      <point x="104" y="525" type="qcurve" smooth="yes"/>
-      <point x="104" y="515" type="line" smooth="yes"/>
-      <point x="104" y="121"/>
-      <point x="417" y="-368"/>
+      <point x="627" y="-436" type="qcurve"/>
+      <point x="627" y="-372" type="line"/>
+      <point x="459" y="-298"/>
+      <point x="193" y="122"/>
+      <point x="193" y="508" type="qcurve" smooth="yes"/>
+      <point x="193" y="532" type="line" smooth="yes"/>
+      <point x="193" y="918"/>
+      <point x="459" y="1338"/>
+      <point x="627" y="1412" type="qcurve"/>
+      <point x="627" y="1476" type="line"/>
+      <point x="425" y="1402"/>
+      <point x="123" y="922"/>
+      <point x="123" y="525" type="qcurve" smooth="yes"/>
+      <point x="123" y="515" type="line" smooth="yes"/>
+      <point x="123" y="118"/>
+      <point x="425" y="-362"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

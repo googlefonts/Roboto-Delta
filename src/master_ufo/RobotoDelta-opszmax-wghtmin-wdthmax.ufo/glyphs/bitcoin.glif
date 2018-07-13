@@ -1,56 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bitcoin" format="1">
-  <advance width="1186"/>
+  <advance width="1159"/>
   <outline>
     <contour>
-      <point x="150" y="0" type="line"/>
-      <point x="636" y="0" type="line" smooth="yes"/>
-      <point x="852" y="0"/>
-      <point x="1106" y="210"/>
-      <point x="1106" y="401" type="qcurve" smooth="yes"/>
-      <point x="1106" y="549"/>
-      <point x="957" y="733"/>
-      <point x="837" y="763" type="qcurve"/>
-      <point x="837" y="767" type="line"/>
-      <point x="933" y="796"/>
-      <point x="1062" y="960"/>
-      <point x="1062" y="1086" type="qcurve" smooth="yes"/>
-      <point x="1062" y="1277"/>
-      <point x="819" y="1456"/>
-      <point x="601" y="1456" type="qcurve" smooth="yes"/>
-      <point x="150" y="1456" type="line"/>
+      <point x="176" y="0" type="line"/>
+      <point x="628" y="0" type="line" smooth="yes"/>
+      <point x="828" y="0"/>
+      <point x="1062" y="208"/>
+      <point x="1062" y="398" type="qcurve" smooth="yes"/>
+      <point x="1062" y="547"/>
+      <point x="909" y="733"/>
+      <point x="787" y="763" type="qcurve"/>
+      <point x="787" y="767" type="line"/>
+      <point x="885" y="795"/>
+      <point x="1016" y="962"/>
+      <point x="1016" y="1089" type="qcurve" smooth="yes"/>
+      <point x="1016" y="1278"/>
+      <point x="792" y="1456"/>
+      <point x="592" y="1456" type="qcurve" smooth="yes"/>
+      <point x="176" y="1456" type="line"/>
     </contour>
     <contour>
-      <point x="232" y="79" type="line"/>
-      <point x="232" y="719" type="line"/>
-      <point x="655" y="719" type="line" smooth="yes"/>
-      <point x="846" y="719"/>
-      <point x="1023" y="547"/>
-      <point x="1023" y="402" type="qcurve" smooth="yes"/>
-      <point x="1023" y="253"/>
-      <point x="846" y="79"/>
-      <point x="655" y="79" type="qcurve" smooth="yes"/>
+      <point x="243" y="66" type="line"/>
+      <point x="243" y="725" type="line"/>
+      <point x="628" y="725" type="line" smooth="yes"/>
+      <point x="818" y="725"/>
+      <point x="995" y="546"/>
+      <point x="995" y="396" type="qcurve" smooth="yes"/>
+      <point x="995" y="245"/>
+      <point x="818" y="66"/>
+      <point x="628" y="66" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="232" y="797" type="line"/>
-      <point x="232" y="1377" type="line"/>
-      <point x="620" y="1377" type="line" smooth="yes"/>
-      <point x="811" y="1377"/>
-      <point x="977" y="1225"/>
-      <point x="977" y="1085" type="qcurve" smooth="yes"/>
-      <point x="977" y="949"/>
-      <point x="811" y="797"/>
-      <point x="620" y="797" type="qcurve" smooth="yes"/>
+      <point x="243" y="791" type="line"/>
+      <point x="243" y="1390" type="line"/>
+      <point x="592" y="1390" type="line" smooth="yes"/>
+      <point x="781" y="1390"/>
+      <point x="948" y="1236"/>
+      <point x="948" y="1091" type="qcurve" smooth="yes"/>
+      <point x="948" y="950"/>
+      <point x="781" y="791"/>
+      <point x="592" y="791" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="-1" y="403" type="line"/>
-      <point x="212" y="403" type="line"/>
-      <point x="217" y="404" type="line"/>
-      <point x="604" y="404" type="line"/>
-      <point x="604" y="484" type="line"/>
-      <point x="217" y="484" type="line"/>
-      <point x="212" y="486" type="line"/>
-      <point x="-1" y="486" type="line"/>
+      <point x="19" y="412" type="line"/>
+      <point x="214" y="412" type="line"/>
+      <point x="218" y="412" type="line"/>
+      <point x="601" y="412" type="line"/>
+      <point x="601" y="477" type="line"/>
+      <point x="218" y="477" type="line"/>
+      <point x="214" y="478" type="line"/>
+      <point x="19" y="478" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

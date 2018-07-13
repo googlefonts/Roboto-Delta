@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Icircumflex" format="1">
-  <advance width="394"/>
+  <advance width="418"/>
   <unicode hex="00CE"/>
   <outline>
     <component base="I"/>
-    <component base="circumflex"/>
+    <component base="circumflex" xOffset="23" yOffset="-60"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
       </array>
     </dict>
   </lib>

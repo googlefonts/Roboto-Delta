@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Z" format="1">
-  <advance width="1180"/>
+  <advance width="1173"/>
   <unicode hex="005A"/>
   <outline>
     <contour>
-      <point x="16" y="0" type="line"/>
-      <point x="1164" y="0" type="line"/>
-      <point x="1164" y="80" type="line"/>
-      <point x="130" y="80" type="line"/>
-      <point x="1127" y="1395" type="line"/>
-      <point x="1127" y="1456" type="line"/>
-      <point x="30" y="1456" type="line"/>
-      <point x="30" y="1376" type="line"/>
-      <point x="1013" y="1376" type="line"/>
-      <point x="16" y="61" type="line"/>
+      <point x="17" y="0" type="line"/>
+      <point x="1157" y="0" type="line"/>
+      <point x="1157" y="50" type="line"/>
+      <point x="91" y="50" type="line"/>
+      <point x="1119" y="1421" type="line"/>
+      <point x="1119" y="1456" type="line"/>
+      <point x="31" y="1456" type="line"/>
+      <point x="31" y="1406" type="line"/>
+      <point x="1044" y="1406" type="line"/>
+      <point x="17" y="35" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
