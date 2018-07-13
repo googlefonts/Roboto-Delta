@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="periodcentered" format="1">
-  <advance width="609.6372795625427"/>
+  <advance width="600"/>
   <unicode hex="00B7"/>
   <outline>
     <contour>
-      <point x="128.77477785372523" y="730.0" type="qcurve" smooth="yes"/>
-      <point x="128.77477785372523" y="662.2796532577235"/>
-      <point x="220.2207792207792" y="566.330997949419"/>
-      <point x="304.3467190704033" y="566.330997949419" type="qcurve" smooth="yes"/>
-      <point x="389.96821599453176" y="566.330997949419"/>
-      <point x="480.91866028708137" y="662.2796532577235"/>
-      <point x="480.91866028708137" y="730.0" type="qcurve" smooth="yes"/>
-      <point x="480.91866028708137" y="798.7266604883654"/>
-      <point x="390.1437115516063" y="894.669002050581"/>
-      <point x="305.0177717019822" y="894.669002050581" type="qcurve" smooth="yes"/>
-      <point x="220.2207792207792" y="894.669002050581"/>
-      <point x="128.77477785372523" y="798.7266604883654"/>
+      <point x="95" y="730" type="qcurve" smooth="yes"/>
+      <point x="95" y="653"/>
+      <point x="201" y="543"/>
+      <point x="299" y="543" type="qcurve" smooth="yes"/>
+      <point x="399" y="543"/>
+      <point x="504" y="653"/>
+      <point x="504" y="730" type="qcurve" smooth="yes"/>
+      <point x="504" y="808"/>
+      <point x="399" y="918"/>
+      <point x="299" y="918" type="qcurve" smooth="yes"/>
+      <point x="201" y="918"/>
+      <point x="95" y="808"/>
     </contour>
   </outline>
   <lib>
@@ -23,8 +23,8 @@
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>
-        <real>1.0</real>
         <real>0.0</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>
