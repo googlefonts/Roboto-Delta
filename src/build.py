@@ -225,10 +225,10 @@ instances = [
 	dict(fileName="instances/RobotoDelta-opszmin.ufo", location=dict(XYOPQ=(0.08, 0.12), XTRA=0.16, YTLC=0.32), styleName="opszmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-opsz36.ufo", location=dict(XYOPQ=(-0.24, -0.18), XTRA=-0.18, YTLC=-0.265), styleName="opsz36", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 	dict(fileName="instances/RobotoDelta-wghtmin.ufo", location=dict(XYOPQ=(-0.74, -0.68), XTRA=0.16), styleName="wghtmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
-	dict(fileName="instances/RobotoDelta-wghtmax.ufo", location=dict(XYOPQ=(0.74, 0.5), XTRA=-0.5, YTLC=0.23), styleName="wghtmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+#	dict(fileName="instances/RobotoDelta-wghtmax.ufo", location=dict(XYOPQ=(0.74, 0.5), XTRA=-0.5, YTLC=0.23), styleName="wghtmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 
-	dict(fileName="instances/RobotoDelta-wdthmin.ufo", location=dict(XYOPQ=(-0.12, -0.09), XTRA=-1.00), styleName="wdthmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
-	dict(fileName="instances/RobotoDelta-wdthmax.ufo", location=dict(XYOPQ=(0.12, 0.09), XTRA=1.00), styleName="wdthmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+#	dict(fileName="instances/RobotoDelta-wdthmin.ufo", location=dict(XYOPQ=(-0.12, -0.09), XTRA=-1.00), styleName="wdthmin", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
+#	dict(fileName="instances/RobotoDelta-wdthmax.ufo", location=dict(XYOPQ=(0.12, 0.09), XTRA=1.00), styleName="wdthmax", familyName=familyName, postScriptFontName=None, styleMapFamilyName=None, styleMapStyleName=None),
 ]
 for instance in instances:
 	doc.startInstance(**instance)
@@ -298,7 +298,7 @@ sources = [
 	dict(path="master_ufo/RobotoDelta-opszmin.ufo", name="RobotoDelta-opszmin.ufo", location=dict(opsz=8), styleName="opszmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-opsz36.ufo", name="RobotoDelta-opsz36.ufo", location=dict(opsz=36), styleName="opsz36", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-opszmax.ufo", name="RobotoDelta-opszmax.ufo", location=dict(opsz=144), styleName="opszmax", familyName=familyName, copyInfo=False),
-	
+
 	dict(path="master_ufo/RobotoDelta-wdthmin.ufo", name="RobotoDelta-wdthmin.ufo", location=dict(wdth=75), styleName="wdthmin", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wdthmax.ufo", name="RobotoDelta-wdthmax.ufo", location=dict(wdth=125), styleName="wdthmax", familyName=familyName, copyInfo=False),
 	dict(path="master_ufo/RobotoDelta-wdthmin.ufo", name="RobotoDelta-wdthmin.ufo", location=dict(PWDT=560), styleName="wdthmin", familyName=familyName, copyInfo=False),
@@ -306,13 +306,19 @@ sources = [
 	
 	
 	dict(path="master_ufo/RobotoDelta-opszmax-wdthmax.ufo", name="RobotoDelta-opszmax-wdthmax.ufo", location=dict(wdth=125, opsz=144), styleName="opszmax-wdthmax", familyName=familyName, copyInfo=False),
+
 	dict(path="master_ufo/RobotoDelta-opszmax-wdthmin.ufo", name="RobotoDelta-opszmax-wdthmin.ufo", location=dict(wdth=75, opsz=144), styleName="opszmax-wdthmin", familyName=familyName, copyInfo=False),
+	
 	dict(path="master_ufo/RobotoDelta-wghtmax-opszmax.ufo", name="RobotoDelta-wghtmax-opszmax.ufo", location=dict(wght=900, opsz=144), styleName="wghtmax-opszmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-wghtmin-opszmax.ufo", name="RobotoDelta-wghtmin-opszmax.ufo", location=dict(wght=100, opsz=144), styleName="wghtmin-opszmax", familyName=familyName, copyInfo=False),
+	
+		dict(path="master_ufo/RobotoDelta-wghtmin-opszmax.ufo", name="RobotoDelta-wghtmin-opszmax.ufo", location=dict(wght=100, opsz=144), styleName="wghtmin-opszmax", familyName=familyName, copyInfo=False),
+
+		
 	dict(path="master_ufo/RobotoDelta-opszmax-wghtmax-wdthmax.ufo", name="RobotoDelta-opszmax-wghtmax-wdthmax.ufo", location=dict(wght=900, opsz=144, wdth=125), styleName="opszmax-wghtmax-wdthmax", familyName=familyName, copyInfo=False),
+	
 	dict(path="master_ufo/RobotoDelta-opszmax-wghtmax-wdthmin.ufo", name="RobotoDelta-opszmax-wghtmax-wdthmin.ufo", location=dict(wght=900, opsz=144, wdth=75), styleName="opszmax-wghtmax-wdthmin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-opszmax-wghtmin-wdthmax.ufo", name="RobotoDelta-opszmax-wghtmin-wdthmax.ufo", location=dict(wght=100, opsz=144, wdth=125), styleName="opszmax-wghtmin-wdthmax", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/RobotoDelta-opszmax-wghtmin-wdthmin.ufo", name="RobotoDelta-opszmax-wghtmin-wdthmin.ufo", location=dict(wght=100, opsz=144, wdth=75), styleName="opszmax-wghtmin-wdthmin", familyName=familyName, copyInfo=False),
+		
+	
 	
 	
 ]

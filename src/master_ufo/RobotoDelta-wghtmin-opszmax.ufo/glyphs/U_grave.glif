@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ugrave" format="1">
-  <advance width="1132"/>
+  <advance width="1152"/>
   <unicode hex="00D9"/>
   <outline>
     <component base="U"/>
-    <component base="grave" xOffset="-24" yOffset="-60"/>
+    <component base="grave"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+        <real>0.5</real>
       </array>
     </dict>
   </lib>

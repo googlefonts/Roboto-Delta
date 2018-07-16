@@ -21,5 +21,19 @@
       <point x="15" y="1456" type="line"/>
       <point x="367" y="589" type="line"/>
     </contour>
+    <contour>
+      <point x="418" y="1456" type="move" name="top"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

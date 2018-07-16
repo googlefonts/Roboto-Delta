@@ -1,109 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="OE" format="1">
-  <advance width="1935"/>
+  <advance width="1901"/>
   <unicode hex="0152"/>
   <outline>
     <contour>
-      <point x="59" y="682" type="line" smooth="yes"/>
-      <point x="59" y="346"/>
-      <point x="428" y="-30"/>
-      <point x="717" y="-30" type="qcurve" smooth="yes"/>
-      <point x="817" y="-30"/>
-      <point x="993" y="51"/>
-      <point x="1062" y="132" type="qcurve"/>
-      <point x="1062" y="466" type="line"/>
-      <point x="1022" y="344"/>
-      <point x="852" y="217"/>
-      <point x="743" y="217" type="qcurve" smooth="yes"/>
-      <point x="597" y="217"/>
-      <point x="418" y="465"/>
-      <point x="418" y="682" type="qcurve" smooth="yes"/>
-      <point x="418" y="774" type="line" smooth="yes"/>
-      <point x="418" y="991"/>
-      <point x="597" y="1239"/>
-      <point x="743" y="1239" type="qcurve" smooth="yes"/>
-      <point x="852" y="1239"/>
-      <point x="1022" y="1112"/>
-      <point x="1062" y="990" type="qcurve"/>
-      <point x="1062" y="1324" type="line"/>
-      <point x="993" y="1407"/>
-      <point x="817" y="1486"/>
-      <point x="717" y="1486" type="qcurve" smooth="yes"/>
-      <point x="428" y="1486"/>
-      <point x="59" y="1110"/>
-      <point x="59" y="774" type="qcurve" smooth="yes"/>
+      <point x="65" y="682" type="line" smooth="yes"/>
+      <point x="65" y="346"/>
+      <point x="423" y="-30"/>
+      <point x="704" y="-30" type="qcurve" smooth="yes"/>
+      <point x="803" y="-30"/>
+      <point x="980" y="49"/>
+      <point x="1048" y="128" type="qcurve"/>
+      <point x="1048" y="431" type="line"/>
+      <point x="1006" y="315"/>
+      <point x="836" y="192"/>
+      <point x="726" y="192" type="qcurve" smooth="yes"/>
+      <point x="571" y="192"/>
+      <point x="382" y="453"/>
+      <point x="382" y="682" type="qcurve" smooth="yes"/>
+      <point x="382" y="774" type="line" smooth="yes"/>
+      <point x="382" y="1003"/>
+      <point x="571" y="1264"/>
+      <point x="726" y="1264" type="qcurve" smooth="yes"/>
+      <point x="836" y="1264"/>
+      <point x="1006" y="1141"/>
+      <point x="1048" y="1025" type="qcurve"/>
+      <point x="1048" y="1328" type="line"/>
+      <point x="980" y="1408"/>
+      <point x="803" y="1486"/>
+      <point x="704" y="1486" type="qcurve" smooth="yes"/>
+      <point x="423" y="1486"/>
+      <point x="65" y="1110"/>
+      <point x="65" y="774" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="980" y="0" type="line"/>
-      <point x="1922" y="0" type="line"/>
-      <point x="1922" y="238" type="line"/>
-      <point x="1329" y="238" type="line"/>
-      <point x="1329" y="632" type="line"/>
-      <point x="1836" y="632" type="line"/>
-      <point x="1836" y="870" type="line"/>
-      <point x="1329" y="870" type="line"/>
-      <point x="1329" y="1218" type="line"/>
-      <point x="1913" y="1218" type="line"/>
-      <point x="1913" y="1456" type="line"/>
-      <point x="980" y="1456" type="line"/>
+      <point x="971" y="0" type="line"/>
+      <point x="1883" y="0" type="line"/>
+      <point x="1883" y="214" type="line"/>
+      <point x="1280" y="214" type="line"/>
+      <point x="1280" y="644" type="line"/>
+      <point x="1794" y="644" type="line"/>
+      <point x="1794" y="858" type="line"/>
+      <point x="1280" y="858" type="line"/>
+      <point x="1280" y="1242" type="line"/>
+      <point x="1874" y="1242" type="line"/>
+      <point x="1874" y="1456" type="line"/>
+      <point x="971" y="1456" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>bg</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>E</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>864</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-            <dict>
-              <key>baseGlyph</key>
-              <string>O</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>OE</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1935</integer>
-        </dict>
-      </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
+        <real>0.0</real>
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
