@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Thorn" format="1">
-  <advance width="1261"/>
+  <advance width="1300"/>
   <unicode hex="00DE"/>
   <outline>
     <contour>
-      <point x="120" y="0" type="line"/>
-      <point x="429" y="0" type="line"/>
-      <point x="429" y="267" type="line"/>
-      <point x="638" y="267" type="line" smooth="yes"/>
-      <point x="914" y="267"/>
-      <point x="1211" y="525"/>
-      <point x="1211" y="738" type="qcurve" smooth="yes"/>
-      <point x="1211" y="950"/>
-      <point x="914" y="1205"/>
-      <point x="638" y="1205" type="qcurve" smooth="yes"/>
-      <point x="429" y="1205" type="line"/>
-      <point x="429" y="1456" type="line"/>
-      <point x="120" y="1456" type="line"/>
+      <point x="114" y="0" type="line"/>
+      <point x="464" y="0" type="line"/>
+      <point x="464" y="259" type="line"/>
+      <point x="653" y="259" type="line" smooth="yes"/>
+      <point x="942" y="259"/>
+      <point x="1256" y="521"/>
+      <point x="1256" y="739" type="qcurve" smooth="yes"/>
+      <point x="1256" y="955"/>
+      <point x="942" y="1213"/>
+      <point x="653" y="1213" type="qcurve" smooth="yes"/>
+      <point x="464" y="1213" type="line"/>
+      <point x="464" y="1456" type="line"/>
+      <point x="114" y="1456" type="line"/>
     </contour>
     <contour>
-      <point x="429" y="481" type="line"/>
-      <point x="429" y="991" type="line"/>
-      <point x="638" y="991" type="line" smooth="yes"/>
-      <point x="785" y="991"/>
-      <point x="902" y="845"/>
-      <point x="902" y="738" type="qcurve" smooth="yes"/>
-      <point x="902" y="630"/>
-      <point x="785" y="481"/>
-      <point x="638" y="481" type="qcurve" smooth="yes"/>
+      <point x="464" y="497" type="line"/>
+      <point x="464" y="975" type="line"/>
+      <point x="653" y="975" type="line" smooth="yes"/>
+      <point x="795" y="975"/>
+      <point x="907" y="838"/>
+      <point x="907" y="739" type="qcurve" smooth="yes"/>
+      <point x="907" y="638"/>
+      <point x="795" y="497"/>
+      <point x="653" y="497" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
+        <real>1.0</real>
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>

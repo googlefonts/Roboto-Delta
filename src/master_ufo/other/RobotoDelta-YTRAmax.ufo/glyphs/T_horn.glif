@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Thorn" format="1">
+  <advance width="1250"/>
+  <unicode hex="00DE"/>
+  <outline>
+    <contour>
+      <point x="170" y="0" type="line"/>
+      <point x="362" y="0" type="line"/>
+      <point x="362" y="310" type="line"/>
+      <point x="652" y="310" type="line" smooth="yes"/>
+      <point x="892" y="310"/>
+      <point x="1150" y="572"/>
+      <point x="1150" y="786" type="qcurve" smooth="yes"/>
+      <point x="1150" y="1000"/>
+      <point x="892" y="1257"/>
+      <point x="652" y="1257" type="qcurve" smooth="yes"/>
+      <point x="362" y="1257" type="line"/>
+      <point x="362" y="1556" type="line"/>
+      <point x="170" y="1556" type="line"/>
+    </contour>
+    <contour>
+      <point x="362" y="468" type="line"/>
+      <point x="362" y="1099" type="line"/>
+      <point x="652" y="1099" type="line" smooth="yes"/>
+      <point x="822.0" y="1099"/>
+      <point x="958.0" y="918.6622516556291"/>
+      <point x="958" y="786" type="qcurve" smooth="yes"/>
+      <point x="958.0" y="652.3778501628665"/>
+      <point x="822.0" y="468"/>
+      <point x="652" y="468" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

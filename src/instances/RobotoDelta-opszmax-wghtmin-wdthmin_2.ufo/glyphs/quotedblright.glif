@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblright" format="1">
+  <advance width="516"/>
+  <unicode hex="201D"/>
+  <outline>
+    <contour>
+      <point x="58" y="1181" type="qcurve"/>
+      <point x="108" y="1146" type="line"/>
+      <point x="142" y="1191"/>
+      <point x="181" y="1305"/>
+      <point x="181" y="1379" type="qcurve" smooth="yes"/>
+      <point x="181" y="1456" type="line"/>
+      <point x="105" y="1456" type="line"/>
+      <point x="105" y="1379" type="line" smooth="yes"/>
+      <point x="105" y="1316"/>
+      <point x="81" y="1224"/>
+    </contour>
+    <contour>
+      <point x="307" y="1181" type="qcurve"/>
+      <point x="355" y="1146" type="line"/>
+      <point x="390" y="1191"/>
+      <point x="428" y="1305"/>
+      <point x="428" y="1379" type="qcurve" smooth="yes"/>
+      <point x="428" y="1456" type="line"/>
+      <point x="353" y="1456" type="line"/>
+      <point x="353" y="1379" type="line" smooth="yes"/>
+      <point x="353" y="1316"/>
+      <point x="329" y="1224"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

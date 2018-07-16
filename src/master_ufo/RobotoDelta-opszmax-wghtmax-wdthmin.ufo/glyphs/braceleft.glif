@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="braceleft" format="1">
-  <advance width="694.0330907806429"/>
+  <advance width="640"/>
   <unicode hex="007B"/>
   <outline>
     <contour>
-      <point x="572.5563157894737" y="-312.0" type="qcurve"/>
-      <point x="572.5563157894737" y="-155.62839985870716" type="line"/>
-      <point x="506.4542811727305" y="-155.62839985870716"/>
-      <point x="421.73088304672405" y="-59.132921229860415"/>
-      <point x="446.1357576827976" y="98.5948428117273" type="qcurve" smooth="yes"/>
-      <point x="480.31779583186153" y="334.0" type="line" smooth="yes"/>
-      <point x="494.8955068880254" y="419.26174496644296"/>
-      <point x="421.21986223949136" y="535.9986753797244"/>
-      <point x="319.99211586012007" y="574.0" type="qcurve"/>
-      <point x="421.21986223949136" y="612.0013246202756"/>
-      <point x="495.40981278700104" y="728.738255033557"/>
-      <point x="480.31779583186153" y="814.0" type="qcurve" smooth="yes"/>
-      <point x="446.1357576827976" y="1049.4051571882726" type="line" smooth="yes"/>
-      <point x="421.73088304672405" y="1207.1329212298604"/>
-      <point x="506.4542811727305" y="1303.628399858707"/>
-      <point x="572.5563157894737" y="1303.628399858707" type="qcurve"/>
-      <point x="572.5563157894737" y="1460.0" type="line"/>
-      <point x="373.4054115153656" y="1460.0"/>
-      <point x="156.0242635111268" y="1273.7190921935712"/>
-      <point x="192.37317202401977" y="1071.9766866831508" type="qcurve" smooth="yes"/>
-      <point x="227.04090427410807" y="836.5715294948782" type="line" smooth="yes"/>
-      <point x="246.85400439468802" y="720.3777240162584"/>
-      <point x="167.65099258212646" y="645.2859413634758"/>
-      <point x="101.89244083362769" y="645.2859413634758" type="qcurve"/>
-      <point x="101.89244083362769" y="502.7140586365242" type="line"/>
-      <point x="167.65099258212646" y="502.7140586365242"/>
-      <point x="246.85400439468802" y="428.10797008476595"/>
-      <point x="227.04090427410807" y="311.4284705051219" type="qcurve" smooth="yes"/>
-      <point x="192.37317202401977" y="76.02331331684917" type="line" smooth="yes"/>
-      <point x="156.0242635111268" y="-125.71909219357117"/>
-      <point x="373.4054115153656" y="-312.0"/>
+      <point x="603" y="-312" type="qcurve"/>
+      <point x="603" y="-98" type="line"/>
+      <point x="529" y="-98"/>
+      <point x="447" y="7"/>
+      <point x="461" y="122" type="qcurve" smooth="yes"/>
+      <point x="490" y="334" type="line" smooth="yes"/>
+      <point x="504" y="419"/>
+      <point x="441" y="542"/>
+      <point x="356" y="574" type="qcurve"/>
+      <point x="441" y="606"/>
+      <point x="504" y="729"/>
+      <point x="490" y="814" type="qcurve" smooth="yes"/>
+      <point x="461" y="1026" type="line" smooth="yes"/>
+      <point x="447" y="1141"/>
+      <point x="529" y="1246"/>
+      <point x="603" y="1246" type="qcurve"/>
+      <point x="603" y="1460" type="line"/>
+      <point x="355" y="1460"/>
+      <point x="98" y="1223"/>
+      <point x="125" y="1050" type="qcurve" smooth="yes"/>
+      <point x="156" y="838" type="line" smooth="yes"/>
+      <point x="172" y="735"/>
+      <point x="99" y="669"/>
+      <point x="37" y="669" type="qcurve"/>
+      <point x="37" y="479" type="line"/>
+      <point x="99" y="479"/>
+      <point x="172" y="414"/>
+      <point x="156" y="310" type="qcurve" smooth="yes"/>
+      <point x="125" y="98" type="line" smooth="yes"/>
+      <point x="98" y="-75"/>
+      <point x="355" y="-312"/>
     </contour>
   </outline>
   <lib>
@@ -42,8 +42,8 @@
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>
-        <real>1.0</real>
         <real>0.0</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>

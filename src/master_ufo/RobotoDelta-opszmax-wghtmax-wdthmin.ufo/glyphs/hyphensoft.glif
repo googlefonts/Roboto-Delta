@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphensoft" format="1">
-  <advance width="451.6256446485341"/>
+  <advance width="451"/>
   <unicode hex="00AD"/>
   <outline>
     <contour>
-      <point x="15.715294948781345" y="552.2999823383964" type="line"/>
-      <point x="435.91034969975277" y="552.2999823383964" type="line"/>
-      <point x="435.91034969975277" y="718.6571882726952" type="line"/>
-      <point x="15.715294948781345" y="718.6571882726952" type="line"/>
+      <point x="-20" y="509" type="line"/>
+      <point x="471" y="509" type="line"/>
+      <point x="471" y="748" type="line"/>
+      <point x="-20" y="748" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -15,8 +15,8 @@
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>
-        <real>1.0</real>
         <real>0.0</real>
+        <real>1.0</real>
         <real>1.0</real>
       </array>
     </dict>

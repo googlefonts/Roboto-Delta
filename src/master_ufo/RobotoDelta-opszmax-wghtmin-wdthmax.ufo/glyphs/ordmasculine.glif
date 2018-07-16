@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordmasculine" format="1">
+  <advance width="834"/>
+  <unicode hex="00BA"/>
+  <outline>
+    <contour>
+      <point x="50" y="1028" type="line" smooth="yes"/>
+      <point x="50" y="840"/>
+      <point x="250" y="603"/>
+      <point x="416" y="603" type="qcurve" smooth="yes"/>
+      <point x="583" y="603"/>
+      <point x="783" y="840"/>
+      <point x="783" y="1028" type="qcurve" smooth="yes"/>
+      <point x="783" y="1053" type="line" smooth="yes"/>
+      <point x="783" y="1240"/>
+      <point x="583" y="1477"/>
+      <point x="416" y="1477" type="qcurve" smooth="yes"/>
+      <point x="250" y="1477"/>
+      <point x="50" y="1240"/>
+      <point x="50" y="1053" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="105" y="1053" type="line" smooth="yes"/>
+      <point x="105" y="1210"/>
+      <point x="263" y="1425"/>
+      <point x="416" y="1425" type="qcurve" smooth="yes"/>
+      <point x="570" y="1425"/>
+      <point x="728" y="1210"/>
+      <point x="728" y="1053" type="qcurve" smooth="yes"/>
+      <point x="728" y="1028" type="line" smooth="yes"/>
+      <point x="728" y="871"/>
+      <point x="570" y="655"/>
+      <point x="416" y="655" type="qcurve" smooth="yes"/>
+      <point x="263" y="655"/>
+      <point x="105" y="871"/>
+      <point x="105" y="1028" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

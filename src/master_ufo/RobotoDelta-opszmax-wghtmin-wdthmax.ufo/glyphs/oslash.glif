@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslash" format="1">
+  <advance width="904"/>
+  <unicode hex="00F8"/>
+  <outline>
+    <contour>
+      <point x="62" y="430" type="line" smooth="yes"/>
+      <point x="62" y="230"/>
+      <point x="275" y="-26"/>
+      <point x="452" y="-26" type="qcurve" smooth="yes"/>
+      <point x="629" y="-26"/>
+      <point x="841" y="230"/>
+      <point x="841" y="430" type="qcurve" smooth="yes"/>
+      <point x="841" y="457" type="line" smooth="yes"/>
+      <point x="841" y="658"/>
+      <point x="629" y="913"/>
+      <point x="452" y="913" type="qcurve" smooth="yes"/>
+      <point x="275" y="913"/>
+      <point x="62" y="658"/>
+      <point x="62" y="457" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="113" y="457" type="line" smooth="yes"/>
+      <point x="113" y="628"/>
+      <point x="286" y="863"/>
+      <point x="452" y="863" type="qcurve" smooth="yes"/>
+      <point x="618" y="863"/>
+      <point x="790" y="628"/>
+      <point x="790" y="457" type="qcurve" smooth="yes"/>
+      <point x="790" y="430" type="line" smooth="yes"/>
+      <point x="790" y="259"/>
+      <point x="618" y="24"/>
+      <point x="452" y="24" type="qcurve" smooth="yes"/>
+      <point x="286" y="24"/>
+      <point x="113" y="259"/>
+      <point x="113" y="430" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="55" y="-100" type="line"/>
+      <point x="118" y="-100" type="line"/>
+      <point x="223" y="56" type="line"/>
+      <point x="223" y="56" type="line"/>
+      <point x="476" y="434" type="line"/>
+      <point x="421" y="434" type="line"/>
+      <point x="210" y="124" type="line"/>
+      <point x="209" y="124" type="line"/>
+    </contour>
+    <contour>
+      <point x="421" y="434" type="line"/>
+      <point x="476" y="434" type="line"/>
+      <point x="694" y="762" type="line"/>
+      <point x="695" y="762" type="line"/>
+      <point x="849" y="986" type="line"/>
+      <point x="786" y="986" type="line"/>
+      <point x="682" y="830" type="line"/>
+      <point x="683" y="830" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>504</integer>
+          <key>y</key>
+          <integer>913</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>537</integer>
+          <key>y</key>
+          <integer>-26</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
