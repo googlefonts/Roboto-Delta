@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ocircumflex" format="1">
+<glyph name="ocircumflex" format="2">
   <advance width="1482"/>
   <unicode hex="00F4"/>
   <outline>
     <component base="o"/>
-    <component base="circumflex" xOffset="229.0"/>
+    <component base="circumflex" xOffset="229"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.5</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0,0,0,0.5</string>
     </dict>
   </lib>
 </glyph>
