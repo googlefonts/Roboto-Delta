@@ -1,60 +1,68 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="359" maximum="513" minimum="210" name="XTRA" tag="XTRA">
-            <labelname xml:lang="en">XTRA</labelname>
+        <axis default="12" maximum="144" minimum="8" name="opsz" tag="opsz">
+            <labelname xml:lang="en">Optical Size</labelname>
+        </axis>
+        <axis default="400" maximum="900" minimum="100" name="wght" tag="wght">
+            <labelname xml:lang="en">Weight</labelname>
+        </axis>
+        <axis default="100" maximum="125" minimum="75" name="wdth" tag="wdth">
+            <labelname xml:lang="en">Width</labelname>
+        </axis>
+        <axis default="0" maximum="1" minimum="-1" name="GRAD" tag="GRAD">
+            <labelname xml:lang="en">Grade</labelname>
         </axis>
         <axis default="94" maximum="171" minimum="26" name="XOPQ" tag="XOPQ">
-            <labelname xml:lang="en">XOPQ</labelname>
+            <labelname xml:lang="en">x opaque</labelname>
+        </axis>
+        <axis default="359" maximum="513" minimum="210" name="XTRA" tag="XTRA">
+            <labelname xml:lang="en">x transparent</labelname>
         </axis>
         <axis default="77" maximum="132" minimum="26" name="YOPQ" tag="YOPQ">
-            <labelname xml:lang="en">YOPQ</labelname>
+            <labelname xml:lang="en">y opaque</labelname>
+        </axis>
+        <axis default="0" maximum="1" minimum="-1" name="YTRA" tag="YTRA">
+            <labelname xml:lang="en">y transparent</labelname>
         </axis>
         <axis default="514" maximum="570" minimum="416" name="YTLC" tag="YTLC">
-            <labelname xml:lang="en">YTLC</labelname>
+            <labelname xml:lang="en">y transparent lowercase</labelname>
         </axis>
         <axis default="712" maximum="760" minimum="528" name="YTUC" tag="YTUC">
-            <labelname xml:lang="en">YTUC</labelname>
-        </axis>
-        <axis default="750" maximum="854" minimum="649" name="YTAS" tag="YTAS">
-            <labelname xml:lang="en">YTAS</labelname>
+            <labelname xml:lang="en">y transparent uppercase</labelname>
         </axis>
         <axis default="-203" maximum="-98" minimum="-305" name="YTDE" tag="YTDE">
-            <labelname xml:lang="en">YTDE</labelname>
+            <labelname xml:lang="en">y transparent descender</labelname>
         </axis>
+        <axis default="750" maximum="854" minimum="649" name="YTAS" tag="YTAS">
+            <labelname xml:lang="en">y transparent ascender</labelname>
+        </axis>
+
+
+
+
         <axis default="563" maximum="600" minimum="460" name="YTAD" tag="YTAD">
             <labelname xml:lang="en">YTAD</labelname>
         </axis>
         <axis default="0" maximum="1" minimum="-1" name="YTDD" tag="YTDD">
             <labelname xml:lang="en">YTDD</labelname>
         </axis>
+
         <axis default="-49" maximum="0" minimum="-195" name="UDLN" tag="UDLN">
-            <labelname xml:lang="en">UDLN</labelname>
+            <labelname xml:lang="en">underline</labelname>
         </axis>
-        <axis default="400" maximum="900" minimum="100" name="wght" tag="wght">
-            <labelname xml:lang="en">wght</labelname>
+
+        <axis default="0" maximum="1" minimum="-1" name="POPS" tag="POPS">
+            <labelname xml:lang="en">POPS</labelname>
         </axis>
-        <axis default="100" maximum="125" minimum="75" name="wdth" tag="wdth">
-            <labelname xml:lang="en">wdth</labelname>
-        </axis>
-        <axis default="12" maximum="144" minimum="8" name="opsz" tag="opsz">
-            <labelname xml:lang="en">opsz</labelname>
+
+        <axis default="712" maximum="867" minimum="560" name="PWDT" tag="PWDT">
+            <labelname xml:lang="en">PWDT</labelname>
         </axis>
         <axis default="94" maximum="150" minimum="44" name="PWGT" tag="PWGT">
             <labelname xml:lang="en">PWGT</labelname>
         </axis>
-        <axis default="712" maximum="867" minimum="560" name="PWDT" tag="PWDT">
-            <labelname xml:lang="en">PWDT</labelname>
-        </axis>
-        <axis default="0" maximum="1" minimum="-1" name="POPS" tag="POPS">
-            <labelname xml:lang="en">POPS</labelname>
-        </axis>
-        <axis default="0" maximum="1" minimum="-1" name="GRAD" tag="GRAD">
-            <labelname xml:lang="en">GRAD</labelname>
-        </axis>
-        <axis default="0" maximum="1" minimum="-1" name="YTRA" tag="YTRA">
-            <labelname xml:lang="en">YTRA</labelname>
-        </axis>
+
     </axes>
     <sources>
         <source familyname="RobotoDelta" filename="master_ufo/RobotoDelta-Regular.ufo" name="RobotoDelta-Regular.ufo" stylename="Regular">
