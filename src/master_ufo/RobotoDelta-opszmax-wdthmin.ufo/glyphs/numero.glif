@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="numero" format="1">
+<glyph name="numero" format="2">
   <advance width="1810"/>
   <unicode hex="2116"/>
+  <guideline x="926" y="833" angle="90.0" identifier="XmU1DI4QBx"/>
+  <guideline x="170" y="848" angle="90.0" identifier="zlDFhTc2Y4"/>
   <outline>
     <contour>
       <point x="170" y="0" type="line"/>
@@ -70,44 +72,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>926</integer>
-          <key>y</key>
-          <integer>833</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>170</integer>
-          <key>y</key>
-          <integer>848</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.XmU1DI4QBx</key>
+      <integer>5</integer>
+      <key>com.typemytype.robofont.guideline.magnetic.zlDFhTc2Y4</key>
+      <integer>5</integer>
     </dict>
   </lib>
 </glyph>
