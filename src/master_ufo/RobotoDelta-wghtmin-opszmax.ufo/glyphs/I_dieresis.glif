@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Idieresis" format="1">
+<glyph name="Idieresis" format="2">
   <advance width="390"/>
   <unicode hex="00CF"/>
   <outline>
     <component base="I"/>
     <component base="dieresis"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

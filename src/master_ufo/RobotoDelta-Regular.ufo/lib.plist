@@ -47,50 +47,34 @@
 		<real>0.6924212208413115</real>
 		<real>0.3</real>
 	</array>
-	<key>com.typemytype.robofont.guides</key>
-	<array>
-		<dict>
-			<key>angle</key>
-			<integer>0</integer>
-			<key>isGlobal</key>
-			<integer>1</integer>
-			<key>magnetic</key>
-			<integer>5</integer>
-			<key>name</key>
-			<string></string>
-			<key>x</key>
-			<integer>0</integer>
-			<key>y</key>
-			<integer>1432</integer>
-		</dict>
-		<dict>
-			<key>angle</key>
-			<integer>0</integer>
-			<key>isGlobal</key>
-			<integer>1</integer>
-			<key>magnetic</key>
-			<integer>5</integer>
-			<key>name</key>
-			<string></string>
-			<key>x</key>
-			<integer>0</integer>
-			<key>y</key>
-			<integer>674</integer>
-		</dict>
-	</array>
+	<key>com.typemytype.robofont.guideline.magnetic.6UdXgzcfbH</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.gfZ736xePq</key>
+	<integer>5</integer>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
-	<key>com.typemytype.robofont.layerOrder</key>
-	<array>
-		<string>background</string>
-		<string>temp</string>
-		<string>Roboto-Regular</string>
-	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>qcurve</string>
 	<key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
 	<integer>0</integer>
-	<key>com.typemytype.robofont.sort</key>
+	<key>com.typemytype.robofont.temp.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.temp.layerShowFill</key>
+	<false/>
+	<key>com.typemytype.robofont.temp.layerShowPoints</key>
+	<true/>
+	<key>com.typemytype.robofont.temp.layerShowStroke</key>
+	<true/>
+	<key>com.typemytype.robofont.temp.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.25</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.templateCharacterSet</key>
+	<string>RobotoDelta</string>
+	<key>com.typesupply.defcon.sortDescriptor</key>
 	<array>
 		<dict>
 			<key>ascending</key>
@@ -340,23 +324,6 @@
 			<string>glyphList</string>
 		</dict>
 	</array>
-	<key>com.typemytype.robofont.temp.layerShowCoordinates</key>
-	<false/>
-	<key>com.typemytype.robofont.temp.layerShowFill</key>
-	<false/>
-	<key>com.typemytype.robofont.temp.layerShowPoints</key>
-	<true/>
-	<key>com.typemytype.robofont.temp.layerShowStroke</key>
-	<true/>
-	<key>com.typemytype.robofont.temp.layerStrokeColor</key>
-	<array>
-		<real>0.0</real>
-		<real>1.0</real>
-		<real>0.25</real>
-		<real>0.7</real>
-	</array>
-	<key>com.typemytype.robofont.templateCharacterSet</key>
-	<string>RobotoDelta</string>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>space</string>
