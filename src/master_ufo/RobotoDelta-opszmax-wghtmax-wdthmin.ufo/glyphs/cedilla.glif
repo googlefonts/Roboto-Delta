@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cedilla" format="1">
-  <advance width="975.4305898975626"/>
+<glyph name="cedilla" format="2">
+  <advance width="975"/>
   <unicode hex="00B8"/>
   <outline>
     <contour>
@@ -22,15 +22,4 @@
       <point x="611.4330448604734" y="0.0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

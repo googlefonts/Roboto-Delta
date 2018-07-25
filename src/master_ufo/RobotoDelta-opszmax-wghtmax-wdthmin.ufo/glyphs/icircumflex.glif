@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="icircumflex" format="1">
-  <advance width="445.48546138072453"/>
+<glyph name="icircumflex" format="2">
+  <advance width="445"/>
   <unicode hex="00EE"/>
   <outline>
     <component base="dotlessi"/>
     <component base="circumflex" xOffset="-160.48553177483058" yOffset="26.943841421736124"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <real>0.5</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

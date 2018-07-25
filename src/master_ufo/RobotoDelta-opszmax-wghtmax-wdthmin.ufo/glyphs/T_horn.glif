@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Thorn" format="1">
-  <advance width="1001.9384634404803"/>
+<glyph name="Thorn" format="2">
+  <advance width="1002"/>
   <unicode hex="00DE"/>
   <outline>
     <contour>
@@ -30,15 +30,4 @@
       <point x="481" y="456" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

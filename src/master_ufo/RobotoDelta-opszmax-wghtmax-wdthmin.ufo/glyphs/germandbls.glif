@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="germandbls" format="1">
-  <advance width="985.6432744613211"/>
+<glyph name="germandbls" format="2">
+  <advance width="986"/>
   <unicode hex="00DF"/>
   <outline>
     <contour>
@@ -58,15 +58,4 @@
       <point x="105" y="1059" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
