@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenright" format="1">
-  <advance width="585"/>
+  <advance width="658"/>
   <unicode hex="0029"/>
   <outline>
     <contour>
-      <point x="-57.36103896103896" y="-436.0" type="line"/>
-      <point x="164.75454545454545" y="-374.63012987012985"/>
-      <point x="461.3467532467532" y="119.33116883116884"/>
-      <point x="461.3467532467532" y="515.0" type="qcurve" smooth="yes"/>
-      <point x="461.3467532467532" y="525.0" type="line" smooth="yes"/>
-      <point x="461.3467532467532" y="920.6688311688312"/>
-      <point x="164.75454545454545" y="1414.6301298701298"/>
-      <point x="-57.36103896103896" y="1476.0" type="qcurve"/>
-      <point x="-57.36103896103896" y="1424.725974025974" type="line"/>
-      <point x="135.6270902258193" y="1358.6428281374044"/>
-      <point x="407.4155844155844" y="919.8360019727108"/>
-      <point x="407.4155844155844" y="532.0" type="qcurve" smooth="yes"/>
-      <point x="407.4155844155844" y="508.0" type="line" smooth="yes"/>
-      <point x="407.4155844155844" y="120.16399802728915"/>
-      <point x="135.6270902258193" y="-318.6428281374043"/>
-      <point x="-57.36103896103896" y="-384.72597402597404" type="qcurve"/>
+      <point x="-15" y="-436" type="line"/>
+      <point x="204" y="-362"/>
+      <point x="525" y="118"/>
+      <point x="525" y="515" type="qcurve" smooth="yes"/>
+      <point x="525" y="525" type="line" smooth="yes"/>
+      <point x="525" y="922"/>
+      <point x="204" y="1402"/>
+      <point x="-15" y="1476" type="qcurve"/>
+      <point x="-15" y="1412" type="line"/>
+      <point x="168" y="1338"/>
+      <point x="453" y="918"/>
+      <point x="453" y="532" type="qcurve" smooth="yes"/>
+      <point x="453" y="508" type="line" smooth="yes"/>
+      <point x="453" y="122"/>
+      <point x="168" y="-298"/>
+      <point x="-15" y="-372" type="qcurve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.0</real>
         <real>1.0</real>
+        <real>0.5</real>
         <real>0.0</real>
         <real>1.0</real>
       </array>

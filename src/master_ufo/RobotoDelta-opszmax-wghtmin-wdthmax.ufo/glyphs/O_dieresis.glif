@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Odieresis" format="1">
-  <advance width="1397"/>
+  <advance width="1534"/>
   <unicode hex="00D6"/>
   <outline>
+    <component base="dieresis" xOffset="-40" yOffset="-60"/>
     <component base="O"/>
-    <component base="dieresis" xOffset="-30.29220779220779" yOffset="-91.68181818181824"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
