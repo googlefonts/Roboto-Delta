@@ -2,7 +2,8 @@
 
 This project upgrades Roboto to become a Variable Font.
 
-**[Download latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/raw/master/fonts/RobotoDelta-VF.ttf)**
+**[Download latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/blob/master/fonts/RobotoDelta_v2-VF.ttf)
+**
 
 ## Background
 
