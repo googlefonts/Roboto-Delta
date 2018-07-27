@@ -1,6 +1,6 @@
 # Roboto Delta
 
-This project upgrades Roboto to become a “parametric” Variable Font.
+This project upgrades Roboto to become a Variable Font.
 
 **[Download latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/raw/master/fonts/RobotoDelta-VF.ttf)**
 
@@ -23,7 +23,7 @@ Variations allow those adjustments to be built-in and “just work.”
 After the public announcement of the technology, the Google Fonts team commissioned Font Bureau to develop a pilot project, [Amstelvar](https://github.com/TypeNetwork/Amstelvar), that demonstrates a novel approach that uses a system of inter-related axes. 
 This increases the fine typographic control available to typographers, and enables a new kind of “parametric” typography.
 
-Applying this approach to Google’s primary text typeface, we hope to socialize the benefits of this novel approach across the design community, and provide another strong example of the “parametric” axes system to inform its [standardization in the OpenType specification](https://github.com/Microsoft/OpenTypeDesignVariationAxisTags/tree/master/Proposals/TypeNetwork_ParametricAxes).
+(https://github.com/Microsoft/OpenTypeDesignVariationAxisTags/tree/master/Proposals/TypeNetwork_ParametricAxes).
 
 ## License
 
