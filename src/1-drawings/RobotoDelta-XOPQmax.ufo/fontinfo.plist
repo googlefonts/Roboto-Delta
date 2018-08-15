@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
@@ -10,8 +10,10 @@
 	<integer>-416</integer>
 	<key>familyName</key>
 	<string>RobotoDelta</string>
+	<key>guidelines</key>
+	<array/>
 	<key>italicAngle</key>
-	<real>0.0</real>
+	<integer>0</integer>
 	<key>openTypeHeadLowestRecPPEM</key>
 	<integer>9</integer>
 	<key>openTypeHheaAscender</key>
@@ -20,24 +22,6 @@
 	<integer>-500</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
-	<key>openTypeOS2FamilyClass</key>
-	<array>
-		<integer>0</integer>
-		<integer>0</integer>
-	</array>
-	<key>openTypeOS2Panose</key>
-	<array>
-		<integer>2</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-	</array>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>512</integer>
 	<key>openTypeOS2StrikeoutSize</key>
@@ -90,11 +74,9 @@
 		<integer>1566</integer>
 	</array>
 	<key>postscriptFamilyBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptFamilyOtherBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptOtherBlues</key>
 	<array>
 		<integer>-446</integer>

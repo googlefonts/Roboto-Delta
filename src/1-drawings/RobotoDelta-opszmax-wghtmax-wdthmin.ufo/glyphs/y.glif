@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="y" format="1">
-  <advance width="716.4840339102791"/>
+<glyph name="y" format="2">
+  <advance width="716"/>
   <unicode hex="0079"/>
+  <guideline x="-181" y="233" angle="0" identifier="6pYlTSdUcw"/>
   <outline>
     <contour>
       <point x="68" y="-416" type="line"/>
@@ -32,36 +33,11 @@
       <point x="87.0" y="-248.0"/>
       <point x="68" y="-239" type="qcurve"/>
     </contour>
-    <contour>
-      <point x="482.18205581066763" y="1010.8382479689155" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>-181</integer>
-          <key>y</key>
-          <integer>233</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.6pYlTSdUcw</key>
+      <integer>5</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="o" format="1">
-  <advance width="879.6214411868598"/>
+<glyph name="o" format="2">
+  <advance width="880"/>
   <unicode hex="006F"/>
   <outline>
     <contour>
@@ -35,19 +35,5 @@
       <point x="299.0" y="309.0"/>
       <point x="299" y="455" type="qcurve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="549.2349558459908" y="1010.8382479689155" type="move" name="top"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

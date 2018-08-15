@@ -1,38 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="J" format="1">
-  <advance width="716"/>
+<glyph name="J" format="2">
+  <advance width="527"/>
   <unicode hex="004A"/>
   <outline>
     <contour>
-      <point x="25" y="395" type="line" smooth="yes"/>
-      <point x="25" y="184"/>
-      <point x="176" y="-20"/>
-      <point x="316" y="-20" type="qcurve" smooth="yes"/>
-      <point x="470" y="-20"/>
-      <point x="605" y="228"/>
-      <point x="605" y="450" type="qcurve" smooth="yes"/>
-      <point x="605" y="1456" type="line"/>
-      <point x="504" y="1456" type="line"/>
-      <point x="504" y="460" type="line" smooth="yes"/>
-      <point x="504" y="267.9492385786802"/>
-      <point x="411.0" y="71.0"/>
-      <point x="316" y="71" type="qcurve" smooth="yes"/>
-      <point x="220.0" y="71.0"/>
-      <point x="127" y="231.32951289398278"/>
-      <point x="127" y="415" type="qcurve" smooth="yes"/>
-      <point x="127" y="435" type="line"/>
-      <point x="25" y="435" type="line"/>
+      <point x="0" y="249" type="line" smooth="yes"/>
+      <point x="0" y="107.0"/>
+      <point x="119" y="-20"/>
+      <point x="223" y="-20" type="qcurve" smooth="yes"/>
+      <point x="320" y="-20"/>
+      <point x="445.0" y="116.0"/>
+      <point x="445.0" y="281" type="qcurve" smooth="yes"/>
+      <point x="445" y="1456" type="line"/>
+      <point x="344" y="1456" type="line"/>
+      <point x="344" y="306" type="line" smooth="yes"/>
+      <point x="344.0" y="159.0"/>
+      <point x="278" y="71"/>
+      <point x="219" y="71" type="qcurve" smooth="yes"/>
+      <point x="160.0" y="71.0"/>
+      <point x="97.0" y="162.0"/>
+      <point x="97" y="269" type="qcurve" smooth="yes"/>
+      <point x="97" y="435" type="line"/>
+      <point x="0" y="435" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
