@@ -2,8 +2,16 @@
 
 This project upgrades Roboto to become a Variable Font.
 
-**[Download latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/blob/master/fonts/RobotoDelta_v2-VF.ttf)
+**[Download V1 latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/blob/master/fonts/RobotoDelta-VF.ttf)
 **
+
+**[Download V2 latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/blob/master/fonts/RobotoDelta_v2-VF.ttf)
+**
+
+
+**V1** Has all parametric axis: XTRA, XOPQ, YOPQ, YTLC, YTUC, YTAS, YTDE, YTAD, YTDD, UDLN, PWGT, PWDT, POPS, GRAD, YTRA, wght, wdth, opsz.
+
+**V2** Has blended axis: wght, wdth, opsz, GRAD
 
 ## Background
 
@@ -25,6 +33,7 @@ After the public announcement of the technology, the Google Fonts team commissio
 This increases the fine typographic control available to typographers, and enables a new kind of “parametric” typography.
 
 (https://github.com/Microsoft/OpenTypeDesignVariationAxisTags/tree/master/Proposals/TypeNetwork_ParametricAxes).
+
 
 ## License
 
