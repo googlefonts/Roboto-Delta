@@ -2,14 +2,11 @@
 
 This project upgrades Roboto to become a Variable Font.
 
-**[Download V1 latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/blob/master/fonts/RobotoDelta-VF.ttf)
-**
-
-**[Download V2 latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/blob/master/fonts/RobotoDelta_v2-VF.ttf)
-**
-
+**[Download V1 latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/blob/master/fonts/RobotoDelta-VF.ttf)**
 
 **V1** Has all parametric axis: XTRA, XOPQ, YOPQ, YTLC, YTUC, YTAS, YTDE, YTAD, YTDD, UDLN, PWGT, PWDT, POPS, GRAD, YTRA, wght, wdth, opsz.
+
+**[Download V2 latest development TTF](https://github.com/TypeNetwork/Roboto-Delta/blob/master/fonts/RobotoDelta_v2-VF.ttf)**
 
 **V2** Has blended axis: wght, wdth, opsz, GRAD
 
@@ -32,7 +29,7 @@ Variations allow those adjustments to be built-in and “just work.”
 After the public announcement of the technology, the Google Fonts team commissioned Font Bureau to develop a pilot project, [Amstelvar](https://github.com/TypeNetwork/Amstelvar), that demonstrates a novel approach that uses a system of inter-related axes. 
 This increases the fine typographic control available to typographers, and enables a new kind of “parametric” typography.
 
-(https://github.com/Microsoft/OpenTypeDesignVariationAxisTags/tree/master/Proposals/TypeNetwork_ParametricAxes).
+Learn more about these axes in the [Microsoft OpenType Design Variation Axis Tags proposals project](https://github.com/Microsoft/OpenTypeDesignVariationAxisTags/tree/master/Proposals/TypeNetwork_ParametricAxes)
 
 
 ## License
@@ -43,6 +40,6 @@ Scripts and documentation is available under the [Apache 2.0](/scripts/LICENSE.t
 
 ## Proposed Schedule
 
-* May 1: Updated `opsz`, `wght`, `wdth` masters
-* May 15: New corner masters as necessary
-* June 1: Changes and `ital`
+* Phase 1: Updated `opsz`, `wght`, `wdth` masters
+* Phase 2: New corner masters as necessary
+* Phase 3 (Current development): Refinments and more axes, including `ital`
