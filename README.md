@@ -42,4 +42,4 @@ Scripts and documentation is available under the [Apache 2.0](/scripts/LICENSE.t
 
 * Phase 1: Updated `opsz`, `wght`, `wdth` masters
 * Phase 2: New corner masters as necessary
-* Phase 3 (Current development): Refinments and more axes, including `ital`
+* Phase 3 (Current development): Refinements and more axes, including `ital`
